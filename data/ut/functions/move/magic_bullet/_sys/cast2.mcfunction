@@ -20,4 +20,3 @@ scoreboard players set @s tid 0
 ###FINISH
 tp @s ~ ~ ~ ~ ~
 tag @s remove summon
-scoreboard players operation @s cid = @p[tag=dummy_target] pid

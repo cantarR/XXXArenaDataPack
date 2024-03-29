@@ -21,4 +21,3 @@ scoreboard players operation @s aid = #aid aid
 ###FINISH
 tp @s ~ ~ ~ ~ ~
 tag @s remove summon
-scoreboard players operation @s cid = @p[tag=dummy_target] pid
