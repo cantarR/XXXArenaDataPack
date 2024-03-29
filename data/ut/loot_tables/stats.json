@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+      {
+          "rolls": 1,
+          "entries": [
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:leather_boots",
+                  "functions":[
+                    {
+                        "function": "minecraft:copy_nbt",
+                        "source": "this",
+                        "ops": [
+                            {
+                                "source": "Inventory[{Slot:100b}].tag.display.color",
+                                "target": "display.color",
+                                "op": "replace"
+                            }
+                      ]
+                    },
+                    {
+                        "function":"minecraft:set_nbt",
+                        "tag": "{Unbreakable:1b,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1},{id:\"minecraft:feather_falling\",lvl:4},{id:\"minecraft:depth_strider\",lvl:1}],HideFlags:63}"
+                    },
+                      {
+                          "function":"minecraft:set_name",
+                          "name": {"translate":"stat.chr","italic":false,"color":"yellow"},
+                          "entity": "this"
+                      },
+                      {
+                          "function":"minecraft:set_lore",
+                          "lore": [{"text":"","italic":false,"color":"white","extra":[{"translate":"stat.chrpick"},{"score":{"objective":"store","name":"#chrpick"}}]},{"text":"","italic":false,"color":"white","extra":[{"translate":"stat.chrwin"},{"score":{"objective":"store","name":"#chrwin"}}]},{"text":"","italic":false,"color":"white","extra":[{"translate":"stat.chrdmg"},{"score":{"name":"out1","objective":"damage"}},{"text":"."},{"score":{"name":"out3","objective":"damage"}},{"score":{"name":"out2","objective":"damage"}}]},{"text":"","italic":false,"color":"white","extra":[{"translate":"stat.chrelim"},{"score":{"objective":"store","name":"#chrelim"}}]}],
+                          "entity": "this"
+                      }
+                ]
+            }
+        ]
+      }
+    ]
+}

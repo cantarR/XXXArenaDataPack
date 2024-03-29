@@ -1,0 +1,1 @@
+execute if score @s magic_bullet_count matches 4.. run tag @s add forth_bullet

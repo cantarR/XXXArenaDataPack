@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+      {
+          "rolls": 1,
+          "entries": [
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:carrot_on_a_stick",
+                  "functions":[
+                      {
+                          "function":"minecraft:set_name",
+                          "name": {"text":"","color":"white","italic":false,"bold":true,"extra":[{"translate":"chr.alphys.spxn3"}]}
+                      },
+                      {
+                          "function":"minecraft:set_lore",
+                          "lore":[{"text":""},{"translate":"chr.alphys.sp1","italic":false,"color":"white"},{"translate":"chr.alphys.sp2","italic":false,"color":"white"},"",{"translate":"chr.alphys.sp3","italic":false,"color":"white"},{"translate":"chr.alphys.sp4","italic":false,"color":"white"}]
+                      },
+                      {
+                          "function":"minecraft:set_nbt",
+                          "tag": "{targetID:0,sp_move:1b,wifi:1b,CustomModelData:107,HideFlags:63}"
+                      },
+                      {
+                          "function": "minecraft:set_attributes",
+                          "modifiers": [
+                              {
+                                  "amount": 1.0,
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "name": "hihinebhere",
+                                  "slot": "offhand"
+                              }
+                          ]
+                      },
+                      {
+                          "function": "minecraft:set_attributes",
+                          "modifiers": [
+                              {
+                                  "amount": -10.0,
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "name": "byenebnothere",
+                                  "slot": "mainhand"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      }
+   ]
+}

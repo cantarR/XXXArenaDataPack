@@ -1,0 +1,1 @@
+tag @s remove forth_bullet

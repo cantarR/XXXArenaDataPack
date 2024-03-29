@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:white_stained_glass",
+    "minecraft:bedrock",
+    "minecraft:lava"
+  ]
+}
