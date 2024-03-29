@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "translate": "chr.mettaton"
+        },
+        "description": {
+            "translate": "adv.chr.play1","with": [
+                {
+                    "translate": "chr.mettaton"
+                }
+            ]
+        },
+        "icon": {
+            "item": "minecraft:nether_brick",
+            "nbt": "{CustomModelData:6}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "first": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "ut:chr/root"
+}
