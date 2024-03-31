@@ -2,14 +2,15 @@
 #09/09/2023, 21:19:36
 
 ###MOVEMENT
-scoreboard players set @s range 1000
-scoreboard players set @s maxrange 1000
-scoreboard players set @s speed 1000
+scoreboard players set @s range 360
+scoreboard players set @s maxrange 360
+scoreboard players set @s speed 12
 scoreboard players operation @s speed *= #player prj_speed
 scoreboard players operation @s speed /= 100 const
 execute if score @s speed matches 64.. run scoreboard players set @s speed 63
 ###DAMAGE
-scoreboard players set @s damage 0
+scoreboard players set @s damage 100
+scoreboard players set @s[tag=main_ball] damage 400
 scoreboard players operation @s damage *= #player damage
 scoreboard players operation @s damage /= 100 const
 ###IDENTITY

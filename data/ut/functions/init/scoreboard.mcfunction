@@ -229,6 +229,8 @@ scoreboard players operation #checkPerSec momentum /= #checkInterval momentum
 scoreboard objectives add shift minecraft.custom:minecraft.sneak_time
 scoreboard objectives add hpdisplay dummy
 
+scoreboard objectives add magic_bullet_count dummy
+
 #visual
 scoreboard objectives add title_timer dummy
 scoreboard objectives add filter_l dummy
