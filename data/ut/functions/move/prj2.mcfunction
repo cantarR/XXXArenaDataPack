@@ -39,3 +39,5 @@ execute if entity @s[tag=shoot] run function ut:move/shoot/loop
 
 execute if entity @s[tag=magic_bullet] run function ut:move/magic_bullet/loop
 execute if entity @s[tag=target_line] run function ut:move/target_line/loop
+execute if entity @s[tag=fireball_loris] run function ut:move/fireball_loris/loop
+execute if entity @s[tag=star_loris] run function ut:move/star_loris/loop

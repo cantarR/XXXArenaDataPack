@@ -1,10 +1,10 @@
 #By Nebulirion
 
-scoreboard players set -new mlmax 30
+scoreboard players set -new mlmax 22
 
 summon minecraft:marker ~ ~ ~ {Tags:[atker,gun_hit,killonhit,blockable],CustomName:'{"translate":"chr.magic_bullet.mw"}'}
 
-scoreboard players set #damage damage 300
+scoreboard players set #damage damage 200
 scoreboard players operation #damage damage *= @s atk
 scoreboard players operation #damage damage /= #rate atk
 

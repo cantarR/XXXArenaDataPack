@@ -23,3 +23,5 @@ execute if data entity @s SelectedItem.tag.dummy_charge run function ut:move/dum
 execute if data entity @s SelectedItem.tag.warp run function ut:move/warp/use
 
 execute if data entity @s SelectedItem.tag.fill_bullet run function ut:move/fill_bullet/use
+
+execute if data entity @s SelectedItem.tag.star_loris run function ut:move/star_loris/use
