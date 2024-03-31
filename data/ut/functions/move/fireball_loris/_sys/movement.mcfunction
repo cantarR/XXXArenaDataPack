@@ -11,7 +11,7 @@ execute if score @s[tag=main_ball] life matches 2 run scoreboard players operati
 execute if score @s[tag=main_ball] life matches 2 run execute as @a at @s positioned ^.65 ^1 ^ rotated ~ ~2 if score @s pid = #player pid run function ut:move/fireball_loris/cast2
 execute if score @s[tag=main_ball] life matches 2 run scoreboard players set @s damage 300
 execute if score @s[tag=main_ball] life matches 4 run scoreboard players operation #player pid = @s pid
-execute if score @s[tag=main_ball] life matches 4 run execute as @a at @s positioned ^ ^1.65 ^ rotated ~ ~2 if score @s pid = #player pid run function ut:move/fireball_loris/cast2
+execute if score @s[tag=main_ball] life matches 4 run execute as @a at @s positioned ^ ^.35 ^ rotated ~ ~2 if score @s pid = #player pid run function ut:move/fireball_loris/cast2
 execute if score @s[tag=main_ball] life matches 4 run scoreboard players set @s damage 200
 execute if score @s[tag=main_ball] life matches 6 run scoreboard players operation #player pid = @s pid
 execute if score @s[tag=main_ball] life matches 6 run execute as @a at @s positioned ^-.65 ^1 ^ rotated ~ ~2 if score @s pid = #player pid run function ut:move/fireball_loris/cast2
