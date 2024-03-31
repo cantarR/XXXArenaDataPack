@@ -35,5 +35,5 @@ execute if entity @s[tag=injected] run function ut:player/actionbar/effect/015
 #
 execute if entity @s[tag=effect_finalrush] run function ut:player/actionbar/effect/041
 
-execute if entity @s[tag=passive_magic_bullet] run function ut:player/actionbar/effect/0169
+execute if entity @a[tag=passive_magic_bullet] run function ut:player/actionbar/effect/0169
 #
