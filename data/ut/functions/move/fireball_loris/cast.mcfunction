@@ -1,6 +1,6 @@
 ###Generated from Nebulagen made By Nebulirion
 #09/09/2023, 21:19:36
-
+playsound minecraft:entity.blaze.shoot player @a ~ ~ ~ 0.8 1.6
 ###USER SCORE
 function ut:move/fire_bullet
 ###SUMMON ENTITY
