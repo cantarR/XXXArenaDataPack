@@ -48,3 +48,5 @@ execute if entity @s[tag=amalgamate] run function ut:move/injection/target_loop
 execute if entity @s[tag=injected] run function ut:move/injection/self_loop
 execute if entity @s[tag=lazer_user] run function ut:move/lazer/loop
 execute if entity @s[tag=shock_bullet_user] run function ut:move/shock_bullet/user_loop
+
+execute if entity @s[tag=rancon_pierce_user] run function ut:move/rancon_pierce/loop

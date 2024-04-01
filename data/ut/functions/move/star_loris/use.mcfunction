@@ -1,7 +1,7 @@
 summon marker ~ ~ ~ {Tags:[star_loris_center]}
-kill @e[tag=star_loris]
 tp @e[type=marker,limit=1,sort=nearest,tag=star_loris_center] ~ ~ ~ ~ 0
 scoreboard players operation #player pid = @s pid
+execute as @e[tag=star_loris] if score @s pid = #player pid run kill @s
 execute at @s as @e[type=marker,limit=1,sort=nearest,tag=star_loris_center] run scoreboard players operation @s pid = #player pid
 execute anchored eyes run function ut:move/star_loris/cast
 execute as @e[tag=star_loris,limit=1,sort=nearest] if score @s pid = #player pid run tag @s add star_loris_01

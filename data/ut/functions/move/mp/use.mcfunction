@@ -21,3 +21,5 @@ execute if data entity @s SelectedItem.tag.shoot run function ut:move/shoot/use
 #execute if data entity @s SelectedItem.tag.stick run function ut:move/act/use
 execute if data entity @s SelectedItem.tag.magic_shoot run function ut:move/magic_shoot/use
 execute if data entity @s SelectedItem.tag.fireball_loris run function ut:move/fireball_loris/use
+
+execute if data entity @s SelectedItem.tag.rancon_pierce run function ut:move/rancon_pierce/use
