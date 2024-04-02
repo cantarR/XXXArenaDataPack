@@ -6,7 +6,7 @@ function ut:move/fire_bullet
 ###EXTRA
 playsound minecraft:entity.skeleton.shoot player @a ~ ~ ~ 2 1
 ###SUMMON ENTITY
-summon minecraft:armor_stand ^0.0 ^-0.2 ^0.0 {Tags:[star_loris,reflectable,prj2,move,summon,killonhit,blockable],NoGravity:1b,Invisible:1b,Marker:1b,Pose:{Head:[0.0001f,0f,0f]},ArmorItems:[{},{},{},{id:"minecraft:nether_star",Count:1b}],CustomName:'{"translate":"chr.asriel.chn1"}'}
+summon minecraft:armor_stand ^0.0 ^-0.2 ^0.0 {Tags:[star_loris,reflectable,prj2,move,summon,killonhit,blockable],NoGravity:1b,Invisible:1b,Marker:1b,Pose:{Head:[0.0001f,0f,0f]},ArmorItems:[{},{},{},{id:"minecraft:nether_star",Count:1b,tag:{CustomModelData:10205}}],CustomName:'{"translate":"chr.loris.chn1"}'}
 ###SETUP ENTITY
 scoreboard players operation #player prj_speed = @s prj_speed
 scoreboard players operation #player damage = @s atk

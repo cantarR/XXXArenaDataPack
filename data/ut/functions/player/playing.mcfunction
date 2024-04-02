@@ -37,6 +37,8 @@ execute if data entity @s[tag=dt_ready] SelectedItem.tag.injection run function 
 execute if entity @s[tag=passive_default] run function ut:move/hand/player_loop
 execute if score @s move_loop matches 1.. run function ut:move/player_loop/main
 
+function ut:move/const_loop
+
 execute if entity @a[tag=passive_magic_bullet] run function ut:move/magic_shoot/loop
 
 ###rightClick

@@ -46,6 +46,10 @@ execute if entity @s[tag=effect_black_flame] run function ut:move/effect/black_f
 
 execute if entity @s[tag=passive_magic_bullet] run function ut:move/passive/magic_bullet/clear
 
+execute if entity @s[tag=passive_rancon] run function ut:move/passive/rancon/clear
+
+execute if entity @s[tag=effect_rancon_wound] run function ut:move/effect/rancon_wound/all_clear
+
 function ut:move/player_loop/fullstoplite
 
 #say Move Loop -> 0!
