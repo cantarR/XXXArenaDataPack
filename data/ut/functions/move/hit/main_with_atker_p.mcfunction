@@ -1,5 +1,10 @@
 #By Nebulirion
 #-no counter
+execute if score @s[tag=effect_noise_despair] hp matches ..0 run tag @s add rancon_kill
+execute as @s[tag=rancon_kill] run execute as @a[tag=rancon_killer] run function ut:move/rancon_pierce/killed
+tag @s remove rancon_kill
+tag @a remove rancon_killer
+execute as @s[tag=effect_noise_despair] run function ut:move/effect/noise_despair/clear
 
 ###Register Hit
 scoreboard players remove #hits hitcheck 1

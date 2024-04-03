@@ -10,6 +10,6 @@ scoreboard players operation #target rancon_wound_level = @s rancon_wound_level
 scoreboard players operation #target rancon_wound_level /= 2 const
 scoreboard players operation #target rancon_wound_level *= 100 const
 execute as @s[tag=effect_noise_despair] run scoreboard players operation @s hp -= #target rancon_wound_level
+execute as @s[tag=effect_noise_despair] run execute as @a if score @s pid = #player pid run tag @s add rancon_killer
 function ut:player/hp/lose
-execute as @s[tag=effect_noise_despair] run function ut:move/effect/noise_despair/clear
 function ut:move/hit/main

@@ -1,8 +1,4 @@
 #By Nebulirion
-execute if score @s plt1b matches ..4 run execute as @s at @s anchored eyes positioned ^ ^-.3 ^ if score @s use_count matches 1 run function ut:move/rancon_pierce/particle
-execute if score @s plt1b matches ..4 run execute as @s at @s anchored eyes positioned ^ ^-.3 ^ if score @s use_count matches 2 run function ut:move/rancon_pierce/particle2
-execute if score @s plt1b matches ..4 run execute as @s at @s anchored eyes positioned ^ ^-.3 ^ if score @s use_count matches 3 run function ut:move/rancon_pierce/particle3
-execute as @s if score @s use_count matches 3.. run scoreboard players reset @s use_count
 tag @s add atker_p
 scoreboard players operation #atker pid = @s pid
 scoreboard players operation #atker tid = @s tid
