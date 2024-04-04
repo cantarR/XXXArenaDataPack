@@ -17,3 +17,5 @@ execute if data entity @s SelectedItem.tag.dummy_mech run function ut:move/gear/
 execute if data entity @s SelectedItem.tag.delete run function ut:move/delete/use
 
 execute if data entity @s SelectedItem.tag.dark_flame run function ut:move/dark_flame/use
+
+execute if data entity @s SelectedItem.tag.sprinkle_inside run function ut:move/sprinkle_inside/use

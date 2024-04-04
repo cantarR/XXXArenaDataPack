@@ -3,6 +3,7 @@ execute if score @s magic_bullet_count matches 4 run scoreboard players remove @
 execute if score @s magic_bullet_count matches 5 run scoreboard players remove @s will 10
 execute if score @s magic_bullet_count matches 6 run scoreboard players remove @s will 15
 execute if score @s magic_bullet_count matches 7 run scoreboard players remove @s will 25
+function ut:player/will/lose
 execute if score @s magic_bullet_count matches 4..6 run execute as @a[sort=random,limit=1,tag=!filled_bullet,tag=!respawning,tag=!untargetable,tag=playing] run tag @s add extra_bullet_target
 execute if score @s magic_bullet_count matches 7 run tag @a[sort=random,limit=1,tag=!respawning,tag=!untargetable,tag=playing] add extra_bullet_target
 

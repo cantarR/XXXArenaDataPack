@@ -27,6 +27,8 @@ tag @s remove passive_mettatonex
 tag @s remove passive_default
 
 tag @s remove passive_magic_bullet
+
+tag @s remove passive_rancon
 ###
 data modify storage ut:soul Temp set value {passive:"none"}
 data modify storage ut:soul Temp.passive set from entity @s Inventory[{Slot:102b}].tag.passive
@@ -49,6 +51,8 @@ execute if data storage ut:soul Temp{passive:"mettatonex"} run tag @s add passiv
 execute if data storage ut:soul Temp{passive:"default"} run tag @s add passive_default
 
 execute if data storage ut:soul Temp{passive:"magic_bullet"} run tag @s add passive_magic_bullet
+
+execute if data storage ut:soul Temp{passive:"rancon"} run tag @s add passive_rancon
 ###
 scoreboard players set @s passive_timer 0
 ###

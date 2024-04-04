@@ -501,3 +501,19 @@ scoreboard objectives setdisplay below_name
 
 scoreboard objectives add magic_bullet_count dummy "MagicBulletCount"
 scoreboard players set @a magic_bullet_count 0
+
+scoreboard objectives add noise_despair_timer dummy
+scoreboard objectives add noise_despair_timer2 dummy
+
+scoreboard objectives add black_flame_level dummy
+
+scoreboard objectives add rancon_wound_timer dummy
+scoreboard objectives add rancon_wound_level dummy
+
+scoreboard objectives add use_count dummy
+
+scoreboard objectives add gun_hit_count dummy
+
+scoreboard objectives add count_a dummy
+scoreboard objectives add count_b dummy
+scoreboard objectives add count_c dummy

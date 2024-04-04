@@ -25,6 +25,8 @@ execute if entity @s[tag=trident_user] run function ut:move/trident/user_stop
 execute if entity @s[tag=warp_user] run function ut:move/warp/stop
 execute if entity @s[tag=shock_bullet_user] run function ut:move/shock_bullet/stop
 
+
+execute if entity @s[tag=rancon_pierce_user] run function ut:move/rancon_pierce/stop
 scoreboard players reset @s plt2
 scoreboard players reset @s plt2b
 scoreboard players reset @s plt1

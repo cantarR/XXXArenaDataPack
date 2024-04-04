@@ -1,0 +1,1 @@
+execute as @s[tag=passive_rancon] run function ut:move/passive/rancon/loop

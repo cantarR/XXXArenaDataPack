@@ -24,6 +24,12 @@ execute if entity @s[tag=effect_untarget] run function ut:move/effect/untargetab
 
 execute if entity @s[tag=effect_black_flame] run function ut:move/effect/black_flame/loop
 
+execute if entity @s[tag=effect_rancon_wound] run function ut:move/effect/rancon_wound/loop
+
+execute if entity @s[tag=effect_silence_fear] run function ut:move/effect/silence_fear/loop
+
+execute if entity @s[tag=effect_noise_despair] run function ut:move/effect/noise_despair/loop
+
 execute if entity @s[tag=dig] run function ut:move/dig/loop
 execute if entity @s[tag=real_knife_user] run function ut:move/real_knife/loop
 execute if entity @s[tag=trident_user] run function ut:move/trident/user_loop
@@ -48,3 +54,6 @@ execute if entity @s[tag=amalgamate] run function ut:move/injection/target_loop
 execute if entity @s[tag=injected] run function ut:move/injection/self_loop
 execute if entity @s[tag=lazer_user] run function ut:move/lazer/loop
 execute if entity @s[tag=shock_bullet_user] run function ut:move/shock_bullet/user_loop
+
+execute if entity @s[tag=rancon_pierce_user] run function ut:move/rancon_pierce/loop
+

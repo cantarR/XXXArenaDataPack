@@ -39,3 +39,7 @@ execute if data storage ut:main ChrID{value:"kround"} run scoreboard players set
 execute if data storage ut:main ChrID{value:"jevil"} run scoreboard players set @s chr 32
 
 execute if data storage ut:main ChrID{value:"magic_bullet"} run scoreboard players set @s chr 36
+
+execute if data storage ut:main ChrID{value:"loris"} run scoreboard players set @s chr 37
+
+execute if data storage ut:main ChrID{value:"rancon"} run scoreboard players set @s chr 38

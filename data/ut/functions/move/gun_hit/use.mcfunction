@@ -9,7 +9,7 @@ scoreboard players operation #damage damage *= @s atk
 scoreboard players operation #damage damage /= #rate atk
 
 tag @s add gun_hiter
-scoreboard objectives add gun_hit_count dummy
+
 scoreboard players add @s gun_hit_count 1
 
 execute as @a[tag=victim,limit=1,tag=!untargetable] at @s run function ut:move/gun_hit/hitcheck
