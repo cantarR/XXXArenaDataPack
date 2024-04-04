@@ -1,1 +1,0 @@
-scoreboard players add @s move_loop 1
