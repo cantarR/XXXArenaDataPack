@@ -23,9 +23,6 @@ execute as @e[type=marker,tag=random_as] at @s unless block ~ ~ ~ #ut:trans run 
 execute as @e[tag=magic_bullet_extra] at @a[tag=extra_bullet_target] positioned ~ ~ ~ run function ut:move/magic_shoot/random
 execute as @e[type=marker,tag=random_as,sort=random,limit=1] at @s run tp @e[tag=magic_bullet_extra,tag=mb1,limit=1] ~ ~ ~ facing entity @p[tag=extra_bullet_target] feet
 kill @e[type=marker,tag=random_as]
-execute as @e[tag=magic_bullet_extra] at @a[tag=extra_bullet_target] positioned ~ ~ ~ run function ut:move/magic_shoot/random
-execute as @e[type=marker,tag=random_as,sort=random,limit=1] at @s run tp @e[tag=magic_bullet_extra,tag=mb2,limit=1] ~ ~ ~ facing entity @p[tag=extra_bullet_target] feet
-kill @e[type=marker,tag=random_as]
 execute as @e[tag=magic_bullet_extra2] at @a[tag=extra_bullet_target] positioned ~ ~ ~ run function ut:move/magic_shoot/random
 execute as @e[type=marker,tag=random_as,sort=random,limit=1] at @s run tp @e[tag=magic_bullet_extra2,limit=1] ~ ~ ~ facing entity @p[tag=extra_bullet_target] feet
 kill @e[type=marker,tag=random_as]

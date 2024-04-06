@@ -13,6 +13,8 @@ summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.asriel"}',dat
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.alphys"}',data:{n:13}}
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.napstablook"}',data:{n:14}}
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.maddummy"}',data:{n:15}}
+summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.magic_bullet"}',data:{n:36}}
+summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.rancon"}',data:{n:38}}
 
 #METTATON
 execute unless score -tobying store matches 1 unless score -truerandom store >= -exchance store run summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.mettaton"}',data:{n:6}}
