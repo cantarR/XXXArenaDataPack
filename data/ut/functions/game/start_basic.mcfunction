@@ -17,6 +17,7 @@ scoreboard players set -InGame game 1
 #####Cleanup
 kill @e[type=item]
 kill @e[tag=move]
+kill @e[tag=effect_display]
 function ut:system/clear_schedule
 ###Security
 scoreboard players set #halfgainflag dt 0
@@ -54,3 +55,5 @@ function ut:stats/game/setup
 tellraw @a [{"translate":"cht.line","color":"gold"}]
 tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm0"}]
 tellraw @a " "
+
+execute as @a run function ut:game/effect_display/create

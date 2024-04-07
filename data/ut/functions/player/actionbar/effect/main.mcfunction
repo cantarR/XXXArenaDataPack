@@ -37,4 +37,7 @@ execute if entity @s[tag=effect_finalrush] run function ut:player/actionbar/effe
 
 execute if entity @s[tag=passive_magic_bullet] run function ut:player/actionbar/effect/0169
 execute if entity @s[tag=effect_black_flame] run function ut:player/actionbar/effect/0170
+execute if entity @s[tag=effect_rancon_wound] run function ut:player/actionbar/effect/0171
+execute if entity @s[tag=effect_silence_fear] run function ut:player/actionbar/effect/0172
+execute if entity @s[tag=effect_noise_despair] run function ut:player/actionbar/effect/0173
 #

@@ -37,8 +37,6 @@ execute if data entity @s[tag=dt_ready] SelectedItem.tag.injection run function 
 execute if entity @s[tag=passive_default] run function ut:move/hand/player_loop
 execute if score @s move_loop matches 1.. run function ut:move/player_loop/main
 
-function ut:move/const_loop
-
 execute if entity @a[tag=passive_magic_bullet] run function ut:move/magic_shoot/loop
 
 ###rightClick
@@ -67,3 +65,5 @@ execute if score voidProtection gamerule matches 1 at @s[nbt={OnGround:1b},tag=!
 ###Swap
 
 execute if score swapCharacter gamerule matches 1 if score -GameMode game matches 4..7 if entity @s[tag=can_change_chr] run function ut:system/chrswitch/check
+
+function ut:game/effect_display/loop
