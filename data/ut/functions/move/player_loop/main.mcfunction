@@ -57,3 +57,5 @@ execute if entity @s[tag=shock_bullet_user] run function ut:move/shock_bullet/us
 
 execute if entity @s[tag=rancon_pierce_user] run function ut:move/rancon_pierce/loop
 
+execute if entity @s[tag=loris_dt_pred] run function ut:move/loris_knife_pre/loop
+

@@ -6,6 +6,8 @@ execute if entity @s[tag=undying] run function ut:move/undying/stop
 execute if entity @s[tag=amalgamate] run function ut:move/injection/target_stop
 execute if entity @s[tag=injected] run function ut:move/injection/self_stop
 execute if entity @s[tag=real_knife_user] run function ut:move/real_knife/stop
+execute if entity @s[tag=loris_dt_pred] run function ut:move/loris_knife/stop
+execute if entity @s[tag=filled_bullet] run function ut:move/fill_bullet/stop
 execute if entity @s[tag=in_cupcake] at @s run function ut:move/cupcake/stop_player
 
 tag @s remove cdmax_lock

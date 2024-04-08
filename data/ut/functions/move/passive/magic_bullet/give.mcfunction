@@ -1,1 +1,1 @@
-execute if score @s magic_bullet_count matches 4.. run tag @s add forth_bullet
+scoreboard players set @s count_a 0
