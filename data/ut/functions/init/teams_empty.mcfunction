@@ -21,3 +21,12 @@ team empty c6
 team empty c7
 team empty c8
 team empty c0
+
+team empty t9
+team empty t10
+team empty t11
+team empty t12
+team empty t13
+team empty t14
+team empty t15
+team empty t16

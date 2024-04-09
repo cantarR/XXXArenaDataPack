@@ -6,7 +6,7 @@ function ut:stats/get_player_data
 ##Load Stats
 scoreboard players operation -Index tech = @s chr
 data modify storage ut:tech TargetList set from storage utstats:main LoadedPlayer.Characters
-function ut:technical/index/r/1_32
+function ut:technical/index/r/1_64
 data modify storage utstats:main LoadedStats set from storage ut:tech LoadedEntry
 
 ###

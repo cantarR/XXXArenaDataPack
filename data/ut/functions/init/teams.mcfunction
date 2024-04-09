@@ -122,3 +122,75 @@ team modify touched color yellow
 
 team add nocol {"translate":"team.nocol"}
 team modify nocol collisionRule never
+
+team add t9 "KINDNESS"
+team modify t9 displayName ["",{"translate":"tem.chat","color":"green"}]
+team modify t9 color reset
+team modify t9 friendlyFire false
+team modify t9 collisionRule never
+team modify t9 nametagVisibility always
+team modify t9 seeFriendlyInvisibles false
+team modify t9 prefix {"text":"❤ ","color":"green"}
+
+team add t10 "KINDNESS"
+team modify t10 displayName ["",{"translate":"tem.chat","color":"green"}]
+team modify t10 color reset
+team modify t10 friendlyFire false
+team modify t10 collisionRule never
+team modify t10 nametagVisibility always
+team modify t10 seeFriendlyInvisibles false
+team modify t10 prefix {"text":"❤ ","color":"green"}
+
+team add t11 "KINDNESS"
+team modify t11 displayName ["",{"translate":"tem.chat","color":"green"}]
+team modify t11 color reset
+team modify t11 friendlyFire false
+team modify t11 collisionRule never
+team modify t11 nametagVisibility always
+team modify t11 seeFriendlyInvisibles false
+team modify t11 prefix {"text":"❤ ","color":"green"}
+
+team add t12 "KINDNESS"
+team modify t12 displayName ["",{"translate":"tem.chat","color":"green"}]
+team modify t12 color reset
+team modify t12 friendlyFire false
+team modify t12 collisionRule never
+team modify t12 nametagVisibility always
+team modify t12 seeFriendlyInvisibles false
+team modify t12 prefix {"text":"❤ ","color":"green"}
+
+team add t13 "KINDNESS"
+team modify t13 displayName ["",{"translate":"tem.chat","color":"green"}]
+team modify t13 color reset
+team modify t13 friendlyFire false
+team modify t13 collisionRule never
+team modify t13 nametagVisibility always
+team modify t13 seeFriendlyInvisibles false
+team modify t13 prefix {"text":"❤ ","color":"green"}
+
+team add t14 "KINDNESS"
+team modify t14 displayName ["",{"translate":"tem.chat","color":"green"}]
+team modify t14 color reset
+team modify t14 friendlyFire false
+team modify t14 collisionRule never
+team modify t14 nametagVisibility always
+team modify t14 seeFriendlyInvisibles false
+team modify t14 prefix {"text":"❤ ","color":"green"}
+
+team add t15 "KINDNESS"
+team modify t15 displayName ["",{"translate":"tem.chat","color":"green"}]
+team modify t15 color reset
+team modify t15 friendlyFire false
+team modify t15 collisionRule never
+team modify t15 nametagVisibility always
+team modify t15 seeFriendlyInvisibles false
+team modify t15 prefix {"text":"❤ ","color":"green"}
+
+team add t16 "VOID"
+team modify t16 displayName ["",{"translate":"tem.chat","color":"gray"}]
+team modify t16 color reset
+team modify t16 friendlyFire false
+team modify t16 collisionRule never
+team modify t16 nametagVisibility always
+team modify t16 seeFriendlyInvisibles false
+team modify t16 prefix {"text":"❤ ","color":"gray"}

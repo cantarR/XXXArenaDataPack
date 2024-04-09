@@ -34,6 +34,12 @@ scoreboard players operation #LongestTime stat > #chr29time stat
 scoreboard players operation #LongestTime stat > #chr30time stat
 scoreboard players operation #LongestTime stat > #chr31time stat
 scoreboard players operation #LongestTime stat > #chr32time stat
+scoreboard players operation #LongestTime stat > #chr33time stat
+scoreboard players operation #LongestTime stat > #chr34time stat
+scoreboard players operation #LongestTime stat > #chr35time stat
+scoreboard players operation #LongestTime stat > #chr36time stat
+scoreboard players operation #LongestTime stat > #chr37time stat
+scoreboard players operation #LongestTime stat > #chr38time stat
 
 execute if score #LongestTime stat = #chr01time stat run scoreboard players set #MainCharacter stat 1
 execute if score #LongestTime stat = #chr02time stat run scoreboard players set #MainCharacter stat 2
@@ -67,5 +73,11 @@ execute if score #LongestTime stat = #chr29time stat run scoreboard players set 
 execute if score #LongestTime stat = #chr30time stat run scoreboard players set #MainCharacter stat 30
 execute if score #LongestTime stat = #chr31time stat run scoreboard players set #MainCharacter stat 31
 execute if score #LongestTime stat = #chr32time stat run scoreboard players set #MainCharacter stat 32
+execute if score #LongestTime stat = #chr33time stat run scoreboard players set #MainCharacter stat 33
+execute if score #LongestTime stat = #chr34time stat run scoreboard players set #MainCharacter stat 34
+execute if score #LongestTime stat = #chr35time stat run scoreboard players set #MainCharacter stat 35
+execute if score #LongestTime stat = #chr36time stat run scoreboard players set #MainCharacter stat 36
+execute if score #LongestTime stat = #chr37time stat run scoreboard players set #MainCharacter stat 37
+execute if score #LongestTime stat = #chr38time stat run scoreboard players set #MainCharacter stat 38
 
 execute if score #LongestTime stat matches 0 run scoreboard players set #MainCharacter stat 0

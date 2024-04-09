@@ -8,7 +8,7 @@ scoreboard players remove @s plt1 1
 execute if score @s[tag=!attack_buffed] plt1 matches ..0 run function ut:move/rancon_pierce/stop
 
 scoreboard players set #rancon_piercehit plt1 0
-scoreboard players set @s plt1b 5
+scoreboard players set @s plt1b 6
 execute if entity @s[tag=rancon_pierce_user] anchored eyes facing ^ ^ ^2 positioned ^ ^-0.2 ^ run function ut:move/rancon_pierce/loop_l
 
 scoreboard players set #check hitcheck 0

@@ -33,3 +33,9 @@ scoreboard players set #chr29time stat 0
 scoreboard players set #chr30time stat 0
 scoreboard players set #chr31time stat 0
 scoreboard players set #chr32time stat 0
+scoreboard players set #chr33time stat 0
+scoreboard players set #chr34time stat 0
+scoreboard players set #chr35time stat 0
+scoreboard players set #chr36time stat 0
+scoreboard players set #chr37time stat 0
+scoreboard players set #chr38time stat 0

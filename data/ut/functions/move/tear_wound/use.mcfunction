@@ -1,4 +1,5 @@
-effect give @s speed 2 1
+effect give @s speed 3 1
+scoreboard players set @s cdcooldown 60
 tag @s add tearer
 scoreboard players set #target pid 0
 scoreboard players operation #player tid = @s tid

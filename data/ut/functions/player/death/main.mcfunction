@@ -58,6 +58,7 @@ tag @e remove move_stick
 ###
 
 ###Stop every thing, clear the moves
+execute as @e[tag=effect_display] if score @s pid = @a[limit=1,tag=deader] pid run data modify entity @s text set value ""
 scoreboard players set @s hpdisplay 0
 function ut:move/player_loop/fullstop
 scoreboard players remove @s L 1
