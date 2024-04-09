@@ -14,6 +14,7 @@ summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.alphys"}',dat
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.napstablook"}',data:{n:14}}
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.maddummy"}',data:{n:15}}
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.magic_bullet"}',data:{n:36}}
+summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.loris"}',data:{n:37}}
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.rancon"}',data:{n:38}}
 
 #METTATON

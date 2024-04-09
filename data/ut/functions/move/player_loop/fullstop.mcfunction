@@ -9,6 +9,7 @@ execute if entity @s[tag=real_knife_user] run function ut:move/real_knife/stop
 execute if entity @s[tag=loris_dt_pred] run function ut:move/loris_knife/stop
 execute if entity @s[tag=filled_bullet] run function ut:move/fill_bullet/stop
 execute if entity @s[tag=in_cupcake] at @s run function ut:move/cupcake/stop_player
+execute if entity @e[tag=st_center] run function ut:move/star_loris/stop
 
 tag @s remove cdmax_lock
 
