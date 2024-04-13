@@ -27,6 +27,7 @@ execute if entity @s[tag=shock_bullet_user] run function ut:move/shock_bullet/st
 
 
 execute if entity @s[tag=rancon_pierce_user] run function ut:move/rancon_pierce/stop
+execute if entity @s[tag=paper_plane_user] run function ut:move/paper_plane_kite/stop
 scoreboard players reset @s plt2
 scoreboard players reset @s plt2b
 scoreboard players reset @s plt1

@@ -29,6 +29,10 @@ tag @s remove passive_default
 tag @s remove passive_magic_bullet
 
 tag @s remove passive_rancon
+
+tag @s remove passive_loris
+
+tag @s remove passive_kite
 ###
 data modify storage ut:soul Temp set value {passive:"none"}
 data modify storage ut:soul Temp.passive set from entity @s Inventory[{Slot:102b}].tag.passive

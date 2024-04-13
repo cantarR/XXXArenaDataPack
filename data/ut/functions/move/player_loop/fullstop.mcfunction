@@ -55,5 +55,7 @@ execute if entity @s[tag=effect_rancon_wound] run function ut:move/effect/rancon
 
 function ut:move/player_loop/fullstoplite
 
+tag @s remove rancon_killer
+tag @s remove star_atker
 #say Move Loop -> 0!
 scoreboard players set @s move_loop 0

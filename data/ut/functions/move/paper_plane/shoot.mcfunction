@@ -1,6 +1,6 @@
 #By Nebulirion
 
-function ut:move/pellet/_sys/cast_delayed
+function ut:move/paper_plane/_sys/cast_delayed
 
 playsound minecraft:entity.arrow.shoot player @a ~ ~ ~ 0.5 2
 

@@ -59,3 +59,5 @@ execute if entity @s[tag=rancon_pierce_user] run function ut:move/rancon_pierce/
 
 execute if entity @s[tag=loris_dt_pred] run function ut:move/loris_knife_pre/loop
 
+execute if entity @s[tag=paper_plane_user] run function ut:move/paper_plane_kite/loop
+
