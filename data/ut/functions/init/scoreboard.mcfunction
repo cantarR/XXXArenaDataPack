@@ -518,4 +518,4 @@ scoreboard objectives add count_a dummy
 scoreboard objectives add count_b dummy
 scoreboard objectives add count_c dummy
 
-scoreboard objectives add effect_view dummy
+scoreboard objectives add flag dummy
