@@ -8,3 +8,5 @@ execute if score -level launch_timer matches 5 run effect give @s minecraft:levi
 execute if score -level launch_timer matches 10 run effect give @s minecraft:levitation 10 10 true
 execute if score -level launch_timer matches 15 run effect give @s minecraft:levitation 10 15 true
 execute if score -level launch_timer matches 20 run effect give @s minecraft:levitation 10 20 true
+execute if score -level launch_timer matches 30 run effect give @s minecraft:levitation 10 30 true
+execute if score -level launch_timer matches 40 run effect give @s minecraft:levitation 10 40 true

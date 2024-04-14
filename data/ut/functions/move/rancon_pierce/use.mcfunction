@@ -1,6 +1,6 @@
 #By Nebulirion
 #By Nebulirion
-scoreboard players add @s mpcooldown 10
+scoreboard players add @s mpcooldown 5
 scoreboard players set @s plt1 2
 scoreboard players add @s[tag=!rancon_pierce_user] move_loop 1
 execute as @s at @s anchored eyes positioned ^ ^-.3 ^1 if score @s use_count matches 1 run function ut:move/rancon_pierce/particle

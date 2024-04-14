@@ -1,7 +1,7 @@
 #By Nebulirion
 
 execute if score PlayerLimit info matches ..1 run scoreboard players set PlayerLimit info 2
-execute if score PlayerLimit info matches 17.. run scoreboard players set PlayerLimit info 16
+execute if score PlayerLimit info matches 33.. run scoreboard players set PlayerLimit info 32
 scoreboard players operation players info = PlayerLimit info
 
 tellraw @s ["",{"translate":"pfx.settings"},{"translate":"cht.set1","with":[{"score":{"name":"PlayerLimit","objective":"info"}}]}]

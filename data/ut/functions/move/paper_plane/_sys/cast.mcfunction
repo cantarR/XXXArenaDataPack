@@ -4,10 +4,10 @@
 ###MOVEMENT
 scoreboard players set @s range 640
 scoreboard players set @s maxrange 640
-scoreboard players set @s speed 18
-scoreboard players set @s gravity 0
+scoreboard players set @s speed 8
+scoreboard players set @s gravity -5
 ###DAMAGE
-scoreboard players set @s damage 200
+scoreboard players set @s damage 100
 scoreboard players operation @s damage *= #player damage
 scoreboard players operation @s damage /= 100 const
 ###IDENTITY

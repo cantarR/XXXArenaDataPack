@@ -9,6 +9,15 @@ execute if score -tid tid matches 6 store result score @r[scores={tid=0},tag=pla
 execute if score -tid tid matches 7 store result score @r[scores={tid=0},tag=player] tid run data get storage minecraft:soul RandomTeamList[6]
 execute if score -tid tid matches 8 store result score @r[scores={tid=0},tag=player] tid run data get storage minecraft:soul RandomTeamList[7]
 
+execute if score -tid tid matches 9 store result score @r[scores={tid=0},tag=player] tid run data get storage minecraft:soul RandomTeamList[8]
+execute if score -tid tid matches 10 store result score @r[scores={tid=0},tag=player] tid run data get storage minecraft:soul RandomTeamList[9]
+execute if score -tid tid matches 11 store result score @r[scores={tid=0},tag=player] tid run data get storage minecraft:soul RandomTeamList[10]
+execute if score -tid tid matches 12 store result score @r[scores={tid=0},tag=player] tid run data get storage minecraft:soul RandomTeamList[11]
+execute if score -tid tid matches 13 store result score @r[scores={tid=0},tag=player] tid run data get storage minecraft:soul RandomTeamList[12]
+execute if score -tid tid matches 14 store result score @r[scores={tid=0},tag=player] tid run data get storage minecraft:soul RandomTeamList[13]
+execute if score -tid tid matches 15 store result score @r[scores={tid=0},tag=player] tid run data get storage minecraft:soul RandomTeamList[14]
+execute if score -tid tid matches 16 store result score @r[scores={tid=0},tag=player] tid run data get storage minecraft:soul RandomTeamList[15]
+
 scoreboard players add -tid tid 1
 execute if score -tid tid > tl store run scoreboard players set -tid tid 1
 

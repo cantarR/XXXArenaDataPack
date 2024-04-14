@@ -7,6 +7,15 @@ team empty t5
 team empty t6
 team empty t7
 team empty t8
+
+team empty t9
+team empty t10
+team empty t11
+team empty t12
+team empty t13
+team empty t14
+team empty t15
+team empty t16
 team empty boss
 team empty nosoul
 

@@ -24,3 +24,12 @@ execute if score #butsoul soul matches 5 run tellraw @s [{"translate":"stut.r8.e
 execute if score #butsoul soul matches 6 run tellraw @s [{"translate":"stut.r8.e2.s6"}]
 execute if score #butsoul soul matches 7 run tellraw @s [{"translate":"stut.r8.e2.s7"}]
 execute if score #butsoul soul matches 8 run tellraw @s [{"translate":"stut.r8.e2.s8"}]
+
+execute if score #butsoul soul matches 9 run tellraw @s [{"translate":"pfx.tut"},{"translate":"stut.r8.e2.2","with":[{"translate": "tem.9", "color":"red"}]}]
+execute if score #butsoul soul matches 10 run tellraw @s [{"translate":"pfx.tut"},{"translate":"stut.r8.e2.2","with":[{"translate": "tem.10", "color":"aqua"}]}]
+execute if score #butsoul soul matches 11 run tellraw @s [{"translate":"pfx.tut"},{"translate":"stut.r8.e2.2","with":[{"translate": "tem.11", "color":"gold"}]}]
+execute if score #butsoul soul matches 12 run tellraw @s [{"translate":"pfx.tut"},{"translate":"stut.r8.e2.2","with":[{"translate": "tem.12", "color":"blue"}]}]
+execute if score #butsoul soul matches 13 run tellraw @s [{"translate":"pfx.tut"},{"translate":"stut.r8.e2.2","with":[{"translate": "tem.13", "color":"yellow"}]}]
+execute if score #butsoul soul matches 14 run tellraw @s [{"translate":"pfx.tut"},{"translate":"stut.r8.e2.2","with":[{"translate": "tem.14", "color":"light_purple"}]}]
+execute if score #butsoul soul matches 15 run tellraw @s [{"translate":"pfx.tut"},{"translate":"stut.r8.e2.2","with":[{"translate": "tem.15", "color":"green"}]}]
+execute if score #butsoul soul matches 16 run tellraw @s [{"translate":"pfx.tut"},{"translate":"stut.r8.e2.2","with":[{"translate": "tem.16", "color":"white"}]}]
