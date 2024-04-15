@@ -59,6 +59,8 @@ execute if data storage ut:soul Temp{passive:"magic_bullet"} run tag @s add pass
 execute if data storage ut:soul Temp{passive:"rancon"} run tag @s add passive_rancon
 
 execute if data storage ut:soul Temp{passive:"loris"} run tag @s add passive_loris
+
+execute if data storage ut:soul Temp{passive:"kite"} run tag @s add passive_kite
 ###
 scoreboard players set @s passive_timer 0
 ###

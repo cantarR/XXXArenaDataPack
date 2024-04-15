@@ -2,7 +2,7 @@
 
 scoreboard players reset @s plt1
 scoreboard players reset @s plt1b
-scoreboard players set @s unloadtime 15
+scoreboard players add @s unloadtime 15
 
 function ut:player/infight/use
 

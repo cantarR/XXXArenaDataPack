@@ -37,8 +37,6 @@ execute if data entity @s[tag=dt_ready] SelectedItem.tag.injection run function 
 execute if entity @s[tag=passive_default] run function ut:move/hand/player_loop
 execute if score @s move_loop matches 1.. run function ut:move/player_loop/main
 
-execute if entity @e[tag=inited] run function ut:move/magic_shoot/loop
-
 ###rightClick
 scoreboard players remove @s[scores={unloadtime=1..}] unloadtime 1
 scoreboard players remove @s[scores={unloadtime_2nd=1..}] unloadtime_2nd 1

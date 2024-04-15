@@ -40,4 +40,8 @@ execute if entity @s[tag=effect_black_flame] run function ut:player/actionbar/ef
 execute if entity @s[tag=effect_rancon_wound] run function ut:player/actionbar/effect/0171
 execute if entity @s[tag=effect_silence_fear] run function ut:player/actionbar/effect/0172
 execute if entity @s[tag=effect_noise_despair] run function ut:player/actionbar/effect/0173
-#
+
+execute if entity @s[tag=passive_rancon] if score @s count_a matches 0 run function ut:player/actionbar/effect/0174
+execute if entity @s[tag=passive_rancon] if score @s count_a matches 1.. run function ut:player/actionbar/effect/0175
+
+execute if entity @s[tag=effect_kite_heal] run function ut:player/actionbar/effect/0176

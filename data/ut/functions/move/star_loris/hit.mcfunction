@@ -3,5 +3,7 @@
 
 ###PARTICLE
 execute positioned as @s positioned ~ ~1 ~ run particle block purple_shulker_box ^ ^ ^-1 0.1 0.05 0.1 0.1 7 normal @a[scores={Q=2..}]
+scoreboard players remove @s will 5
+function ut:player/will/lose
 ###MAIN
 function ut:move/hit/main

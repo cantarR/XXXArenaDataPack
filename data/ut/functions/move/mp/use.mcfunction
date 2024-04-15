@@ -25,3 +25,5 @@ execute if data entity @s SelectedItem.tag.fireball_loris run function ut:move/f
 execute if data entity @s SelectedItem.tag.rancon_pierce run function ut:move/rancon_pierce/use
 
 execute if data entity @s SelectedItem.tag.paper_plane_kite run function ut:move/paper_plane_kite/use
+
+execute if data entity @s SelectedItem.tag.unisicle_left run function ut:move/unisicle_left/use

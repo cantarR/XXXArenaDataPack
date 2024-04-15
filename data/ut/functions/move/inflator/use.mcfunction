@@ -1,4 +1,4 @@
-#effect give @s levitation 1 3
+scoreboard players add @s cdcooldown 5
 execute facing entity @s feet rotated ~ 0 positioned as @s anchored eyes positioned ^ ^-5 ^0.5 run function ut:move/_knockback/10
 scoreboard players set -level launch_timer 40
 function ut:move/effect/launch/give

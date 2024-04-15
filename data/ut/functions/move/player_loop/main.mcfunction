@@ -30,6 +30,8 @@ execute if entity @s[tag=effect_silence_fear] run function ut:move/effect/silenc
 
 execute if entity @s[tag=effect_noise_despair] run function ut:move/effect/noise_despair/loop
 
+execute if entity @s[tag=effect_kite_heal] run function ut:move/effect/kite_heal/loop
+
 execute if entity @s[tag=dig] run function ut:move/dig/loop
 execute if entity @s[tag=real_knife_user] run function ut:move/real_knife/loop
 execute if entity @s[tag=trident_user] run function ut:move/trident/user_loop
@@ -60,4 +62,6 @@ execute if entity @s[tag=rancon_pierce_user] run function ut:move/rancon_pierce/
 execute if entity @s[tag=loris_dt_pred] run function ut:move/loris_knife_pre/loop
 
 execute if entity @s[tag=paper_plane_user] run function ut:move/paper_plane_kite/loop
+
+execute if entity @s[tag=bisicle_used_once] run function ut:move/bisicle/loop2
 

@@ -140,7 +140,7 @@ tag @e[tag=summon] add surprise_select
 tag @e[tag=summon] remove default_select
 tag @e[tag=summon] remove summon
 
-execute positioned 300 230 1289 run function ut:lobby/setup/choose
+execute positioned 300 231 1289 run function ut:lobby/setup/choose
 data merge entity @e[tag=summon,limit=1] {CustomName:'{"translate":"chr.magic_bullet","color":"yellow","bold":true}'}
 scoreboard players set @e[tag=summon] chr 36
 execute as @e[tag=summon] run function ut:choose/storage
@@ -149,7 +149,7 @@ execute as @e[tag=summon] at @s run tp @s ~ ~ ~ ~ ~
 tag @e[tag=summon] add magic_bullet_select
 tag @e[tag=summon] remove summon
 
-execute positioned 295 230 1269 run function ut:lobby/setup/choose
+execute positioned 295 231 1268 run function ut:lobby/setup/choose
 data merge entity @e[tag=summon,limit=1] {CustomName:'{"translate":"chr.loris","color":"yellow","bold":true}'}
 scoreboard players set @e[tag=summon] chr 37
 execute as @e[tag=summon] run function ut:choose/storage
@@ -158,7 +158,7 @@ execute as @e[tag=summon] at @s run tp @s ~ ~ ~ ~ ~
 tag @e[tag=summon] add loris_select
 tag @e[tag=summon] remove summon
 
-execute positioned 310 230 1286 run function ut:lobby/setup/choose
+execute positioned 310 231 1286 run function ut:lobby/setup/choose
 data merge entity @e[tag=summon,limit=1] {CustomName:'{"translate":"chr.rancon","color":"yellow","bold":true}'}
 scoreboard players set @e[tag=summon] chr 38
 execute as @e[tag=summon] run function ut:choose/storage

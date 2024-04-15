@@ -10,6 +10,7 @@ execute unless score @s kid = @a[tag=atker_p,limit=1] pid run scoreboard players
 ###Damage Passive
 execute if entity @a[tag=atker_p,tag=passive_loris] run function ut:move/passive/loris/main
 execute if entity @s[tag=passive_rancon] run function ut:move/passive/rancon/give
+execute if entity @s[tag=passive_kite] run function ut:move/passive/kite/main
 ###Damage Calculation
 scoreboard players operation #true_damage damage = #damage damage
 scoreboard players operation #true_damage damage *= @s def
@@ -23,6 +24,7 @@ execute if entity @a[tag=atker_p,tag=passive_napstablook] run function ut:move/p
 execute if entity @a[tag=atker_p,tag=passive_magic_bullet] run function ut:move/passive/magic_bullet/main
 
 execute if entity @a[tag=atker_p,tag=passive_rancon] run function ut:move/passive/rancon/give
+
 ###Damage
 execute if score #damage damage matches 1.. run function ut:move/hit/red_filter
 function ut:move/hit/damage

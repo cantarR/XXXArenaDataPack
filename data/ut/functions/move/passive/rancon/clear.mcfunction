@@ -1,6 +1,6 @@
 scoreboard players operation @s count_c = @s count_b
 
-scoreboard players operation @s count_c *= 15 const
+scoreboard players operation @s count_c *= 12 const
 
 scoreboard players operation @s atk -= @s count_c
 
