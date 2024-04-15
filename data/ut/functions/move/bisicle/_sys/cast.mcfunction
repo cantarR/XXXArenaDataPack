@@ -2,8 +2,8 @@
 #09/09/2023, 21:19:36
 
 ###MOVEMENT
-scoreboard players set @s range 480
-scoreboard players set @s maxrange 480
+scoreboard players set @s range 240
+scoreboard players set @s maxrange 240
 scoreboard players set @s speed 10
 scoreboard players operation @s speed *= #player prj_speed
 scoreboard players operation @s speed /= 100 const
