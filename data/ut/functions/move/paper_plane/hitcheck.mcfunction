@@ -7,9 +7,9 @@ tag @s add atker
 scoreboard players operation #atker pid = @s pid
 scoreboard players operation #atker tid = @s tid
 scoreboard players operation #damage damage = @s damage
-execute as @a[tag=playing,tag=!untargetable] unless score @s tid = #atker tid run function ut:move/pellet/_sys/hitcheck
+execute as @a[tag=playing,tag=!untargetable] unless score @s tid = #atker tid run function ut:move/paper_plane/_sys/hitcheck
 ###DETERMINE TARGET
-execute as @a[tag=hitcheck_target,sort=nearest] run function ut:move/pellet/_sys/hitcheck2
+execute as @a[tag=hitcheck_target,sort=nearest] run function ut:move/paper_plane/_sys/hitcheck2
 tag @a remove hitcheck_target
 ###FINISH
 tag @s remove atker

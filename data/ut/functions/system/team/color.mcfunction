@@ -18,3 +18,12 @@ execute if score @s tid matches 5 run scoreboard players set -color store 167770
 execute if score @s tid matches 6 run scoreboard players set -color store 16733695
 execute if score @s tid matches 7 run scoreboard players set -color store 5635925
 execute if score @s tid matches 8 run scoreboard players set -color store 16777215
+
+execute if score @s tid matches 9 run scoreboard players set -color store 16733525
+execute if score @s tid matches 10 run scoreboard players set -color store 5636095
+execute if score @s tid matches 11 run scoreboard players set -color store 16755200
+execute if score @s tid matches 12 run scoreboard players set -color store 5592575
+execute if score @s tid matches 13 run scoreboard players set -color store 16777045
+execute if score @s tid matches 14 run scoreboard players set -color store 16733695
+execute if score @s tid matches 15 run scoreboard players set -color store 5635925
+execute if score @s tid matches 16 run scoreboard players set -color store 16777215

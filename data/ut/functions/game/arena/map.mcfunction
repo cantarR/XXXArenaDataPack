@@ -14,7 +14,7 @@ execute at @e[tag=arena_as,scores={maplock=1}] run forceload add ~ ~
 
 ########Spawn Pos
 #
-tag @e[tag=arena_spawn,limit=8,sort=nearest,scores={maplock=1}] add empty_spawn
+tag @e[tag=arena_spawn,limit=16,sort=nearest,scores={maplock=1}] add empty_spawn
 tag @e[tag=empty_spawn] add active_spawn
 scoreboard players reset @e[tag=arena_spawn] tid
 tag @a[tag=play_game,tag=!sy] add tobechosen
@@ -47,6 +47,30 @@ execute at @e[tag=!empty_spawn,tag=active_spawn] as @e[tag=empty_spawn,tag=activ
 execute as @e[tag=empty_spawn,tag=active_spawn,limit=1,sort=random] at @s run function ut:game/arena/map_spawnpoint
 
 ###Pos8
+execute as @e[tag=empty_spawn,tag=active_spawn,limit=1,sort=random] at @s run function ut:game/arena/map_spawnpoint
+
+###Pos9
+execute as @e[tag=empty_spawn,tag=active_spawn,limit=1,sort=random] at @s run function ut:game/arena/map_spawnpoint
+
+###Pos10
+execute as @e[tag=empty_spawn,tag=active_spawn,limit=1,sort=random] at @s run function ut:game/arena/map_spawnpoint
+
+###Pos11
+execute as @e[tag=empty_spawn,tag=active_spawn,limit=1,sort=random] at @s run function ut:game/arena/map_spawnpoint
+
+###Pos12
+execute as @e[tag=empty_spawn,tag=active_spawn,limit=1,sort=random] at @s run function ut:game/arena/map_spawnpoint
+
+###Pos13
+execute as @e[tag=empty_spawn,tag=active_spawn,limit=1,sort=random] at @s run function ut:game/arena/map_spawnpoint
+
+###Pos14
+execute as @e[tag=empty_spawn,tag=active_spawn,limit=1,sort=random] at @s run function ut:game/arena/map_spawnpoint
+
+###Pos15
+execute as @e[tag=empty_spawn,tag=active_spawn,limit=1,sort=random] at @s run function ut:game/arena/map_spawnpoint
+
+###Pos16
 execute as @e[tag=empty_spawn,tag=active_spawn,limit=1,sort=random] at @s run function ut:game/arena/map_spawnpoint
 
 execute as @a[tag=tobechosen,tag=!sy] at @s run function ut:game/start_spectator

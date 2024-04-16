@@ -10,6 +10,7 @@ execute if entity @s[tag=loris_dt_pred] run function ut:move/loris_knife/stop
 execute if entity @s[tag=filled_bullet] run function ut:move/fill_bullet/stop
 execute if entity @s[tag=in_cupcake] at @s run function ut:move/cupcake/stop_player
 execute if entity @e[tag=st_center] run function ut:move/star_loris/stop
+execute if entity @e[tag=st_center] run function ut:move/bisicle/stop
 
 tag @s remove cdmax_lock
 
@@ -38,6 +39,8 @@ execute if entity @s[tag=effect_nofall] run function ut:move/effect/nofall/clear
 execute if entity @s[tag=effect_novoid] run function ut:move/effect/novoid/clear
 execute if entity @s[tag=effect_untarget] run function ut:move/effect/untargetable/clear
 
+execute if entity @s[tag=effect_kite_heal] run function ut:move/effect/kite_heal/clear
+
 execute if entity @s[tag=passive_flowey_ready] run function ut:move/passive/flowey/clear
 execute if entity @s[tag=passive_alphys_ready] run function ut:move/passive/alphys/clear
 execute if entity @s[tag=passive_sans] run function ut:move/passive/sans/clear
@@ -49,11 +52,14 @@ execute if entity @s[tag=effect_black_flame] run function ut:move/effect/black_f
 
 execute if entity @s[tag=passive_magic_bullet] run function ut:move/passive/magic_bullet/clear
 
-execute if entity @s[tag=passive_rancon] run function ut:move/passive/rancon/clear
-
 execute if entity @s[tag=effect_rancon_wound] run function ut:move/effect/rancon_wound/all_clear
 
+execute if entity @s[tag=passive_rancon] run scoreboard players set @s count_b 0
+
+execute if entity @s[tag=passive_kite] run function ut:move/passive/kite/stop
 function ut:move/player_loop/fullstoplite
 
+tag @s remove rancon_killer
+tag @s remove star_atker
 #say Move Loop -> 0!
 scoreboard players set @s move_loop 0

@@ -3,7 +3,7 @@
 function ut:lobby/tutorial/clear_schedule
 
 item replace entity @e[tag=ray_flowey] armor.head with air
-execute as @a[tag=tut_pw,limit=8,sort=random] run function ut:lobby/tutorial/start_player
+execute as @a[tag=tut_pw,limit=16,sort=random] run function ut:lobby/tutorial/start_player
 
 kill @e[tag=tut_papyrus]
 function ut:lobby/dummy/ripall

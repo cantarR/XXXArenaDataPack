@@ -1,4 +1,7 @@
 tag @s add sprinkler
+playsound block.beacon.power_select player @a ~ ~ ~ 1.5 1.5
+scoreboard players set @s uploadtime -15
+scoreboard players set @s mpcooldown -10
 scoreboard players set #target pid 0
 scoreboard players operation #player tid = @s tid
 execute as @a[tag=playing,tag=!untargetable,tag=!sprinkler] if score @s rancon_wound_level > #target rancon_wound_level unless score @s tid = #player pid run function ut:move/sprinkle_inside/target

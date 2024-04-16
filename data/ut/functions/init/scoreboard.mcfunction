@@ -510,6 +510,9 @@ scoreboard objectives add black_flame_level dummy
 scoreboard objectives add rancon_wound_timer dummy
 scoreboard objectives add rancon_wound_level dummy
 
+scoreboard objectives add kite_heal_timer dummy
+scoreboard objectives add kite_heal_timer2 dummy
+
 scoreboard objectives add use_count dummy
 
 scoreboard objectives add gun_hit_count dummy
@@ -518,4 +521,4 @@ scoreboard objectives add count_a dummy
 scoreboard objectives add count_b dummy
 scoreboard objectives add count_c dummy
 
-scoreboard objectives add effect_view dummy
+scoreboard objectives add flag dummy

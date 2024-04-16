@@ -21,3 +21,5 @@ execute if data entity @s SelectedItem.tag.dark_flame run function ut:move/dark_
 execute if data entity @s SelectedItem.tag.sprinkle_inside run function ut:move/sprinkle_inside/use
 
 execute if data entity @s SelectedItem.tag.loris_knife run function ut:move/loris_knife/use
+
+execute if data entity @s SelectedItem.tag.bisicle run function ut:move/bisicle/use

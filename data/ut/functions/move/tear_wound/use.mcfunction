@@ -1,5 +1,8 @@
 effect give @s speed 3 1
+playsound block.beacon.activate player @a ~ ~ ~ 1.5 1.5
 scoreboard players set @s cdcooldown 60
+scoreboard players set @s uploadtime -7
+scoreboard players set @s mpcooldown -5
 tag @s add tearer
 scoreboard players set #target pid 0
 scoreboard players operation #player tid = @s tid

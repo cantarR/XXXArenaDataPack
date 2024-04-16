@@ -24,7 +24,7 @@ execute as @a[team=!] run tag @s add playing
 
 #####Players
 scoreboard players set respawnType gamerule 2
-execute as @a[tag=playing] at @s run function ut:move/player_loop/fullstop
+execute as @a[tag=playing] at @s run function ut:move/player_loop/
 
 scoreboard players set -roundresetingflag store 1
 execute as @e[tag=team_spawn,scores={maplock=1}] at @s run function ut:game/team/reset_round_spawnpoint
