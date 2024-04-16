@@ -1,5 +1,4 @@
-#By Nebulirion
-#By Nebulirion
+
 scoreboard players add @s mpcooldown 5
 scoreboard players set @s plt1 2
 scoreboard players add @s[tag=!rancon_pierce_user] move_loop 1

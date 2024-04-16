@@ -64,4 +64,3 @@ execute if entity @s[tag=loris_dt_pred] run function ut:move/loris_knife_pre/loo
 execute if entity @s[tag=paper_plane_user] run function ut:move/paper_plane_kite/loop
 
 execute if entity @s[tag=bisicle_used_once] run function ut:move/bisicle/loop2
-

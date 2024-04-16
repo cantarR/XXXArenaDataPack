@@ -4,7 +4,7 @@
 ###MOVEMENT
 scoreboard players set @s range 640
 scoreboard players set @s maxrange 640
-scoreboard players set @s speed 12
+scoreboard players set @s speed 18
 scoreboard players set @s gravity 0
 ###DAMAGE
 scoreboard players set @s damage 100

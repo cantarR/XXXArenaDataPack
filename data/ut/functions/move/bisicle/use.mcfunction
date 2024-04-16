@@ -3,7 +3,7 @@ scoreboard players set #reset dt 1
 tag @s add dt_lock
 tag @s add bisicle_used_once
 scoreboard players add @s move_loop 1
-scoreboard players set @s plt4b 100
+scoreboard players set @s plt3 100
 clear @s carrot_on_a_stick{bisicle:1b}
 give @s minecraft:carrot_on_a_stick{mp_move:1b,unisicle_left:1b,cost:0,CustomModelData:10404,display:{Name:'{"translate":"chr.kite.dtx","color":"red","italic":false,"bold":true}',Lore:['{"translate":"dsc.dtmove","italic":false,"color":"red"}','{"text":""}','{"translate":"chr.kite.dtx1","italic":false,"color":"white"}','{"translate":"chr.kite.dtx2","italic":false,"color":"white"}','{"translate":"chr.kite.dtx3","italic":false,"color":"white"}']},HideFlags:63}
 function ut:player/infight/use
