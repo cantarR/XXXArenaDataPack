@@ -1,1 +1,0 @@
-execute if data entity @s SelectedItem.tag.snh_slash run function ut:move/snh_slash/rc_loop
