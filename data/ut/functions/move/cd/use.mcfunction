@@ -29,3 +29,5 @@ execute if data entity @s SelectedItem.tag.star_loris run function ut:move/star_
 execute if data entity @s SelectedItem.tag.tear_wound run function ut:move/tear_wound/use
 
 execute if data entity @s SelectedItem.tag.inflator run function ut:move/inflator/use
+
+execute if data entity @s SelectedItem.tag.smell_spread run function ut:move/smell_spread/use

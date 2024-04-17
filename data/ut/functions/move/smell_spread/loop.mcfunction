@@ -1,0 +1,1 @@
+execute if entity @s[scores={mp=..80,mldis=100}] run function ut:move/melee/cooldown

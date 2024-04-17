@@ -38,6 +38,9 @@ execute store result score -NotSans18 favourite run data get storage utstats:mai
 execute store result score -LC_EGO_MagicBullet favourite run data get storage utstats:main LoadedPlayer.Favourites[35]
 execute store result score -OriginalLoris favourite run data get storage utstats:main LoadedPlayer.Favourites[36]
 execute store result score -FalseFleshBeliever:Rancon favourite run data get storage utstats:main LoadedPlayer.Favourites[37]
+execute store result score -NotSans19 favourite run data get storage utstats:main LoadedPlayer.Favourites[38]
+execute store result score -NotSans20 favourite run data get storage utstats:main LoadedPlayer.Favourites[39]
+execute store result score -Kite favourite run data get storage utstats:main LoadedPlayer.Favourites[40]
 
 scoreboard players set -Top favourite 0
 
@@ -77,6 +80,7 @@ scoreboard players operation -Top favourite > -NotSans15 favourite
 scoreboard players operation -Top favourite > -LC_EGO_MagicBullet favourite
 scoreboard players operation -Top favourite > -OriginalLoris favourite
 scoreboard players operation -Top favourite > -FalseFleshBeliever:Rancon favourite
+scoreboard players operation -Top favourite > -Kite favourite
 
 execute if score -Top favourite = -Sans favourite run scoreboard players set @s st_favchr 1
 execute if score -Top favourite = -Papyrus favourite run scoreboard players set @s st_favchr 2
@@ -116,5 +120,6 @@ execute if score -Top favourite = -NotSans15 favourite run scoreboard players se
 execute if score -Top favourite = -LC_EGO_MagicBullet favourite run scoreboard players set @s st_favchr 36
 execute if score -Top favourite = -OriginalLoris favourite run scoreboard players set @s st_favchr 37
 execute if score -Top favourite = -FalseFleshBeliever:Rancon favourite run scoreboard players set @s st_favchr 38
+execute if score -Top favourite = -Kite favourite run scoreboard players set @s st_favchr 41
 
 execute if score -Top favourite matches 0 run scoreboard players set @s st_favchr 0
