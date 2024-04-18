@@ -30,4 +30,4 @@ execute if data entity @s SelectedItem.tag.tear_wound run function ut:move/tear_
 
 execute if data entity @s SelectedItem.tag.inflator run function ut:move/inflator/use
 
-execute if data entity @s SelectedItem.tag.smell_spread run function ut:move/smell_spread/use
+execute if data entity @s SelectedItem.tag.bub_blooming run function ut:move/bub_blooming/use

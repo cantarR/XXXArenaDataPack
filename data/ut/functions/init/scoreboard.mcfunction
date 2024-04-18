@@ -522,3 +522,6 @@ scoreboard objectives add count_b dummy
 scoreboard objectives add count_c dummy
 
 scoreboard objectives add flag dummy
+
+scoreboard objectives add blooming_timer dummy
+scoreboard objectives add blooming_level dummy
