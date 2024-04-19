@@ -19,11 +19,14 @@ execute if score @s def matches ..0 run scoreboard players set #true_damage dama
 
 ###Attacker Passive
 execute if entity @a[tag=atker_p,tag=passive_toriel] run function ut:move/passive/toriel/main
+
 execute if entity @a[tag=atker_p,tag=passive_napstablook] run function ut:move/passive/napstablook/main
 
 execute if entity @a[tag=atker_p,tag=passive_magic_bullet] run function ut:move/passive/magic_bullet/main
 
 execute if entity @a[tag=atker_p,tag=passive_rancon] run function ut:move/passive/rancon/give
+
+execute if entity @s[tag=passive_dongbaek] if entity @a[tag=atker_p,tag=effect_blooming] run function ut:move/passive/dongbaek/main
 
 ###Damage
 execute if score #damage damage matches 1.. run function ut:move/hit/red_filter

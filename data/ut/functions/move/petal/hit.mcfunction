@@ -6,5 +6,6 @@ execute if score #temp speed matches 1.. run particle item red_wool ^ ^ ^-1 0.05
 
 playsound entity.player.attack.crit player @a ~ ~ ~ 12 1.2
 
+function ut:move/effect/blooming/give
 ###MAIN
 function ut:move/hit/main

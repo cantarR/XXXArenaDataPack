@@ -32,6 +32,8 @@ execute if entity @s[tag=effect_noise_despair] run function ut:move/effect/noise
 
 execute if entity @s[tag=effect_kite_heal] run function ut:move/effect/kite_heal/loop
 
+execute if entity @s[tag=effect_blooming] run function ut:move/effect/blooming/loop
+
 execute if entity @s[tag=dig] run function ut:move/dig/loop
 execute if entity @s[tag=real_knife_user] run function ut:move/real_knife/loop
 execute if entity @s[tag=trident_user] run function ut:move/trident/user_loop

@@ -54,6 +54,8 @@ execute if entity @s[tag=passive_magic_bullet] run function ut:move/passive/magi
 
 execute if entity @s[tag=effect_rancon_wound] run function ut:move/effect/rancon_wound/all_clear
 
+execute if entity @s[tag=effect_blooming] run function ut:move/effect/blooming/all_clear
+
 execute if entity @s[tag=passive_rancon] run scoreboard players set @s count_b 0
 
 execute if entity @s[tag=passive_kite] run function ut:move/passive/kite/stop

@@ -1,7 +1,7 @@
 ###Generated from Nebulagen made By Nebulirion
 #09/09/2023, 21:19:36
 #PARTICLE
-execute if score #temp speed matches 1.. run particle item yellow_wool ^ ^ ^-1 0.05 0 0.05 0.1 10 normal @a[scores={Q=2..}]
+execute if score #temp speed matches 1.. run particle item dandelion ^ ^ ^-1 0.05 0 0.05 0.05 10 normal @a[scores={Q=2..}]
 #MAIN
 scoreboard players remove #temp speed 10
 execute unless block ~ ~ ~ #ut:trans run function ut:move/petal/inblock

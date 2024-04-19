@@ -525,3 +525,5 @@ scoreboard objectives add flag dummy
 
 scoreboard objectives add blooming_timer dummy
 scoreboard objectives add blooming_level dummy
+
+scoreboard objectives add fullblooming_timer dummy

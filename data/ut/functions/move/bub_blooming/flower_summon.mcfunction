@@ -15,7 +15,7 @@ playsound block.grass.break player @a ~ ~ ~ 1 1.2
 execute as @e[tag=summon,limit=1] positioned as @s anchored feet run function ut:move/bub_blooming/cast
 execute if score @s plt2b matches 1.. run scoreboard players remove @s plt2b 1
 scoreboard players set #player plt2 36
-execute if score @s plt2b matches 1.. if score @s plt2b matches 2 at @e[tag=summon,limit=1,tag=flower1] rotated as @s run function ut:move/bub_blooming/random_summon
-execute if score @s plt2b matches 1.. if score @s plt2b matches 1 at @e[tag=summon,limit=1,tag=flower2] rotated as @s run function ut:move/bub_blooming/random_summon
+execute if score @s plt2b matches 1.. if score @s plt2b matches 2 at @e[tag=summon,limit=1,tag=flower1] rotated as @s rotated ~ 0 run function ut:move/bub_blooming/random_summon
+execute if score @s plt2b matches 1.. if score @s plt2b matches 1 at @e[tag=summon,limit=1,tag=flower2] rotated as @s rotated ~ 0 run function ut:move/bub_blooming/random_summon
 
 tag @e[tag=growing_flower] remove summon
