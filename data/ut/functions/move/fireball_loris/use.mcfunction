@@ -4,3 +4,5 @@ scoreboard players set @s unloadtime 20
 function ut:player/infight/use
 
 execute anchored eyes rotated ~ ~ run function ut:move/fireball_loris/cast
+execute if entity @s[tag=attack_buffed] anchored eyes rotated ~ ~ positioned ^2 ^ ^ run function ut:move/fireball_loris/cast
+execute if entity @s[tag=attack_buffed] anchored eyes rotated ~ ~ positioned ^-2 ^ ^ run function ut:move/fireball_loris/cast

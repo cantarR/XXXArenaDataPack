@@ -1,5 +1,6 @@
 function ut:move/fire_bullet
-summon minecraft:armor_stand ^0.0 ^-0.2 ^0.5 {Tags:[strong_aroma,prj2,move,summon],NoGravity:1b,Invisible:1b,Marker:1b,ArmorItems:[{},{},{},{id:"green_dye",Count:1b}],CustomName:'{"translate":"chr.dongbaek.dtn"}'}
+particle dust_color_transition 1 1 1 1.2 1 1 1 ~ ~ ~ 7 0.3 7 0.2 512 normal @a
+summon minecraft:armor_stand ^0.0 ^-0.2 ^0.5 {Tags:[strong_aroma,prj2,move,summon],NoGravity:1b,Invisible:1b,Marker:1b,ArmorItems:[{},{},{},{}],CustomName:'{"translate":"chr.dongbaek.dtn"}'}
 scoreboard players operation #player prj_speed = @s prj_speed
 scoreboard players operation #player damage = @s atk
 scoreboard players operation #player pid = @s pid
