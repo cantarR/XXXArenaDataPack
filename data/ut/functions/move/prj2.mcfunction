@@ -45,3 +45,9 @@ execute if entity @s[tag=star_loris] run function ut:move/star_loris/loop
 execute if entity @s[tag=paper_plane] run function ut:move/paper_plane/loop
 
 execute if entity @s[tag=bisicle] run function ut:move/bisicle/loop
+
+execute if entity @s[tag=petal] run function ut:move/petal/loop
+
+execute if entity @s[tag=growing_flower] run function ut:move/bub_blooming/loop
+
+execute if entity @s[tag=strong_aroma] run function ut:move/strong_aroma/loop

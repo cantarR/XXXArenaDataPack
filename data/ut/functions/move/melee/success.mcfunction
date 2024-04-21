@@ -12,4 +12,6 @@ execute if data entity @s SelectedItem.tag.gun_hit run function ut:move/gun_hit/
 execute if data entity @s SelectedItem.tag.loris_knife_pre run function ut:move/loris_knife_pre/melee
 
 execute if data entity @s SelectedItem.tag.blade run function ut:move/snh_shadowblade/melee
+
+execute if data entity @s SelectedItem.tag.smell_spread run function ut:move/smell_spread/melee
 #

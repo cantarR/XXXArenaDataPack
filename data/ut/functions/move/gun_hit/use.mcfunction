@@ -1,6 +1,6 @@
 #By Nebulirion
 
-scoreboard players set -new mlmax 26
+scoreboard players set -new mlmax 30
 
 summon minecraft:marker ~ ~ ~ {Tags:[atker,gun_hit,killonhit,blockable],CustomName:'{"translate":"chr.magic_bullet.mw"}'}
 
