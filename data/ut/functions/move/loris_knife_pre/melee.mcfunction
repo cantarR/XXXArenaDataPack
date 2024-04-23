@@ -1,7 +1,7 @@
 #By Nebulirion
 summon minecraft:marker ~ ~ ~ {Tags:[atker,loris_knife_pre,killonhit,blockable],CustomName:'{"translate":"chr.loris.dtn"}'}
 
-scoreboard players set #damage damage 600
+scoreboard players set #damage damage 500
 scoreboard players operation #damage damage *= @s atk
 scoreboard players operation #damage damage /= #rate atk
 

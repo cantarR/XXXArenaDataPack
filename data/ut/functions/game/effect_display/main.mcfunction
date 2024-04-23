@@ -40,3 +40,7 @@ execute if entity @s[tag=effect_noise_despair] run function ut:game/effect_displ
 execute if entity @s[tag=passive_rancon] if score @s count_a matches 0 run function ut:game/effect_display/0174
 execute if entity @s[tag=passive_rancon] if score @s count_a matches 1.. run function ut:game/effect_display/0175
 execute if entity @s[tag=effect_kite_heal] run function ut:game/effect_display/0176
+
+execute if entity @s[tag=effect_blooming] run function ut:player/actionbar/effect/0177
+
+execute if entity @s[tag=effect_fullblooming] run function ut:player/actionbar/effect/0178

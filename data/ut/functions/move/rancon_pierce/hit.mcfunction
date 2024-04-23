@@ -1,5 +1,6 @@
 #By Nebulirion
 execute as @a if score @s pid = #player pid run scoreboard players add @s mp 5
+execute as @a if score @s pid = #player pid run function ut:player/mp/change
 execute as @s[tag=effect_silence_fear] run execute as @a if score @s pid = #player pid run function ut:move/effect/untargetable/give
 execute as @s[tag=effect_silence_fear] run execute as @a if score @s pid = #player pid run scoreboard players set @s untarget_timer 20
 function ut:move/effect/rancon_wound/give

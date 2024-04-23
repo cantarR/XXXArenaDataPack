@@ -6,6 +6,7 @@ summon minecraft:marker ~ ~ ~ {Tags:[atker,rancon_pierce,user_direction,prj2],Cu
 
 scoreboard players remove @s plt1 1
 execute if score @s[tag=!attack_buffed] plt1 matches ..0 run function ut:move/rancon_pierce/stop
+execute if score @s[tag=attack_buffed] plt1 matches ..-1 run function ut:move/rancon_pierce/stop
 
 scoreboard players set #rancon_piercehit plt1 0
 scoreboard players set @s plt1b 6

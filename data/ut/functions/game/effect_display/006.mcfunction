@@ -1,6 +1,6 @@
 #By TSbread, Nebulirion and Flesy_Z
 
-scoreboard players operation timer006 hud = @s ut:soul_timer
+scoreboard players operation timer006 hud = @s soul_timer
 scoreboard players operation timer006_ms hud = timer006 hud
 scoreboard players operation timer006 hud /= 20 const
 scoreboard players operation timer006_ms hud %= 20 const
