@@ -1,7 +1,7 @@
 ###START
 tag @s add atker
 
-particle dust_color_transition 1 0.867 0 1.2 1 0 0 ~ ~ ~ 3 0.3 3 0.2 256 normal @a
+particle dust_color_transition 1 0.867 0 2 1 0 0 ~ ~ ~ 3 0.3 3 0.2 512 normal @a
 ###HITBOX DETECTION
 scoreboard players operation #atker pid = @s pid
 scoreboard players operation #atker tid = @s tid
