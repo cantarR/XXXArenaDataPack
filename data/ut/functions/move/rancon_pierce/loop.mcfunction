@@ -12,8 +12,8 @@ scoreboard players set #rancon_piercehit plt1 0
 scoreboard players set @s plt1b 6
 execute if entity @s[tag=rancon_pierce_user] anchored eyes facing ^ ^ ^2 positioned ^ ^-0.2 ^ run function ut:move/rancon_pierce/loop_l
 
-execute if score #check hitcheck matches 0 run scoreboard players add @s mp 5
-execute if score #check hitcheck matches 0 run function ut:player/mp/change
+#execute if score #check hitcheck matches 0 run scoreboard players add @s mp 5
+#execute if score #check hitcheck matches 0 run function ut:player/mp/change
 
 scoreboard players set #check hitcheck 0
 
