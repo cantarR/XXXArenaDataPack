@@ -29,3 +29,5 @@ execute if data entity @s SelectedItem.tag.paper_plane_kite run function ut:move
 execute if data entity @s SelectedItem.tag.unisicle_left run function ut:move/unisicle_left/use
 
 execute if data entity @s SelectedItem.tag.smell_spread run function ut:move/smell_spread/use
+
+execute if data entity @s SelectedItem.tag.blade run function ut:move/snh_shadowblade/right/use
