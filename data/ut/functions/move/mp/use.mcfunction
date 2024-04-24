@@ -31,4 +31,6 @@ execute if data entity @s SelectedItem.tag.unisicle_left run function ut:move/un
 
 execute if data entity @s SelectedItem.tag.smell_spread run function ut:move/smell_spread/use
 
+execute if data entity @s SelectedItem.tag.blade run function ut:move/snh_shadowblade/right/use
+
 execute if data entity @s SelectedItem.tag.end_dec_mind run function ut:move/end_dec_mind/use

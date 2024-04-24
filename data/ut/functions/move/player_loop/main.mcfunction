@@ -68,3 +68,8 @@ execute if entity @s[tag=loris_dt_pred] run function ut:move/loris_knife_pre/loo
 execute if entity @s[tag=paper_plane_user] run function ut:move/paper_plane_kite/loop
 
 execute if entity @s[tag=bisicle_used_once] run function ut:move/bisicle/loop2
+#snh viod
+execute if entity @s[tag=shadowblade_right_user] run function ut:move/snh_shadowblade/right/loop
+#snh slash
+execute if entity @s[tag=snh_slash_user] run function ut:move/snh_slash/loop
+execute if entity @s[tag=snh_slash_slash_user] run function ut:move/snh_slash/slash/loop
