@@ -26,6 +26,9 @@ execute if data entity @s SelectedItem.tag.fill_bullet run function ut:move/fill
 
 execute if data entity @s SelectedItem.tag.star_loris run function ut:move/star_loris/use
 
+
+execute if data entity @s SelectedItem.tag.end_dec_trail run function ut:move/end_dec_trail/use
+
 execute if data entity @s SelectedItem.tag.tear_wound run function ut:move/tear_wound/use
 
 execute if data entity @s SelectedItem.tag.inflator run function ut:move/inflator/use

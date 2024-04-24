@@ -1,6 +1,7 @@
 #By Nebulirion
 #
 scoreboard players operation @s mp -= @s mpcost
+
 #
 execute if data entity @s SelectedItem.tag.bone_pap run function ut:move/bone_pap/use
 execute if data entity @s SelectedItem.tag.bone_sans run function ut:move/bone_sans/use
@@ -29,3 +30,5 @@ execute if data entity @s SelectedItem.tag.paper_plane_kite run function ut:move
 execute if data entity @s SelectedItem.tag.unisicle_left run function ut:move/unisicle_left/use
 
 execute if data entity @s SelectedItem.tag.smell_spread run function ut:move/smell_spread/use
+
+execute if data entity @s SelectedItem.tag.end_dec_mind run function ut:move/end_dec_mind/use
