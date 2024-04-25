@@ -4,7 +4,7 @@
 ###USER SCORE
 function ut:move/fire_bullet
 ###EXTRA
-playsound minecraft:entity.skeleton.shoot player @a ~ ~ ~ 2 1
+
 ###SUMMON ENTITY
 summon minecraft:armor_stand ^0.0 ^-0.2 ^0.5 {Tags:[end_dec_mind,killonhit,blockable,reflectable,cutable,prj2,move,summon],NoGravity:1b,Invisible:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:bone",Count:1b}],CustomName:'{"translate":"chr.end_dec.mpn"}'}
 ###SETUP ENTITY
