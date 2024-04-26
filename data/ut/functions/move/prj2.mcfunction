@@ -53,3 +53,5 @@ execute if entity @s[tag=petal] run function ut:move/petal/loop
 execute if entity @s[tag=growing_flower] run function ut:move/bub_blooming/loop
 
 execute if entity @s[tag=strong_aroma] run function ut:move/strong_aroma/loop
+
+execute if entity @s[tag=gas_harpoon] run function ut:move/gas_harpoon/harpoon_bullet/loop

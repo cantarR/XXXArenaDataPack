@@ -35,6 +35,8 @@ tag @s remove passive_loris
 tag @s remove passive_kite
 
 tag @s remove passive_dongbaek
+
+tag @s remove passive_ahab
 ###
 data modify storage ut:soul Temp set value {passive:"none"}
 data modify storage ut:soul Temp.passive set from entity @s Inventory[{Slot:102b}].tag.passive
@@ -65,6 +67,8 @@ execute if data storage ut:soul Temp{passive:"loris"} run tag @s add passive_lor
 execute if data storage ut:soul Temp{passive:"kite"} run tag @s add passive_kite
 
 execute if data storage ut:soul Temp{passive:"dongbaek"} run tag @s add passive_dongbaek
+
+execute if data storage ut:soul Temp{passive:"ahab"} run tag @s add passive_ahab
 ###
 scoreboard players set @s passive_timer 0
 ###

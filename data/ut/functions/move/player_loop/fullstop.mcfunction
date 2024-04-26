@@ -11,6 +11,9 @@ execute if entity @s[tag=filled_bullet] run function ut:move/fill_bullet/stop
 execute if entity @s[tag=in_cupcake] at @s run function ut:move/cupcake/stop_player
 execute if entity @e[tag=st_center] run function ut:move/star_loris/stop
 execute if entity @s[tag=bisicle_used_once] run function ut:move/bisicle/stop
+execute if entity @s[tag=heat] run function ut:move/gas_harpoon/heat_harpoon/stop
+execute if entity @s[tag=overheat] run function ut:move/gas_harpoon/overheat_harpoon/stop
+execute if entity @s[tag=bisicle_used_once] run function ut:move/bisicle/stop
 
 tag @s remove cdmax_lock
 
@@ -58,11 +61,15 @@ execute if entity @s[tag=effect_blooming] run function ut:move/effect/blooming/a
 
 execute if entity @s[tag=effect_fullblooming] run function ut:move/effect/fullblooming/clear
 
+execute if entity @s[tag=effect_burn] run function ut:move/effect/burn/all_clear
+
 execute if entity @s[tag=passive_rancon] run scoreboard players set @s count_b 0
 
 execute if entity @s[tag=passive_kite] run function ut:move/passive/kite/stop
 
 execute if entity @s[tag=passive_dongbaek] run scoreboard players set @s count_a 0
+
+execute if entity @s[tag=effect_aid_attack] run tag @s remove effect_aid_attack
 function ut:move/player_loop/fullstoplite
 
 tag @s remove rancon_killer

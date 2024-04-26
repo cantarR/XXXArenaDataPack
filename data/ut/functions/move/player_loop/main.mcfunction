@@ -36,6 +36,8 @@ execute if entity @s[tag=effect_blooming] run function ut:move/effect/blooming/l
 
 execute if entity @s[tag=effect_fullblooming] run function ut:move/effect/fullblooming/loop
 
+execute if entity @s[tag=effect_burn] run function ut:move/effect/burn/loop
+
 execute if entity @s[tag=dig] run function ut:move/dig/loop
 execute if entity @s[tag=real_knife_user] run function ut:move/real_knife/loop
 execute if entity @s[tag=trident_user] run function ut:move/trident/user_loop
@@ -73,3 +75,6 @@ execute if entity @s[tag=shadowblade_right_user] run function ut:move/snh_shadow
 #snh slash
 execute if entity @s[tag=snh_slash_user] run function ut:move/snh_slash/loop
 execute if entity @s[tag=snh_slash_slash_user] run function ut:move/snh_slash/slash/loop
+
+execute if entity @s[tag=heat] run function ut:move/gas_harpoon/loop
+execute if entity @s[tag=overheat] run function ut:move/gas_harpoon/loop

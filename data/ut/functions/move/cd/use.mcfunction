@@ -36,3 +36,5 @@ execute if data entity @s SelectedItem.tag.inflator run function ut:move/inflato
 execute if data entity @s SelectedItem.tag.bub_blooming run function ut:move/bub_blooming/use
 
 execute if data entity @s SelectedItem.tag.snh_slash run function ut:move/snh_slash/use
+
+execute if data entity @s SelectedItem.tag.endless_trace run function ut:move/endless_trace/use

@@ -12,7 +12,9 @@ execute if entity @s[tag=effect_untarget] run function ut:move/effect/untargetab
 execute if entity @a[tag=victim,tag=!untargetable] run function ut:move/melee/success
 execute unless entity @a[tag=victim,tag=!untargetable] run function ut:move/melee/fail
 #
-function ut:move/melee/cooldown
+execute if entity @s[tag=!effect_aid_attack] run function ut:move/melee/cooldown
+
+execute if entity @s[tag=effect_aid_attack] run function ut:move/effect/aid_attack/main3
 #
 scoreboard players reset @a[tag=victim] evid
 tag @a[tag=victim] remove victim

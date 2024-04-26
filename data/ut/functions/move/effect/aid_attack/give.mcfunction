@@ -1,0 +1,1 @@
+tag @s add effect_aid_attack

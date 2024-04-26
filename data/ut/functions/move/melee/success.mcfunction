@@ -14,4 +14,10 @@ execute if data entity @s SelectedItem.tag.loris_knife_pre run function ut:move/
 execute if data entity @s SelectedItem.tag.blade run function ut:move/snh_shadowblade/melee
 
 execute if data entity @s SelectedItem.tag.smell_spread run function ut:move/smell_spread/melee
+
+execute if data entity @s SelectedItem.tag.gas_harpoon run function ut:move/gas_harpoon/melee
+
+execute if data entity @s SelectedItem.tag.heat_harpoon run function ut:move/gas_harpoon/heat_harpoon/melee
+
+execute if data entity @s SelectedItem.tag.overheat_harpoon run function ut:move/gas_harpoon/overheat_harpoon/melee
 #

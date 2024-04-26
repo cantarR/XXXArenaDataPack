@@ -34,3 +34,9 @@ execute if data entity @s SelectedItem.tag.smell_spread run function ut:move/sme
 execute if data entity @s SelectedItem.tag.blade run function ut:move/snh_shadowblade/right/use
 
 execute if data entity @s SelectedItem.tag.end_dec_mind run function ut:move/end_dec_mind/use
+
+execute if data entity @s SelectedItem.tag.gas_harpoon if score @s mldis matches 100.. run function ut:move/gas_harpoon/use
+
+execute if data entity @s SelectedItem.tag.heat_harpoon if score @s mldis matches 100.. run function ut:move/gas_harpoon/use
+
+execute if data entity @s SelectedItem.tag.overheat_harpoon if score @s mldis matches 100.. run function ut:move/gas_harpoon/use
