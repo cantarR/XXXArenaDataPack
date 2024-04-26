@@ -528,3 +528,5 @@ scoreboard objectives add blooming_level dummy
 
 scoreboard objectives add fullblooming_timer dummy
 scoreboard objectives add fullblooming_pid dummy
+
+scoreboard objectives add end_dec_trail_time dummy
