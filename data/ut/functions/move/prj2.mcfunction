@@ -42,6 +42,9 @@ execute if entity @s[tag=target_line] run function ut:move/target_line/loop
 execute if entity @s[tag=fireball_loris] run function ut:move/fireball_loris/loop
 
 execute if entity @s[tag=end_dec_mind] run function ut:move/end_dec_mind/loop
+
+
+
 execute if entity @s[tag=star_loris] run function ut:move/star_loris/loop
 
 execute if entity @s[tag=paper_plane] run function ut:move/paper_plane/loop

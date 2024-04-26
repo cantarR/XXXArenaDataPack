@@ -37,4 +37,5 @@ execute if data entity @s SelectedItem.tag.bub_blooming run function ut:move/bub
 
 execute if data entity @s SelectedItem.tag.snh_slash run function ut:move/snh_slash/use
 
+
 execute if data entity @s SelectedItem.tag.endless_trace run function ut:move/endless_trace/use

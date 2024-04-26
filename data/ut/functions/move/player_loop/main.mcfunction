@@ -76,5 +76,7 @@ execute if entity @s[tag=shadowblade_right_user] run function ut:move/snh_shadow
 execute if entity @s[tag=snh_slash_user] run function ut:move/snh_slash/loop
 execute if entity @s[tag=snh_slash_slash_user] run function ut:move/snh_slash/slash/loop
 
+execute if entity @s[tag=trail_user] run function ut:move/end_dec_trail/loop
+
 execute if entity @s[tag=heat] run function ut:move/gas_harpoon/loop
 execute if entity @s[tag=overheat] run function ut:move/gas_harpoon/loop
