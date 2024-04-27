@@ -49,3 +49,9 @@ execute if entity @s[tag=effect_kite_heal] run function ut:player/actionbar/effe
 execute if entity @s[tag=effect_blooming] run function ut:player/actionbar/effect/0177
 
 execute if entity @s[tag=effect_fullblooming] run function ut:player/actionbar/effect/0178
+
+execute if entity @s[tag=effect_burn] run function ut:player/actionbar/effect/0179
+
+execute if entity @s[tag=effect_aid_attack] run function ut:player/actionbar/effect/0180
+
+execute if entity @s[tag=passive_dongbaek] if score @s count_a matches 1.. run function ut:player/actionbar/effect/0180

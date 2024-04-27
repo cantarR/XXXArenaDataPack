@@ -1,4 +1,7 @@
 #By Nebulirion
+function ut:move/gas_harpoon/heat_harpoon/particles/loop
+
+playsound minecraft:item.firecharge.use player @a ~ ~ ~ 2 1
 
 scoreboard players set -new mlmax 30
 

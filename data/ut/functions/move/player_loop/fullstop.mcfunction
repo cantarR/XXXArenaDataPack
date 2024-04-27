@@ -71,8 +71,11 @@ execute if entity @s[tag=passive_kite] run function ut:move/passive/kite/stop
 execute if entity @s[tag=passive_dongbaek] run scoreboard players set @s count_a 0
 
 execute if entity @s[tag=effect_aid_attack] run tag @s remove effect_aid_attack
+
+execute if entity @s[tag=harpoon_attacking] run function ut:move/stubborn_harpoon/stop
 function ut:move/player_loop/fullstoplite
 
+tag @s remove someone_empty
 tag @s remove rancon_killer
 tag @s remove star_atker
 #say Move Loop -> 0!

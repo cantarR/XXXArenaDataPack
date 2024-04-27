@@ -10,6 +10,6 @@ execute if data entity @s SelectedItem.tag.selector run function ut:move/grav/us
 
 execute if data entity @s SelectedItem.tag.sp_move run function ut:move/sp
 execute if data entity @s SelectedItem.tag.mp_move unless score @s unloadtime_2nd matches 1.. run function ut:move/mp/rc
-execute if data entity @s SelectedItem.tag.cd_move run function ut:move/cd/rc
+execute if data entity @s SelectedItem.tag.cd_move unless score @s unloadtime matches 1.. run function ut:move/cd/rc
 execute if data entity @s SelectedItem.tag.dt_move run function ut:move/dt/rc
 execute if data entity @s SelectedItem.tag.soul run function ut:move/soul/rc

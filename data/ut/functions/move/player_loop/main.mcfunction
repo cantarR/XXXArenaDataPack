@@ -80,3 +80,5 @@ execute if entity @s[tag=trail_user] run function ut:move/end_dec_trail/loop
 
 execute if entity @s[tag=heat] run function ut:move/gas_harpoon/loop
 execute if entity @s[tag=overheat] run function ut:move/gas_harpoon/loop
+
+execute if entity @s[tag=harpoon_attacking] run function ut:move/stubborn_harpoon/loop

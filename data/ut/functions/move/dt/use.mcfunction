@@ -25,3 +25,5 @@ execute if data entity @s SelectedItem.tag.loris_knife run function ut:move/lori
 execute if data entity @s SelectedItem.tag.bisicle run function ut:move/bisicle/use
 
 execute if data entity @s SelectedItem.tag.strong_aroma run function ut:move/strong_aroma/use
+
+execute if data entity @s SelectedItem.tag.stubborn_harpoon run function ut:move/stubborn_harpoon/use

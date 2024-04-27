@@ -44,3 +44,7 @@ execute if entity @s[tag=effect_kite_heal] run function ut:game/effect_display/0
 execute if entity @s[tag=effect_blooming] run function ut:game/effect_display/0177
 
 execute if entity @s[tag=effect_fullblooming] run function ut:game/effect_display/0178
+
+execute if entity @s[tag=effect_burn] run function ut:game/effect_display/0179
+
+execute if entity @s[tag=effect_aid_attack] run function ut:game/effect_display/0180

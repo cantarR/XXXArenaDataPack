@@ -1,5 +1,9 @@
 #By Nebulirion
 
+function ut:move/gas_harpoon/particles/loop
+
+playsound minecraft:item.trident.riptide_1 player @a ~ ~ ~ 2 1
+
 scoreboard players set -new mlmax 40
 
 summon minecraft:marker ~ ~ ~ {Tags:[atker,gas_harpoon,killonhit,blockable],CustomName:'{"translate":"chr.ahab.mw"}'}

@@ -31,7 +31,7 @@ execute if entity @a[tag=atker_p,tag=passive_rancon] run function ut:move/passiv
 
 execute if entity @s[tag=passive_dongbaek] if entity @a[tag=atker_p,tag=effect_blooming] run function ut:move/passive/dongbaek/main
 
-execute if entity @a[tag=atker_p,tag=passive_ahab] run function ut:move/passive/ahab/main
+execute as @a[tag=atker_p,tag=passive_ahab] run function ut:move/passive/ahab/main
 ###Damage
 execute if score #damage damage matches 1.. run function ut:move/hit/red_filter
 function ut:move/hit/damage

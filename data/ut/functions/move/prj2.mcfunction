@@ -43,8 +43,6 @@ execute if entity @s[tag=fireball_loris] run function ut:move/fireball_loris/loo
 
 execute if entity @s[tag=end_dec_mind] run function ut:move/end_dec_mind/loop
 
-
-
 execute if entity @s[tag=star_loris] run function ut:move/star_loris/loop
 
 execute if entity @s[tag=paper_plane] run function ut:move/paper_plane/loop
@@ -58,3 +56,5 @@ execute if entity @s[tag=growing_flower] run function ut:move/bub_blooming/loop
 execute if entity @s[tag=strong_aroma] run function ut:move/strong_aroma/loop
 
 execute if entity @s[tag=gas_harpoon] run function ut:move/gas_harpoon/harpoon_bullet/loop
+
+execute if entity @s[tag=stubborn_harpoon] run function ut:move/stubborn_harpoon/harpoon_bullet/loop
