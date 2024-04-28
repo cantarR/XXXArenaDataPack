@@ -1,0 +1,6 @@
+{
+    "function":"minecraft:set_lore",
+    "lore":[{"translate":"dsc.dtmove","italic":false,"color":"red"},{"text":""},{"translate":"chr.ahab.ego1","italic":false,"color":"white","with":[{"selector":"@s[tag=ego_owner]"}]},{"translate":"chr.ahab.ego2","italic":false,"color":"white"},{"translate":"chr.ahab.ego3","italic":false,"color":"white","with": [{"selector":"@s[tag=ego_owner]"}]},{"translate":"chr.ahab.ego4","italic":false,"color":"white"},{"translate":"chr.ahab.ego5","italic":false,"color":"white"}],
+    "replace": true,
+    "entity": "this"
+}

@@ -2,6 +2,8 @@
 
 scoreboard players set #preGame game 1
 
+tellraw @a ["",{"translate":"pfx.info"},{"translate":"player.startgame","with": [{"selector":"@s"}]}]
+
 function ut:lobby/tutorial/end
 function ut:lobby/credit/end
 clear @a #ut:lobby_items{bakes:1b}

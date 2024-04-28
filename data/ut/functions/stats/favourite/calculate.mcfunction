@@ -42,6 +42,8 @@ execute store result score -NotSans19 favourite run data get storage utstats:mai
 execute store result score -NotSans20 favourite run data get storage utstats:main LoadedPlayer.Favourites[39]
 execute store result score -Kite favourite run data get storage utstats:main LoadedPlayer.Favourites[40]
 execute store result score -Dongbaek favourite run data get storage utstats:main LoadedPlayer.Favourites[41]
+execute store result score -EndDec favourite run data get storage utstats:main LoadedPlayer.Favourites[42]
+execute store result score -Ahab favourite run data get storage utstats:main LoadedPlayer.Favourites[43]
 
 scoreboard players set -Top favourite 0
 
@@ -83,6 +85,8 @@ scoreboard players operation -Top favourite > -OriginalLoris favourite
 scoreboard players operation -Top favourite > -FalseFleshBeliever:Rancon favourite
 scoreboard players operation -Top favourite > -Kite favourite
 scoreboard players operation -Top favourite > -Dongbaek favourite
+scoreboard players operation -Top favourite > -EndDec favourite
+scoreboard players operation -Top favourite > -Ahab favourite
 
 execute if score -Top favourite = -Sans favourite run scoreboard players set @s st_favchr 1
 execute if score -Top favourite = -Papyrus favourite run scoreboard players set @s st_favchr 2
@@ -124,5 +128,7 @@ execute if score -Top favourite = -OriginalLoris favourite run scoreboard player
 execute if score -Top favourite = -FalseFleshBeliever:Rancon favourite run scoreboard players set @s st_favchr 38
 execute if score -Top favourite = -Kite favourite run scoreboard players set @s st_favchr 41
 execute if score -Top favourite = -Dongbaek favourite run scoreboard players set @s st_favchr 42
+execute if score -Top favourite = -EndDec favourite run scoreboard players set @s st_favchr 43
+execute if score -Top favourite = -Ahab favourite run scoreboard players set @s st_favchr 44
 
 execute if score -Top favourite matches 0 run scoreboard players set @s st_favchr 0
