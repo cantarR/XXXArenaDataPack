@@ -6,7 +6,7 @@ execute if score @s use_count matches 3 run function ut:move/rancon_pierce/parti
 scoreboard players operation #atker pid = @s pid
 scoreboard players operation #atker tid = @s tid
 scoreboard players set #damage damage 200
-execute as @a[tag=playing,tag=!untargetable,distance=..2,sort=nearest,tag=effect_rancon_wound] unless score @s tid = #atker tid run scoreboard players set #damage damage 300
+execute as @a[tag=playing,tag=!untargetable,distance=..2,sort=nearest,tag=effect_rancon_wound] unless score @s tid = #atker tid if score @s rancon_wound_level matches 3.. run scoreboard players set #damage damage 300
 scoreboard players operation #damage damage *= @s atk
 scoreboard players operation #damage damage /= #rate atk
 scoreboard players set #hits hitcheck 1

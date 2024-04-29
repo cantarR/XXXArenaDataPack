@@ -3,7 +3,7 @@ function ut:move/gas_harpoon/overheat_harpoon/particles/loop
 
 playsound minecraft:item.firecharge.use player @a ~ ~ ~ 2 1.5
 
-scoreboard players set -new mlmax 25
+scoreboard players set -new mlmax 30
 
 summon minecraft:marker ~ ~ ~ {Tags:[atker,overheat_harpoon,killonhit,blockable],CustomName:'{"translate":"chr.ahab.mwex2"}'}
 

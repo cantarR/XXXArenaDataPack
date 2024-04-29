@@ -4,11 +4,14 @@ function ut:init/storage_chr_load
 summon item_frame 255 3 255 {Tags:[item_loader],UUID:[I;0,0,0,1],Fixed:1b}
 
 data modify storage ut:chrs Temp.CdMove.tag.ahab_ego set value 1b
-data modify entity 0-0-0-0-1 Item set from storage ut:chrs Temp.CdMove
 
-execute if data storage ut:chrs Temp.CdMove run item replace entity @a[tag=ego_efflorescer] container.4 from entity 0-0-0-0-1 container.0
+summon item ~ ~ ~ {Item:{id:"carrot_on_a_stick",Count:1b,tag:{cd_move:1b,summon_item:1b}},Tags:[summon_item]}
 
-item replace entity @a[tag=ego_efflorescer] weapon.offhand with carrot_on_a_stick{ahab_ego:1b,CustomModelData:10903,display:{Name:'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.ahab.ego","italic":false,"color":"white"}]}',Lore:['{"translate":"dsc.dtmove","italic":false,"color":"red"}','{"text":""}','{"translate":"chr.ahab.ego1","italic":false,"color":"white","with":[{"selector":"@s[tag=ego_owner]"}]}','{"translate":"chr.ahab.ego2","italic":false,"color":"white"}','{"translate":"chr.ahab.ego3","italic":false,"color":"white","with": [{"selector":"@s[tag=ego_owner]"}]}','{"translate":"chr.ahab.ego4","italic":false,"color":"white"}','{"translate":"chr.ahab.ego5","italic":false,"color":"white"}']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Slot:"offhand",Amount:-10.0d,Operation:0,UUID:[I; 3249, 753, 26789, 26048]}],HideFlags:127}
+data modify entity @e[limit=1,type=item,tag=summon_item] Item merge from storage ut:chrs Temp.CdMove
+
+data modify entity @e[limit=1,type=item,tag=summon_item] Owner set from entity @a[tag=ego_efflorescer,limit=1] UUID
+
+item replace entity @a[tag=ego_efflorescer] weapon.offhand with carrot_on_a_stick{ahab_ego:1b,CustomModelData:10906,display:{Name:'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.ahab.ego","italic":false,"color":"white"}]}',Lore:['{"translate":"dsc.dtmove","italic":false,"color":"red"}','{"text":""}','{"translate":"chr.ahab.ego1","italic":false,"color":"white","with":[{"selector":"@s[tag=ego_owner]"}]}','{"translate":"chr.ahab.ego2","italic":false,"color":"white"}','{"translate":"chr.ahab.ego3","italic":false,"color":"white","with": [{"selector":"@s[tag=ego_owner]"}]}','{"translate":"chr.ahab.ego4","italic":false,"color":"white"}','{"translate":"chr.ahab.ego5","italic":false,"color":"white"}']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Slot:"offhand",Amount:-10.0d,Operation:0,UUID:[I; 3249, 753, 26789, 26048]}],HideFlags:127}
 
 item modify entity @a[tag=ego_efflorescer] weapon.offhand ut:ego
 

@@ -73,6 +73,11 @@ execute if entity @s[tag=passive_dongbaek] run scoreboard players set @s count_a
 execute if entity @s[tag=effect_aid_attack] run tag @s remove effect_aid_attack
 
 execute if entity @s[tag=harpoon_attacking] run function ut:move/stubborn_harpoon/stop
+
+execute if entity @s[tag=effloresced_ego_gasharpoon] run function ut:move/noble_price/ego_effloresce_stop
+
+execute if entity @s[tag=ahab_ego_pre] run function ut:move/noble_price/stop
+
 function ut:move/player_loop/fullstoplite
 
 tag @s remove someone_empty
