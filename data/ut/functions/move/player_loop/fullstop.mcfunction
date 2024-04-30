@@ -10,12 +10,11 @@ execute if entity @s[tag=loris_dt_pred] run function ut:move/loris_knife/stop
 execute if entity @s[tag=filled_bullet] run function ut:move/fill_bullet/stop
 execute if entity @s[tag=in_cupcake] at @s run function ut:move/cupcake/stop_player
 execute if entity @e[tag=st_center] run function ut:move/star_loris/stop
-execute if entity @e[tag=st_center] run function ut:move/end_dec_trail/stop
 execute if entity @s[tag=bisicle_used_once] run function ut:move/bisicle/stop
 execute if entity @s[tag=heat] run function ut:move/gas_harpoon/heat_harpoon/stop
 execute if entity @s[tag=overheat] run function ut:move/gas_harpoon/overheat_harpoon/stop
 execute if entity @s[tag=bisicle_used_once] run function ut:move/bisicle/stop
-
+execute if entity @s[tag=trail_user] run function ut:move/end_dec_trail/stop
 tag @s remove cdmax_lock
 
 scoreboard players reset @s plt3
