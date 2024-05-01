@@ -1,8 +1,8 @@
 scoreboard objectives add magic_bullet_timer dummy "Timer"
-execute if score @s magic_bullet_count matches 4 run scoreboard players remove @s will 5
-execute if score @s magic_bullet_count matches 5 run scoreboard players remove @s will 10
-execute if score @s magic_bullet_count matches 6 run scoreboard players remove @s will 15
-execute if score @s magic_bullet_count matches 7 run scoreboard players remove @s will 25
+execute if score @s magic_bullet_count matches 4 run scoreboard players remove @s will 10
+execute if score @s magic_bullet_count matches 5 run scoreboard players remove @s will 15
+execute if score @s magic_bullet_count matches 6 run scoreboard players remove @s will 20
+execute if score @s magic_bullet_count matches 7 run scoreboard players remove @s will 35
 function ut:player/will/lose
 execute positioned ^ ^ ^5 if score @s magic_bullet_count matches 4..6 run execute as @a[sort=nearest,limit=1,tag=!filled_bullet,tag=!respawning,tag=!untargetable,tag=playing] run tag @s add extra_bullet_target
 execute if score @s magic_bullet_count matches 7 run tag @a[sort=random,limit=1,tag=!respawning,tag=!untargetable,tag=playing] add extra_bullet_target
