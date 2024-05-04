@@ -29,3 +29,5 @@ execute if data entity @s SelectedItem.tag.strong_aroma run function ut:move/str
 execute if data entity @s SelectedItem.tag.stubborn_harpoon run function ut:move/stubborn_harpoon/use
 
 execute if data entity @s SelectedItem.tag.noble_price run function ut:move/noble_price/use
+
+execute if data entity @s SelectedItem.tag.end_dec_sickle run function ut:move/end_dec_sickle/use
