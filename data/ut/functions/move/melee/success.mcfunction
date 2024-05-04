@@ -20,4 +20,6 @@ execute if data entity @s SelectedItem.tag.gas_harpoon run function ut:move/gas_
 execute if data entity @s SelectedItem.tag.heat_harpoon run function ut:move/gas_harpoon/heat_harpoon/melee
 
 execute if data entity @s SelectedItem.tag.overheat_harpoon run function ut:move/gas_harpoon/overheat_harpoon/melee
+
+execute if data entity @s SelectedItem.tag.end_dec_sickle_pre run function ut:move/end_dec_sickle_pre/melee
 #
