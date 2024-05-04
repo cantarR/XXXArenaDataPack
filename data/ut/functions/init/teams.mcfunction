@@ -124,73 +124,97 @@ team add nocol {"translate":"team.nocol"}
 team modify nocol collisionRule never
 
 team add t9 "GULA"
-team modify t9 displayName ["",{"translate":"tem.chat","color":"dark_green"}]
+team modify t9 displayName ["",{"translate":"tem.chat","color":"#95b300"}]
 team modify t9 color reset
 team modify t9 friendlyFire false
 team modify t9 collisionRule never
 team modify t9 nametagVisibility always
 team modify t9 seeFriendlyInvisibles false
-team modify t9 prefix {"text":"❤ ","color":"dark_green"}
+team modify t9 prefix {"text":"❤ ","color":"#95b300"}
 
 team add t10 "LUST"
-team modify t10 displayName ["",{"translate":"tem.chat","color":"dark_aqua"}]
+team modify t10 displayName ["",{"translate":"tem.chat","color":"#e65c00"}]
 team modify t10 color reset
 team modify t10 friendlyFire false
 team modify t10 collisionRule never
 team modify t10 nametagVisibility always
 team modify t10 seeFriendlyInvisibles false
-team modify t10 prefix {"text":"❤ ","color":"dark_aqua"}
+team modify t10 prefix {"text":"❤ ","color":"#e65c00"}
 
 team add t11 "SLOTH"
-team modify t11 displayName ["",{"translate":"tem.chat","color":"dark_gray"}]
+team modify t11 displayName ["",{"translate":"tem.chat","color":"#ffbf00"}]
 team modify t11 color reset
 team modify t11 friendlyFire false
 team modify t11 collisionRule never
 team modify t11 nametagVisibility always
 team modify t11 seeFriendlyInvisibles false
-team modify t11 prefix {"text":"❤ ","color":"dark_gray"}
+team modify t11 prefix {"text":"❤ ","color":"#ffbf00"}
 
 team add t12 "WRATH"
-team modify t12 displayName ["",{"translate":"tem.chat","color":"dark_red"}]
+team modify t12 displayName ["",{"translate":"tem.chat","color":"#b31500"}]
 team modify t12 color reset
 team modify t12 friendlyFire false
 team modify t12 collisionRule never
 team modify t12 nametagVisibility always
 team modify t12 seeFriendlyInvisibles false
-team modify t12 prefix {"text":"❤ ","color":"dark_red"}
+team modify t12 prefix {"text":"❤ ","color":"#b31500"}
 
 team add t13 "ENVY"
-team modify t13 displayName ["",{"translate":"tem.chat","color":"dark_purple"}]
+team modify t13 displayName ["",{"translate":"tem.chat","color":"#8c00bf"}]
 team modify t13 color reset
 team modify t13 friendlyFire false
 team modify t13 collisionRule never
 team modify t13 nametagVisibility always
 team modify t13 seeFriendlyInvisibles false
-team modify t13 prefix {"text":"❤ ","color":"dark_purple"}
+team modify t13 prefix {"text":"❤ ","color":"#8c00bf"}
 
 team add t14 "PRIDE"
-team modify t14 displayName ["",{"translate":"tem.chat","color":"dark_blue"}]
+team modify t14 displayName ["",{"translate":"tem.chat","color":"#1c2a99"}]
 team modify t14 color reset
 team modify t14 friendlyFire false
 team modify t14 collisionRule never
 team modify t14 nametagVisibility always
 team modify t14 seeFriendlyInvisibles false
-team modify t14 prefix {"text":"❤ ","color":"dark_blue"}
+team modify t14 prefix {"text":"❤ ","color":"#1c2a99"}
 
 team add t15 "GLOOM"
-team modify t15 displayName ["",{"translate":"tem.chat","color":"blue"}]
+team modify t15 displayName ["",{"translate":"tem.chat","color":"#0099cc"}]
 team modify t15 color reset
 team modify t15 friendlyFire false
 team modify t15 collisionRule never
 team modify t15 nametagVisibility always
 team modify t15 seeFriendlyInvisibles false
-team modify t15 prefix {"text":"❤ ","color":"blue"}
+team modify t15 prefix {"text":"❤ ","color":"#0099cc"}
 
 team add t16 "VOID"
-team modify t16 displayName ["",{"translate":"tem.chat","color":"black"}]
+team modify t16 displayName ["",{"translate":"tem.chat","color":"#121319"}]
 team modify t16 color reset
 team modify t16 friendlyFire false
 team modify t16 collisionRule never
 team modify t16 nametagVisibility always
 team modify t16 seeFriendlyInvisibles false
-team modify t16 prefix {"text":"❤ ","color":"black"}
+team modify t16 prefix {"text":"❤ ","color":"#121319"}
+
+team add c9 "GULA"
+team modify c1 color white
+
+team add c10 "LUST"
+team modify c2 color white
+
+team add c11 "SLOTH"
+team modify c3 color white
+
+team add c12 "WRATH"
+team modify c4 color white
+
+team add c13 "ENVY"
+team modify c5 color white
+
+team add c14 "PRIDE"
+team modify c6 color white
+
+team add c15 "GLOOM"
+team modify c7 color white
+
+team add c16 "VOID"
+team modify c8 color black
