@@ -196,25 +196,25 @@ team modify t16 seeFriendlyInvisibles false
 team modify t16 prefix {"text":"❤ ","color":"#121319"}
 
 team add c9 "GULA"
-team modify c1 color white
+team modify c9 color white
 
 team add c10 "LUST"
-team modify c2 color white
+team modify c10 color white
 
 team add c11 "SLOTH"
-team modify c3 color white
+team modify c11 color white
 
 team add c12 "WRATH"
-team modify c4 color white
+team modify c12 color white
 
 team add c13 "ENVY"
-team modify c5 color white
+team modify c13 color white
 
 team add c14 "PRIDE"
-team modify c6 color white
+team modify c14 color white
 
 team add c15 "GLOOM"
-team modify c7 color white
+team modify c15 color white
 
 team add c16 "VOID"
-team modify c8 color black
+team modify c16 color black
