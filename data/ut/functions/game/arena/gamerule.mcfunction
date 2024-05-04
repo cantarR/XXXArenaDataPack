@@ -7,3 +7,5 @@ scoreboard players operation hasBorder gamerule = A_Border gamerulemode
 scoreboard players set inactiveGlow gamerule 1200
 
 execute if score killBonus gamerule matches 3 run scoreboard players set absorbSoul gamerule 1
+
+execute if score killBonus gamerule matches 4 run scoreboard players set absorbSoul gamerule 1

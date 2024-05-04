@@ -17,6 +17,7 @@ execute store result entity 0-0-0-0-1 Item.tag.soultype int 1 run scoreboard pla
 scoreboard players add #cmd tid 1000
 execute if score -fallen soul matches 1 run data modify entity 0-0-0-0-1 Item.tag.fallen set value 1b
 execute if score killBonus gamerule matches 3 run data modify entity 0-0-0-0-1 Item.tag.nonboss set value 1b
+execute if score killBonus gamerule matches 4 run data modify entity 0-0-0-0-1 Item.tag.nonboss set value 1b
 #execute if score soulType gamerule matches 1 run scoreboard players add #cmd tid 10
 execute store result entity 0-0-0-0-1 Item.tag.CustomModelData int 1 run scoreboard players get #cmd tid
 

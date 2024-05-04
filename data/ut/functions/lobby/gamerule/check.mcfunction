@@ -36,9 +36,9 @@ execute unless score B_Bonus gamerulemode matches 1 run item replace entity @e[t
 execute if score B_Bonus gamerulemode matches 1 run item replace entity @e[tag=set_grb3,limit=1] armor.head with charcoal
 
 ###C
-execute unless score C_Bonus gamerulemode matches 1..3 run item replace entity @e[tag=set_grc3,limit=1] armor.head with coal
+execute unless score C_Bonus gamerulemode matches 1..4 run item replace entity @e[tag=set_grc3,limit=1] armor.head with coal
 execute if score C_Bonus gamerulemode matches 1 run item replace entity @e[tag=set_grc3,limit=1] armor.head with charcoal
-execute if score C_Bonus gamerulemode matches 2..3 run item replace entity @e[tag=set_grc3,limit=1] armor.head with charcoal{CustomModelData:1}
+execute if score C_Bonus gamerulemode matches 2..4 run item replace entity @e[tag=set_grc3,limit=1] armor.head with charcoal{CustomModelData:1}
 
 execute if score C_Goal gamerulemode matches 0 run item replace entity @e[tag=set_grc2,limit=1] armor.head with charcoal
 execute unless score C_Goal gamerulemode matches 0 run item replace entity @e[tag=set_grc2,limit=1] armor.head with charcoal{CustomModelData:1}

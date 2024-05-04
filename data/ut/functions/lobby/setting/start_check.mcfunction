@@ -8,7 +8,7 @@ function ut:game/count_players
 execute if score -PlayerCount game matches 9..16 run tellraw @s [{"translate": "pfx.warning"},{"translate": "cht.set.wrn1"}]
 ###DONT START WITH MORE THAN 16 PLAYERS
 execute if score allow_start store matches 1 if score -PlayerCount game matches 17.. run tellraw @s [{"translate": "pfx.warning"},{"translate": "cht.set.wrn2"}]
-execute if score -PlayerCount game matches 17.. run scoreboard players set allow_start store 0
+execute if score -PlayerCount game matches 33.. run scoreboard players set allow_start store 0
 
 ###DONT START WITH LESS THAN 2 TEAMS
 execute if score allow_start store matches 1 unless score -TeamCount game matches 2.. run tellraw @s [{"translate": "pfx.warning"},{"translate": "cht.set.wrn3"}]
