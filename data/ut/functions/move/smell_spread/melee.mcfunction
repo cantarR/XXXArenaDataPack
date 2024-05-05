@@ -1,7 +1,8 @@
 scoreboard players remove @s mp 80
 function ut:player/mp/change
 summon minecraft:marker ~ ~ ~ {Tags:[atker,smell_spread,killonhit,blockable],CustomName:'{"translate":"chr.dongbaek.dtn"}'}
-scoreboard players set -new mlmax 0
+scoreboard players set -new mlmax 1
+scoreboard players add @s unloadtime 15
 scoreboard players set #damage damage 150
 scoreboard players operation #damage damage *= @s atk
 scoreboard players operation #damage damage /= #rate atk

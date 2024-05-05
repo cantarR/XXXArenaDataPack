@@ -1,8 +1,8 @@
 #By Nebulirion
 tag @s add atker_p
-execute if score @s use_count matches 1 run function ut:move/rancon_pierce/particle
-execute if score @s use_count matches 2 run function ut:move/rancon_pierce/particle2
-execute if score @s use_count matches 3 run function ut:move/rancon_pierce/particle3
+execute if score @s use_count matches 1 positioned ^ ^ ^-1 run function ut:move/rancon_pierce/particle
+execute if score @s use_count matches 2 positioned ^ ^ ^-1 run function ut:move/rancon_pierce/particle2
+execute if score @s use_count matches 3 positioned ^ ^ ^-1 run function ut:move/rancon_pierce/particle3
 scoreboard players operation #atker pid = @s pid
 scoreboard players operation #atker tid = @s tid
 scoreboard players set #damage damage 200
@@ -16,4 +16,4 @@ tag @s remove atker_p
 
 scoreboard players remove @s plt1b 1
 
-execute if score @s plt1b matches 1.. if score #hits hitcheck matches 1 if block ~ ~ ~ #ut:trans positioned ^ ^ ^.5 run function ut:move/rancon_pierce/loop_l
+execute if score @s plt1b matches 1.. if score #hits hitcheck matches 1 if block ~ ~ ~ #ut:trans positioned ^ ^ ^.2 run function ut:move/rancon_pierce/loop_l

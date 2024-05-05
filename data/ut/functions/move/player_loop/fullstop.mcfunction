@@ -63,7 +63,7 @@ execute if entity @s[tag=effect_fullblooming] run function ut:move/effect/fullbl
 
 execute if entity @s[tag=effect_burn] run function ut:move/effect/burn/all_clear
 
-execute if entity @s[tag=passive_rancon] run scoreboard players set @s count_b 0
+execute if entity @s[tag=passive_rancon] run function ut:move/passive/rancon/stop
 
 execute if entity @s[tag=passive_kite] run function ut:move/passive/kite/stop
 
