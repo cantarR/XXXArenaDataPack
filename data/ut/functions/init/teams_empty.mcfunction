@@ -30,3 +30,12 @@ team empty t13
 team empty t14
 team empty t15
 team empty t16
+
+team empty c9
+team empty c10
+team empty c11
+team empty c12
+team empty c13
+team empty c14
+team empty c15
+team empty c16

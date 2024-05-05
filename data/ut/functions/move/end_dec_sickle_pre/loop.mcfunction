@@ -1,7 +1,8 @@
-scoreboard players remove @s plt1 1
+scoreboard players remove @s plt3 1
 
 effect give @s minecraft:speed 1 1
-execute if score @s plt1 matches ..0 run function ut:move/end_dec_sickle/stop
+execute if score @s plt3 matches ..0 run function ut:move/end_dec_sickle/stop
 execute positioned as @s positioned ~ ~1 ~ run particle minecraft:dust 0.122 0.161 0.741 0.75 ^ ^ ^ 0.3 0.3 0.3 0.1 180 normal @a[scores={Q=2..}]
 ###MAIN
-execute if score @s hp matches ..0 run scoreboard players reset @s plt1 
+execute if score @s hp matches ..0 run scoreboard players reset @s plt3 
+execute if score @s hp matches ..0 run effect clear @s
