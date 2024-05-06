@@ -32,7 +32,7 @@ execute if score #butsoul soul matches 12 run tellraw @s [{"translate":"pfx.tut"
 execute if score #butsoul soul matches 13 run tellraw @s [{"translate":"pfx.tut"},{"translate":"stut.r8.e2.2","with":[{"translate": "tem.13", "color":"#8c00bf"}]}]
 execute if score #butsoul soul matches 14 run tellraw @s [{"translate":"pfx.tut"},{"translate":"stut.r8.e2.2","with":[{"translate": "tem.14", "color":"#1c2a99"}]}]
 execute if score #butsoul soul matches 15 run tellraw @s [{"translate":"pfx.tut"},{"translate":"stut.r8.e2.2","with":[{"translate": "tem.15", "color":"#0099cc"}]}]
-execute if score #butsoul soul matches 16 run tellraw @s [{"translate":"pfx.tut"},{"translate":"stut.r8.e2.2","with":[{"translate": "tem.16", "color":"#121319"}]}]
+execute if score #butsoul soul matches 16 run tellraw @s [{"translate":"pfx.tut"},{"translate":"stut.r8.e2.2","with":[{"translate": "tem.16", "color":"#21232e"}]}]
 
 execute if score #butsoul soul matches 1 run tellraw @s [{"translate":"stut.r8.e2.s9"}]
 execute if score #butsoul soul matches 2 run tellraw @s [{"translate":"stut.r8.e2.s10"}]
