@@ -7,14 +7,9 @@ scoreboard players operation #stop speed = #temp speed
 function ut:move/fireball_loris/_sys/movement_step
 
 scoreboard players add @s life 1
-execute if score @s[tag=main_ball] life matches 2 run scoreboard players operation #player pid = @s pid
-execute if score @s[tag=main_ball] life matches 2 run execute as @a at @s positioned ^.74 ^1.5 ^ rotated ~3 ~ if score @s pid = #player pid run function ut:move/fireball_loris/cast2
-execute if score @s[tag=main_ball] life matches 4 run scoreboard players operation #player pid = @s pid
-execute if score @s[tag=main_ball] life matches 4 run execute as @a at @s positioned ^-.74 ^1.5 ^ rotated ~-3 ~ if score @s pid = #player pid run function ut:move/fireball_loris/cast2
-execute as @s[tag=!main_ball] if score @s life matches 0..4 run tp @s ^-.5 ^ ^1.2 ~ ~-.5
-execute as @s[tag=!main_ball] if score @s life matches 4..8 run tp @s ^.5 ^ ^1.2 ~ ~.5
-execute as @s[tag=!main_ball] if score @s life matches 8..12 run tp @s ^-.5 ^ ^1.2 ~ ~-.5
-execute as @s[tag=!main_ball] if score @s life matches 12..16 run tp @s ^.5 ^ ^1.2 ~ ~.5
-execute as @s[tag=!main_ball] if score @s life matches 16..20 run tp @s ^-.5 ^ ^1.2 ~ ~-.5
-
-tag @a remove fireball_atker
+scoreboard players operation #temp life = @s life
+scoreboard players operation #temp life %= 10 const
+scoreboard players operation #player pid = @s pid
+execute as @e[tag=main_ball] if score @s pid = #player pid run tag @s add self_ball
+execute as @s[tag=!main_ball] if score #temp life matches 4..6 run tp @s ^ ^ ^0.5 facing entity @e[tag=main_ball,tag=self_ball,limit=1,sort=nearest]
+tag @e remove self_ball
