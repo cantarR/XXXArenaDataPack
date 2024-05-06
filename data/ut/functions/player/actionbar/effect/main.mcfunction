@@ -55,3 +55,6 @@ execute if entity @s[tag=effect_burn] run function ut:player/actionbar/effect/01
 execute if entity @s[tag=effect_aid_attack] run function ut:player/actionbar/effect/0180
 
 execute if entity @s[tag=passive_dongbaek] if score @s count_a matches 1.. run function ut:player/actionbar/effect/0181
+
+#fda
+function fda:player/actionbar/effect/main

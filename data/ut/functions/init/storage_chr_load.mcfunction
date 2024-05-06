@@ -3,5 +3,9 @@
 
 scoreboard players operation -Index tech = -chr chr
 data modify storage ut:tech TargetList set from storage ut:chrs Data
+
+#fda
+function fda:init/storage_chr_load
+
 function ut:technical/index/r/1_64
 data modify storage ut:chrs Temp set from storage ut:tech LoadedEntry

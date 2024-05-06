@@ -2,3 +2,6 @@
 
 execute if score -Index tech matches 1..16 run function ut:technical/index/r/1_16
 execute if score -Index tech matches 17..32 run function ut:technical/index/r/17_32
+
+#fda
+execute if score -Index tech matches 33.. run function fda:technical/index/r

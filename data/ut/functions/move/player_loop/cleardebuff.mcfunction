@@ -21,3 +21,6 @@ execute if entity @s[tag=effect_noise_despair] run function ut:move/effect/noise
 execute if entity @s[tag=effect_blooming] run function ut:move/effect/blooming/all_clear
 
 execute if entity @s[tag=effect_fullblooming] run function ut:move/effect/fullblooming/clear
+
+#fda
+function fda:move/player_loop/cleardebuff

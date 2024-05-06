@@ -130,5 +130,6 @@ execute if score -Top favourite = -Kite favourite run scoreboard players set @s 
 execute if score -Top favourite = -Dongbaek favourite run scoreboard players set @s st_favchr 42
 execute if score -Top favourite = -EndDec favourite run scoreboard players set @s st_favchr 43
 execute if score -Top favourite = -Ahab favourite run scoreboard players set @s st_favchr 44
+execute if score -Top favourite = -Dell favourite run scoreboard players set @s st_favchr 45
 
 execute if score -Top favourite matches 0 run scoreboard players set @s st_favchr 0

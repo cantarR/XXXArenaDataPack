@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.short_circuit_maker run function fda:move/short_circuit_maker/use

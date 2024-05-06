@@ -84,3 +84,6 @@ execute if entity @s[tag=heat] run function ut:move/gas_harpoon/loop
 execute if entity @s[tag=overheat] run function ut:move/gas_harpoon/loop
 
 execute if entity @s[tag=harpoon_attacking] run function ut:move/stubborn_harpoon/loop
+
+#fda
+function fda:move/player_loop/main

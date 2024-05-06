@@ -4,3 +4,6 @@
 data modify storage ut:chrs Data set value []
 function ut:init/storage_chr
 execute store result score -count chr if data storage ut:chrs Data[]
+
+#fda
+function fda:init/reload_chr_storage

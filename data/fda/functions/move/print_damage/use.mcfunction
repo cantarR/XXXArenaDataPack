@@ -1,0 +1,1 @@
+tellraw @a [{"text":"damage_"},{"score":{"name":"#true_damage","objective":"damage"}}]

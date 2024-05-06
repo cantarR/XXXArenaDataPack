@@ -40,3 +40,6 @@ execute if data entity @s SelectedItem.tag.gas_harpoon if score @s mldis matches
 execute if data entity @s SelectedItem.tag.heat_harpoon if score @s mldis matches 100.. run function ut:move/gas_harpoon/use
 
 execute if data entity @s SelectedItem.tag.overheat_harpoon if score @s mldis matches 100.. run function ut:move/gas_harpoon/use
+
+#fda
+function fda:move/mp/use

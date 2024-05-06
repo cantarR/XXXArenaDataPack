@@ -78,6 +78,9 @@ execute if entity @s[tag=effloresced_ego_gasharpoon] run function ut:move/noble_
 
 execute if entity @s[tag=ahab_ego_pre] run function ut:move/noble_price/stop
 
+#fda
+function fda:move/player_loop/fullstop
+
 function ut:move/player_loop/fullstoplite
 
 tag @s remove someone_empty

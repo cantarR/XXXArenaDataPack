@@ -10,4 +10,7 @@ execute if entity @s[tag=floor_bone] run function ut:move/floor_bone/loop_bones
 execute if entity @s[tag=king_shockwave] at @s run function ut:move/king/loop
 execute if entity @s[tag=green_flame] at @s run function ut:move/green_flame/loop
 
+#fda
+function fda:move/prj_sp
+
 function ut:move/lifetime
