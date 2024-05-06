@@ -19,7 +19,7 @@ execute if entity @a[tag=winner,scores={tid=9}] run tellraw @a ["",{"translate":
 execute if entity @a[tag=winner,scores={tid=10}] run tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm2","with":[{"translate":"tem.10","color":"#e65c00"}]}]
 execute if entity @a[tag=winner,scores={tid=11}] run tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm2","with":[{"translate":"tem.11","color":"#ffbf00"}]}]
 execute if entity @a[tag=winner,scores={tid=12}] run tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm2","with":[{"translate":"tem.12","color":"#b31500"}]}]
-execute if entity @a[tag=winner,scores={tid=13}] run tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm2","with":[{"translate":"tem.13","color":#8c00bf""}]}]
+execute if entity @a[tag=winner,scores={tid=13}] run tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm2","with":[{"translate":"tem.13","color":"#8c00bf"}]}]
 execute if entity @a[tag=winner,scores={tid=14}] run tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm2","with":[{"translate":"tem.14","color":"#1c2a99"}]}]
 execute if entity @a[tag=winner,scores={tid=15}] run tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm2","with":[{"translate":"tem.15","color":"#0099cc"}]}]
 execute if entity @a[tag=winner,scores={tid=16}] run tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm2","with":[{"translate":"tem.16","color":"#121319"}]}]
