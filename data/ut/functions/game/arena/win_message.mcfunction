@@ -23,7 +23,7 @@ execute if score pc store matches 2.. if entity @a[tag=winner,scores={tid=12}] r
 execute if score pc store matches 2.. if entity @a[tag=winner,scores={tid=13}] run tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm2","with":[{"translate":"tem.13","color":"#8c00bf"}]}]
 execute if score pc store matches 2.. if entity @a[tag=winner,scores={tid=14}] run tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm2","with":[{"translate":"tem.14","color":"#1c2a99"}]}]
 execute if score pc store matches 2.. if entity @a[tag=winner,scores={tid=15}] run tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm2","with":[{"translate":"tem.15","color":"#0099cc"}]}]
-execute if score pc store matches 2.. if entity @a[tag=winner,scores={tid=16}] run tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm2","with":[{"translate":"tem.16","color":"#121319"}]}]
+execute if score pc store matches 2.. if entity @a[tag=winner,scores={tid=16}] run tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm2","with":[{"translate":"tem.16","color":"#21232e"}]}]
 #
 execute if score pc store matches 1 if entity @a[tag=winner] run tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm5","with":[{"selector":"@a[tag=winner_alive]","bold":false}]}]
 execute if score pc store matches 2.. if entity @a[tag=winner] if entity @a[tag=winner_dead] run tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm4","with":[[{"selector":"@a[tag=winner_alive]","bold":false},", ",{"selector":"@a[tag=winner_dead]","color":"gray"}]]}]
