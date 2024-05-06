@@ -187,13 +187,13 @@ team modify t15 seeFriendlyInvisibles false
 team modify t15 prefix {"text":"❤ ","color":"#0099cc"}
 
 team add t16 "VOID"
-team modify t16 displayName ["",{"translate":"tem.chat","color":"#121319"}]
+team modify t16 displayName ["",{"translate":"tem.chat","color":"#21232e"}]
 team modify t16 color reset
 team modify t16 friendlyFire false
 team modify t16 collisionRule never
 team modify t16 nametagVisibility always
 team modify t16 seeFriendlyInvisibles false
-team modify t16 prefix {"text":"❤ ","color":"#121319"}
+team modify t16 prefix {"text":"❤ ","color":"#21232e"}
 
 team add c9 "GULA"
 team modify c9 color white
