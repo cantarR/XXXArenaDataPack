@@ -93,7 +93,7 @@ execute as @e[tag=summon] positioned as @s run tp @s ~ ~ ~ ~-90 ~
 tag @e[tag=summon] remove summon
 
 execute positioned ^19 ^10 ^7 run function ut:lobby/setup/soul
-data merge entity @e[tag=summon,limit=1] {CustomName:'["",{"translate":"tem.16","color":"#121319"}]'}
+data merge entity @e[tag=summon,limit=1] {CustomName:'["",{"translate":"tem.16","color":"#21232e"}]'}
 scoreboard players set @e[tag=summon] ptid 16
 execute as @e[tag=summon] positioned as @s run tp @s ~ ~ ~ ~90 ~
 tag @e[tag=summon] remove summon
