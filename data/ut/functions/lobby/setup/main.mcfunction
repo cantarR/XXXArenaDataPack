@@ -4,7 +4,7 @@ kill @e[tag=lobby_as]
 
 execute positioned ^ ^ ^26 rotated -90 0 run function ut:lobby/setup/center
 
-execute positioned ^ ^6 ^37 rotated -90 0 run function ut:lobby/setup/dog
+execute positioned 271 167.7 1291 rotated -90 0 run function ut:lobby/setup/dog
 
 execute positioned ^ ^-4 ^73 rotated 90 0 run function ut:lobby/setup/chooses
 execute positioned ^ ^-5 ^73 rotated 90 0 run function ut:lobby/setup/maps
