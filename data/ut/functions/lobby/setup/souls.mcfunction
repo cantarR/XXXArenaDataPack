@@ -53,19 +53,19 @@ tag @e[tag=summon] remove summon
 execute positioned ^-19 ^10 ^7 run function ut:lobby/setup/soul
 data merge entity @e[tag=summon,limit=1] {CustomName:'["",{"translate":"tem.9","color":"#95b300"}]'}
 scoreboard players set @e[tag=summon] ptid 9
-execute as @e[tag=summon] positioned as @s run tp @s ~ ~ ~ ~ ~
+execute as @e[tag=summon] positioned as @s run tp @s ~ ~ ~ ~-90 ~
 tag @e[tag=summon] remove summon
 
 execute positioned ^-14 ^10 ^-5 run function ut:lobby/setup/soul
 data merge entity @e[tag=summon,limit=1] {CustomName:'["",{"translate":"tem.10","color":"#e65c00"}]'}
 scoreboard players set @e[tag=summon] ptid 10
-execute as @e[tag=summon] positioned as @s run tp @s ~ ~ ~ ~90 ~
+execute as @e[tag=summon] positioned as @s run tp @s ~ ~ ~ ~ ~
 tag @e[tag=summon] remove summon
 
 execute positioned ^-19 ^10 ^0 run function ut:lobby/setup/soul
 data merge entity @e[tag=summon,limit=1] {CustomName:'["",{"translate":"tem.11","color":"#ffbf00"}]'}
 scoreboard players set @e[tag=summon] ptid 11
-execute as @e[tag=summon] positioned as @s run tp @s ~ ~ ~ ~ ~
+execute as @e[tag=summon] positioned as @s run tp @s ~ ~ ~ ~-90 ~
 tag @e[tag=summon] remove summon
 
 execute positioned ^-7 ^10 ^-5 run function ut:lobby/setup/soul
@@ -77,19 +77,19 @@ tag @e[tag=summon] remove summon
 execute positioned ^19 ^10 ^0 run function ut:lobby/setup/soul
 data merge entity @e[tag=summon,limit=1] {CustomName:'["",{"translate":"tem.13","color":"#8c00bf"}]'}
 scoreboard players set @e[tag=summon] ptid 13
-execute as @e[tag=summon] positioned as @s run tp @s ~ ~ ~ ~ ~
+execute as @e[tag=summon] positioned as @s run tp @s ~ ~ ~ ~90 ~
 tag @e[tag=summon] remove summon
 
 execute positioned ^14 ^10 ^-5 run function ut:lobby/setup/soul
 data merge entity @e[tag=summon,limit=1] {CustomName:'["",{"translate":"tem.14","color":"#1c2a99"}]'}
 scoreboard players set @e[tag=summon] ptid 14
-execute as @e[tag=summon] positioned as @s run tp @s ~ ~ ~ ~-90 ~
+execute as @e[tag=summon] positioned as @s run tp @s ~ ~ ~ ~ ~
 tag @e[tag=summon] remove summon
 
 execute positioned ^7 ^10 ^-5 run function ut:lobby/setup/soul
 data merge entity @e[tag=summon,limit=1] {CustomName:'["",{"translate":"tem.15","color":"#0099cc"}]'}
 scoreboard players set @e[tag=summon] ptid 15
-execute as @e[tag=summon] positioned as @s run tp @s ~ ~ ~ ~-90 ~
+execute as @e[tag=summon] positioned as @s run tp @s ~ ~ ~ ~ ~
 tag @e[tag=summon] remove summon
 
 execute positioned ^19 ^10 ^7 run function ut:lobby/setup/soul
