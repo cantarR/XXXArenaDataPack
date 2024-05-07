@@ -3,7 +3,7 @@
 scoreboard players operation #atker tid = @s tid
 
 ###Hitbox detection, Size: 9.0 x 4.0 x 9.0
-execute as @a[tag=playing,tag=!untargetable] positioned ~-4.5 ~-2.0 ~-4.5 if entity @s[dx=8.0,dy=3.0,dz=8.0] unless score @s tid = #atker tid run tag @s add pda_sentry_attack_target
+execute as @a[tag=playing,tag=!untargetable,tag=!spectator,tag=!respawning] positioned ~-4.5 ~-2.0 ~-4.5 if entity @s[dx=8.0,dy=3.0,dz=8.0] unless score @s tid = #atker tid run tag @s add pda_sentry_attack_target
 
 ###Aim
 execute at @s facing entity @p[tag=pda_sentry_attack_target] feet run tp @s ~ ~ ~ ~ ~
