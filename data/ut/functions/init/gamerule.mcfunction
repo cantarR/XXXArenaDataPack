@@ -19,7 +19,7 @@ gamerule mobGriefing false
 gamerule naturalRegeneration false
 gamerule randomTickSpeed 0
 gamerule reducedDebugInfo false
-gamerule sendCommandFeedback false
+gamerule sendCommandFeedback true
 gamerule showDeathMessages false
 gamerule spawnRadius 0
 gamerule spectatorsGenerateChunks false
