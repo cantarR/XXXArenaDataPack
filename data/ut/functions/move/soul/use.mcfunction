@@ -16,6 +16,8 @@ execute if score #soultype store matches 6 run function ut:move/soul/perseveranc
 execute if score #soultype store matches 7 run function ut:move/soul/kindness/use
 execute if score #soultype store matches 8 run function ut:move/soul/monster/use
 
+function fda:move/soul/use
+
 function ut:move/soul/cast
 
 item replace entity @s weapon.mainhand with air

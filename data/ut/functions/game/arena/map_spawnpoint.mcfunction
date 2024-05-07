@@ -14,6 +14,15 @@ execute if entity @a[tag=chosenhere] facing entity @e[tag=arena_mid,scores={mapl
 execute if entity @a[tag=chosenhere] facing entity @e[tag=arena_mid,scores={maplock=1},limit=1] feet rotated ~ 0 positioned ^-1 ^ ^-1 run function ut:game/arena/map_spawnpoint_player
 execute if entity @a[tag=chosenhere] facing entity @e[tag=arena_mid,scores={maplock=1},limit=1] feet rotated ~ 0 positioned ^1 ^ ^1 run function ut:game/arena/map_spawnpoint_player
 execute if entity @a[tag=chosenhere] facing entity @e[tag=arena_mid,scores={maplock=1},limit=1] feet rotated ~ 0 positioned ^-1 ^ ^1 run function ut:game/arena/map_spawnpoint_player
+
+execute if entity @a[tag=chosenhere] facing entity @e[tag=arena_mid,scores={maplock=1},limit=1] feet rotated ~ 0 positioned ^2 ^ ^ run function ut:game/arena/map_spawnpoint_player
+execute if entity @a[tag=chosenhere] facing entity @e[tag=arena_mid,scores={maplock=1},limit=1] feet rotated ~ 0 positioned ^-2 ^ ^ run function ut:game/arena/map_spawnpoint_player
+execute if entity @a[tag=chosenhere] facing entity @e[tag=arena_mid,scores={maplock=1},limit=1] feet rotated ~ 0 positioned ^ ^ ^2 run function ut:game/arena/map_spawnpoint_player
+execute if entity @a[tag=chosenhere] facing entity @e[tag=arena_mid,scores={maplock=1},limit=1] feet rotated ~ 0 positioned ^ ^ ^-2 run function ut:game/arena/map_spawnpoint_player
+execute if entity @a[tag=chosenhere] facing entity @e[tag=arena_mid,scores={maplock=1},limit=1] feet rotated ~ 0 positioned ^2 ^ ^-2 run function ut:game/arena/map_spawnpoint_player
+execute if entity @a[tag=chosenhere] facing entity @e[tag=arena_mid,scores={maplock=1},limit=1] feet rotated ~ 0 positioned ^-2 ^ ^-2 run function ut:game/arena/map_spawnpoint_player
+execute if entity @a[tag=chosenhere] facing entity @e[tag=arena_mid,scores={maplock=1},limit=1] feet rotated ~ 0 positioned ^2 ^ ^2 run function ut:game/arena/map_spawnpoint_player
+execute if entity @a[tag=chosenhere] facing entity @e[tag=arena_mid,scores={maplock=1},limit=1] feet rotated ~ 0 positioned ^-2 ^ ^2 run function ut:game/arena/map_spawnpoint_player
 tp @a[tag=chosenhere] ~ ~ ~ ~ ~
 
 tag @a[tag=chosenhere] remove tobechosen
