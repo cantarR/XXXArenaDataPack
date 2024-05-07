@@ -533,3 +533,6 @@ scoreboard objectives add end_dec_trail_time dummy
 
 scoreboard objectives add burn_timer dummy
 scoreboard objectives add burn_level dummy
+
+#fda
+function fda:init/scoreboard
