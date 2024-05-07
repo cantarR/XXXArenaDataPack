@@ -28,7 +28,7 @@ scoreboard players set allow_roomP info 1
 scoreboard players set admin_mode info 0
 scoreboard players set hq_parkour info 1
 scoreboard players set TeamLimit info 8
-scoreboard players set TeamCount info 8
+scoreboard players set TeamCount info 16
 scoreboard players set PlayerLimit info 8
 scoreboard players set -use map 1
 scoreboard players set -GameMode game 1

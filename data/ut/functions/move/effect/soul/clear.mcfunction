@@ -9,6 +9,8 @@ execute if entity @s[tag=effect_soul_patience] run function ut:move/effect/soul/
 execute if entity @s[tag=effect_soul_integrity] run function ut:move/effect/soul/integrity/clear
 execute if entity @s[tag=effect_soul_perseverance] run function ut:move/effect/soul/perseverance/clear
 
+function fda:move/effect/soul/clear
+
 scoreboard players operation #atker pid = @s pid
 execute as @e[tag=boss_soul] if score @s sid = #atker pid run kill @s
 

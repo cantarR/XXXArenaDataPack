@@ -41,7 +41,7 @@ execute if score @s magic_bullet_count matches 7 run tag @e[tag=magic_bullet_ext
 scoreboard players operation #player pid = @s pid
 execute as @e[tag=inited] run scoreboard players operation @s pid = #player pid
 
-scoreboard players set @e[tag=inited] magic_bullet_timer 25
+scoreboard players set @e[tag=inited] life 40
 
 function ut:move/fill_bullet/stop
 execute at @e[tag=inited] positioned ^ ^0.5 ^-0.1 facing entity @e[tag=magic_bullet_pre] eyes run particle minecraft:dust 0.051 0.008 0.302 12 ^ ^ ^-4 1 1 1 128 128 force @a

@@ -23,5 +23,3 @@ execute if data entity @s SelectedItem.tag.overheat_harpoon run function ut:move
 
 execute if data entity @s SelectedItem.tag.end_dec_sickle_pre run function ut:move/end_dec_sickle_pre/melee
 #
-#fda add
-function fda:move/melee/success

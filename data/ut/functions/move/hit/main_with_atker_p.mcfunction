@@ -20,7 +20,15 @@ scoreboard players operation #true_damage damage *= @s def
 scoreboard players operation #true_damage damage /= #rate def
 execute if score @s def matches ..0 run scoreboard players set #true_damage damage 0
 
+execute if entity @s[tag=cannot_attack] run scoreboard players set #true_damage damage 0
+
 ###Attacker Passive
+execute as @a[tag=atker_p,tag=effect_soul_gluttony] run function fda:move/effect/soul/gluttony/main
+
+execute if entity @a[tag=atker_p,tag=effect_soul_pride] if score @s hp >= @a[tag=atker_p,limit=1] hp run function fda:move/effect/soul/pride/main
+
+execute if entity @s[tag=effect_soul_pride] if score @s hp >= @a[tag=atker_p,limit=1] hp run function fda:move/effect/soul/pride/damage
+
 execute if entity @a[tag=atker_p,tag=passive_toriel] run function ut:move/passive/toriel/main
 
 execute if entity @a[tag=atker_p,tag=passive_napstablook] run function ut:move/passive/napstablook/main
@@ -32,6 +40,8 @@ execute if entity @a[tag=atker_p,tag=passive_rancon] run function ut:move/passiv
 execute if entity @s[tag=passive_dongbaek] if entity @a[tag=atker_p,tag=effect_blooming] run function ut:move/passive/dongbaek/main
 
 execute as @a[tag=atker_p,tag=passive_ahab] run function ut:move/passive/ahab/main
+
+execute if entity @a[tag=atker_p,tag=effect_soul_gloom] run function ut:move/effect/sadness/max
 ###Damage
 execute if score #damage damage matches 1.. run function ut:move/hit/red_filter
 function ut:move/hit/damage

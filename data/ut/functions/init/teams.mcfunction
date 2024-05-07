@@ -123,7 +123,7 @@ team modify touched color yellow
 team add nocol {"translate":"team.nocol"}
 team modify nocol collisionRule never
 
-team add t9 "GULA"
+team add t9 "GLUT"
 team modify t9 displayName ["",{"translate":"tem.chat","color":"#95b300"}]
 team modify t9 color reset
 team modify t9 friendlyFire false

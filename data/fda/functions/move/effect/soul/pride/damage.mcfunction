@@ -1,0 +1,1 @@
+scoreboard players operation #true_damage damage /= 2 const

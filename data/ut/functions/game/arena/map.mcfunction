@@ -73,6 +73,8 @@ execute as @e[tag=empty_spawn,tag=active_spawn,limit=1,sort=random] at @s run fu
 ###Pos16
 execute as @e[tag=empty_spawn,tag=active_spawn,limit=1,sort=random] at @s run function ut:game/arena/map_spawnpoint
 
+execute as @a[tag=tobechosen] run tag @s remove tobechosen
+
 execute as @a[tag=tobechosen,tag=!sy] at @s run function ut:game/start_spectator
 tag @e[tag=active_spawn] remove active_spawn
 #############################################
