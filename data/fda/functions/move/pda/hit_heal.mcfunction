@@ -9,7 +9,7 @@ execute if entity @s[tag=pda_dispensers] run scoreboard players set @s range 160
 execute if entity @s[tag=pda_teleporter_exit] run scoreboard players set @s pda_knock 6
 execute if entity @s[tag=pda_teleporter_exit] run scoreboard players set @s range 1600
 execute if entity @s[tag=pda_teleporter_entrance] run scoreboard players set @s pda_knock 6
-execute if entity @s[tag=pda_teleporter_entrance] run scoreboard players set @s pda_knock 1600
+execute if entity @s[tag=pda_teleporter_entrance] run scoreboard players set @s range 1600
 
 
 
