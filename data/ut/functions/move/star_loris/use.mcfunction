@@ -10,3 +10,4 @@ tp @e[tag=st_center,tag=summon_st] ~ ~ ~ ~ 0
 execute as @e[tag=st_center,tag=summon_st] run scoreboard players operation @s pid = #player pid
 tag @e remove summon_st
 function ut:player/infight/use
+effect give @s speed 2 2 true

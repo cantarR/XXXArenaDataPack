@@ -1,6 +1,6 @@
 {
-  "pack": {
-    "pack_format": 15,
-    "description": "Official Datapack for Undertale Arena"
-  }
+	"pack": {
+		"pack_format": 15,
+		"description": "Datapack for ForDreamArena, base on Undertale Arena Datapack"
+	}
 }

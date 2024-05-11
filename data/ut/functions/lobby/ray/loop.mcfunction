@@ -1,4 +1,6 @@
 #By Nebulirion
+execute if entity @s[tag=ray_rc] run function ut:lobby/ray/speed
+
 
 execute unless block ~ ~ ~ #ut:soul_trans run function ut:lobby/ray/solid
 execute if block ~ ~ ~ cave_air run scoreboard players set @s ray_distance 10

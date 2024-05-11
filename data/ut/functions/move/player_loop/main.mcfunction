@@ -30,7 +30,7 @@ execute if entity @s[tag=effect_silence_fear] run function ut:move/effect/silenc
 
 execute if entity @s[tag=effect_noise_despair] run function ut:move/effect/noise_despair/loop
 
-execute if entity @s[tag=effect_kite_heal] run function ut:move/effect/kite_heal/loop
+execute if entity @s[tag=effect_soul_heal] run function ut:move/effect/soul_heal/loop
 
 execute if entity @s[tag=effect_blooming] run function ut:move/effect/blooming/loop
 

@@ -16,7 +16,14 @@ execute if score #soultype store matches 6 run function ut:move/soul/perseveranc
 execute if score #soultype store matches 7 run function ut:move/soul/kindness/use
 execute if score #soultype store matches 8 run function ut:move/soul/monster/use
 
-function fda:move/soul/use
+execute if score #soultype store matches 9 run function ut:move/soul/gluttony/use
+execute if score #soultype store matches 10 run function ut:move/soul/lust/use
+execute if score #soultype store matches 11 run function ut:move/soul/sloth/use
+execute if score #soultype store matches 12 run function ut:move/soul/wrath/use
+execute if score #soultype store matches 13 run function ut:move/soul/envy/use
+execute if score #soultype store matches 14 run function ut:move/soul/pride/use
+execute if score #soultype store matches 15 run function ut:move/soul/gloom/use
+execute if score #soultype store matches 16 run function ut:move/soul/void/use
 
 function ut:move/soul/cast
 

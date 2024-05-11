@@ -1,1 +1,0 @@
-tag @s add effect_soul_pride
