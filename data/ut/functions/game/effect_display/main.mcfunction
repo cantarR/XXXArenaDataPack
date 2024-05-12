@@ -50,3 +50,19 @@ execute if entity @s[tag=effect_burn] run function ut:game/effect_display/0179
 execute if entity @s[tag=effect_aid_attack] run function ut:game/effect_display/0180
 
 execute if entity @s[tag=effect_dongbaek] run function ut:game/effect_display/0181
+
+execute if entity @s[tag=effect_mechanical_allergy] run function ut:game/effect_display/0182
+
+execute if entity @s[tag=effect_mechanical_expert] run function ut:game/effect_display/0183
+
+execute if entity @s[tag=effect_nowrench] run function ut:game/effect_display/0184
+
+execute as @e[tag=pda_dispensers] if score @s pid = #player pid run function ut:game/effect_display/0185
+
+execute as @e[tag=pda_teleporter_exit] if score @s pid = #player pid run function ut:game/effect_display/0186
+
+execute as @e[tag=pda_sentry,limit=1] if score @s pid = #player pid run function ut:game/effect_display/0187
+
+execute as @e[tag=pda_sentry,limit=1] if score @s pid = #player pid run function ut:game/effect_display/0188
+
+execute as @e[tag=pda_sentry,limit=1] if score @s pid = #player pid run function ut:game/effect_display/0189

@@ -1,0 +1,3 @@
+execute unless score #highest aid matches 0 run data modify storage ut:soul EffectList prepend value '[{"text":"\\uF819\\uF817\\uF413\\uF812"},{"text":"","font":"minecraft:back.state.small","extra":[{"score":{"objective":"hud","name":"fda_timer013_3"}},{"text":"."},{"score":{"objective":"hud","name":"fda_timer013_3_ms"}},{"text":"s"}]},{"text":"","font":"minecraft:display","extra":[{"score":{"objective":"hud","name":"fda_timer013_3"}},{"text":"."},{"score":{"objective":"hud","name":"fda_timer013_3_ms"}},{"text":"s"}]},{"text":"\\uF819\\uF815"}]'
+
+execute unless score #highest aid matches 0 run data modify storage ut:soul EffectList append value '{"text":"\\uF839\\uF838"}'
