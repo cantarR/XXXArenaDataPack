@@ -57,12 +57,12 @@ execute if entity @s[tag=effect_mechanical_expert] run function ut:game/effect_d
 
 execute if entity @s[tag=effect_nowrench] run function ut:game/effect_display/0184
 
-execute if entity @s[tag=pda_dispensers_actionbar] run function ut:game/effect_display/0185
+execute as @e[tag=pda_dispensers] if score @s pid = #player pid run function ut:game/effect_display/0185
 
-execute if entity @s[tag=pda_teleporter_actionbar] run function ut:game/effect_display/0186
+execute as @e[tag=pda_teleporter_exit] if score @s pid = #player pid run function ut:game/effect_display/0186
 
-execute if entity @s[tag=pda_sentry_actionbar_lowest] run function ut:game/effect_display/0187
+execute as @e[tag=pda_sentry,limit=1] if score @s pid = #player pid run function ut:game/effect_display/0187
 
-execute if entity @s[tag=pda_sentry_actionbar_middle] run function ut:game/effect_display/0188
+execute as @e[tag=pda_sentry,limit=1] if score @s pid = #player pid run function ut:game/effect_display/0188
 
-execute if entity @s[tag=pda_sentry_actionbar_highest] run function ut:game/effect_display/0189
+execute as @e[tag=pda_sentry,limit=1] if score @s pid = #player pid run function ut:game/effect_display/0189
