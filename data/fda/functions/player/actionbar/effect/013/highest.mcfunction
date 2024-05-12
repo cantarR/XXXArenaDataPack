@@ -1,7 +1,7 @@
 
 
 scoreboard players operation fda_timer013_3 hud = @e[tag=pda_sentry_actionbar_highest,limit=1] range
-scoreboard players operation fda_timer013_3_ms hud = fda_timer013_1 hud
+scoreboard players operation fda_timer013_3_ms hud = fda_timer013_3 hud
 scoreboard players operation fda_timer013_3 hud /= 20 const
 scoreboard players operation fda_timer013_3_ms hud %= 20 const
 scoreboard players operation fda_timer013_3_ms hud /= 2 const
