@@ -43,3 +43,5 @@ execute if data entity @s SelectedItem.tag.overheat_harpoon if score @s mldis ma
 
 #fda
 function fda:move/mp/use
+
+function mypacks:move/mp/use

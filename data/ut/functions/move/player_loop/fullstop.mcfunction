@@ -42,6 +42,7 @@ execute if entity @s[tag=effect_infolink] run function ut:move/effect/infolink/c
 execute if entity @s[tag=effect_nofall] run function ut:move/effect/nofall/clear
 execute if entity @s[tag=effect_novoid] run function ut:move/effect/novoid/clear
 execute if entity @s[tag=effect_untarget] run function ut:move/effect/untargetable/clear
+execute if entity @s[tag=effect_untarget_lite] run function ut:move/effect/untargetable_lite/clear
 
 execute if entity @s[tag=effect_kite_heal] run function ut:move/effect/kite_heal/clear
 

@@ -13,4 +13,4 @@ scoreboard players operation #player damage = @s atk
 scoreboard players operation #player pid = @s pid
 scoreboard players operation #player tid = @s tid
 scoreboard players add #aid aid 1
-execute as @e[tag=summon,limit=3] positioned as @s anchored feet run function ut:move/fireball_loris/_sys/cast
+execute as @e[tag=summon,tag=fireball_loris,limit=3] positioned as @s anchored feet run function ut:move/fireball_loris/_sys/cast

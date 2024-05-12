@@ -1,4 +1,4 @@
-function ut:move/effect/soul/sloth/give
+function ut:move/effect/soul/pride/give
 
 title @s title {"translate":"tem.14","color":"#1c2a99"}
 title @s subtitle {"translate":"soul.14"}

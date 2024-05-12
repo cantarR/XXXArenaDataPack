@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.teddy_hug run function mypacks:move/teddy_hug/use

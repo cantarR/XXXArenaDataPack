@@ -21,6 +21,7 @@ execute if entity @s[tag=effect_infolink] run function ut:move/effect/infolink/l
 execute if entity @s[tag=effect_nofall] run function ut:move/effect/nofall/loop
 execute if entity @s[tag=effect_novoid] run function ut:move/effect/novoid/loop
 execute if entity @s[tag=effect_untarget] run function ut:move/effect/untargetable/loop
+execute if entity @s[tag=effect_untarget_lite] run function ut:move/effect/untargetable_lite/loop
 
 execute if entity @s[tag=effect_black_flame] run function ut:move/effect/black_flame/loop
 

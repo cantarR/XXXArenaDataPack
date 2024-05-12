@@ -43,6 +43,8 @@ tag @s remove passive_end_dec
 #fda
 function fda:move/passive/setup/prepare
 
+function mypacks:move/passive/remove
+
 ###
 data modify storage ut:soul Temp set value {passive:"none"}
 data modify storage ut:soul Temp.passive set from entity @s Inventory[{Slot:102b}].tag.passive
@@ -63,21 +65,15 @@ execute if data storage ut:soul Temp{passive:"napstablook"} run tag @s add passi
 execute if data storage ut:soul Temp{passive:"maddummy"} run tag @s add passive_maddummy
 execute if data storage ut:soul Temp{passive:"mettatonex"} run tag @s add passive_mettatonex
 execute if data storage ut:soul Temp{passive:"default"} run tag @s add passive_default
-
 execute if data storage ut:soul Temp{passive:"magic_bullet"} run tag @s add passive_magic_bullet
-
 execute if data storage ut:soul Temp{passive:"rancon"} run tag @s add passive_rancon
-
 execute if data storage ut:soul Temp{passive:"loris"} run tag @s add passive_loris
-
 execute if data storage ut:soul Temp{passive:"kite"} run tag @s add passive_kite
-
 execute if data storage ut:soul Temp{passive:"dongbaek"} run tag @s add passive_dongbaek
-
 execute if data storage ut:soul Temp{passive:"ahab"} run tag @s add passive_ahab
-
 execute if data storage ut:soul Temp{passive:"end_dec"} run tag @s add passive_end_dec
 
+function mypacks:move/passive/setup
 #fda
 function fda:move/passive/setup/main
 
@@ -87,6 +83,7 @@ scoreboard players set @s passive_timer 0
 execute if entity @s[tag=dt_ready] run function ut:move/passive/dt_fill
 execute if entity @s[tag=passive_asgore] run function ut:move/nomercy/passive
 execute if entity @s[tag=passive_mettaton] run function ut:move/passive/mettaton/give
+
 execute if data entity @s Inventory[{tag:{sp_show:1b}}] unless data entity @s Inventory[{tag:{sp_switch:1b}}] run function ut:move/sp_show/switch/give
 
 #fda

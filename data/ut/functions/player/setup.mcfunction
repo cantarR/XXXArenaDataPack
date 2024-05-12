@@ -39,7 +39,6 @@ function ut:player/restore
 function ut:player/attribute/speed
 #
 function ut:move/passive/setup
-function mypacks:player/extra_move
 #
 function ut:player/effect
 #

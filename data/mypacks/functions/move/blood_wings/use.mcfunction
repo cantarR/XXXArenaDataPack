@@ -1,1 +1,1 @@
-execute as @s anchored eyes rotated ~-15 ~ run function mypacks:internal/branch
+execute as @s anchored eyes rotated ~ ~ run function mypacks:internal/branch2

@@ -2,6 +2,7 @@
 	"replace": false,
 	"values": [
 		"ut:init/reload_chr_storage",
-		"ut:init/restart"
+		"ut:init/restart",
+		"mypacks:init"
 	]
 }

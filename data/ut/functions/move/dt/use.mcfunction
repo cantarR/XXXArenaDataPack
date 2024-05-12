@@ -34,3 +34,5 @@ execute if data entity @s SelectedItem.tag.end_dec_sickle run function ut:move/e
 
 #fda
 function fda:move/dt/use
+
+function mypacks:move/dt/use

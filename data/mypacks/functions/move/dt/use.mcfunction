@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.library_of_ruina run function mypacks:move/library_of_ruina/use

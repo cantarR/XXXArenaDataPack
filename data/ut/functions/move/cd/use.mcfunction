@@ -44,3 +44,5 @@ scoreboard players add @s unloadtime 5
 
 #fda
 function fda:move/cd/use
+
+function mypacks:move/cd/use

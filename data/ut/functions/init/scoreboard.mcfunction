@@ -510,8 +510,8 @@ scoreboard objectives add black_flame_level dummy
 scoreboard objectives add rancon_wound_timer dummy
 scoreboard objectives add rancon_wound_level dummy
 
-scoreboard objectives add kite_heal_timer dummy
-scoreboard objectives add kite_heal_timer2 dummy
+scoreboard objectives add soul_heal_timer dummy
+scoreboard objectives add soul_heal_timer2 dummy
 
 scoreboard objectives add use_count dummy
 

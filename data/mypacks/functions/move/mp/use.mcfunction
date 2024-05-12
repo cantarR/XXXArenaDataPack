@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.blood_wings run function mypacks:move/blood_wings/use
