@@ -23,11 +23,11 @@ execute if score @s def matches ..0 run scoreboard players set #true_damage dama
 execute if entity @s[tag=cannot_attack] run scoreboard players set #true_damage damage 0
 
 ###Attacker Passive
-execute as @a[tag=atker_p,tag=effect_soul_gluttony] run function fda:move/effect/soul/gluttony/main
+execute as @a[tag=atker_p,tag=effect_soul_gluttony] run function ut:move/effect/soul/gluttony/main
 
-execute if entity @a[tag=atker_p,tag=effect_soul_pride] if score @s hp >= @a[tag=atker_p,limit=1] hp run function fda:move/effect/soul/pride/main
+execute if entity @a[tag=atker_p,tag=effect_soul_pride] if score @s hp >= @a[tag=atker_p,limit=1] hp run function ut:move/effect/soul/pride/main
 
-execute if entity @s[tag=effect_soul_pride] if score @s hp >= @a[tag=atker_p,limit=1] hp run function fda:move/effect/soul/pride/damage
+execute if entity @s[tag=effect_soul_pride] if score @s hp >= @a[tag=atker_p,limit=1] hp run function ut:move/effect/soul/pride/damage
 
 execute if entity @a[tag=atker_p,tag=passive_toriel] run function ut:move/passive/toriel/main
 
