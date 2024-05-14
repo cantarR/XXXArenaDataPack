@@ -1,0 +1,19 @@
+
+
+tag @s add untargetable
+
+scoreboard players operation #atker pid = @s pid
+scoreboard players operation #atker tid = @s tid
+
+scoreboard players set -dash_fail store 1
+
+scoreboard players set @s ray_distance 19
+particle dust 0 0 0 1.2 ~ ~1 ~ 0.4 0.5 0.4 0 15 force @a
+execute at @s rotated ~ 0 positioned ^ ^ ^.25 run function cua:move/wtk_dodge/step
+execute if score -dash_fail store matches 1 align xyz run tp @s ~.5 ~ ~.5
+
+tag @s remove dash_up
+tag @s remove untargetable
+
+scoreboard players set @s unloadtime 0
+function ut:player/infight/use

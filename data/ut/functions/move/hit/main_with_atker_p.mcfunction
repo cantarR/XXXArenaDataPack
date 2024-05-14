@@ -22,6 +22,9 @@ execute if score @s def matches ..0 run scoreboard players set #true_damage dama
 
 execute if entity @a[tag=atker_p,tag=cannot_attack] run scoreboard players set #true_damage damage 0
 
+#cua
+function cua:move/hit/main_with_atker_p/damage_calculation
+
 ###Attacker Passive
 execute as @a[tag=atker_p,tag=effect_soul_gluttony] run function ut:move/effect/soul/gluttony/main
 

@@ -86,3 +86,6 @@ execute if entity @s[tag=harpoon_attacking] run function ut:move/stubborn_harpoo
 
 #fda
 function fda:move/player_loop/main
+
+#cua
+function cua:move/player_loop/main

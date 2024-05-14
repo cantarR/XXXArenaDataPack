@@ -6,7 +6,7 @@ execute if entity @s[tag=pda_teleporter_exit] run function fda:move/pda/teleport
 execute if entity @s[tag=pda_teleporter_entrance] run function fda:move/pda/teleporter/entrance/stop
 
 scoreboard players operation #player pid = @s pid
-execute if score @s range matches -2700 as @a if score @s pid = #player pid run function fda:move/effect/mechanical_expert/give
+execute if score @s range matches ..-2500 as @a if score @s pid = #player pid run function fda:move/effect/mechanical_expert/give
 
 function ut:void
 

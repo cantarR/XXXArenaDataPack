@@ -1,0 +1,3 @@
+data modify storage ut:soul EffectList prepend value '[{"text":"\\uF819\\uF817\\uF416\\uF812"},{"text":"","font":"minecraft:back.state.small","extra":[{"score":{"objective":"hud","name":"fda_timer016"}},{"text":"."},{"score":{"objective":"hud","name":"fda_timer016_ms"}},{"text":"s"}]},{"text":"","font":"minecraft:display","extra":[{"score":{"objective":"hud","name":"fda_timer016"}},{"text":"."},{"score":{"objective":"hud","name":"fda_timer016_ms"}},{"text":"s"}]},{"text":"\\uF819\\uF815"}]'
+
+data modify storage fd:soul EffectList append value '{"text":"\\uF839\\uF838"}'

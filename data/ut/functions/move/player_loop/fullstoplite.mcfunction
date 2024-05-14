@@ -31,6 +31,10 @@ execute if entity @s[tag=paper_plane_user] run function ut:move/paper_plane_kite
 #snh slash
 execute if entity @s[tag=snh_slash_user] run function ut:move/snh_slash/stop
 execute if entity @s[tag=snh_slash_slash_user] run function ut:move/snh_slash/slash/stop
+
+#cua
+function cua:move/player_loop/fullstoplite
+
 scoreboard players reset @s plt2
 scoreboard players reset @s plt2b
 scoreboard players reset @s plt1

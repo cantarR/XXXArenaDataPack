@@ -1,7 +1,7 @@
 
 
 ###MOVEMENT
-scoreboard players set @s range 120
+scoreboard players set @s range 180
 scoreboard players set @s speed 45
 scoreboard players operation @s speed *= #player prj_speed
 scoreboard players operation @s speed /= 100 const
