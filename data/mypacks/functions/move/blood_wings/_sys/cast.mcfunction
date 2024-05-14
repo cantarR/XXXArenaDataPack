@@ -18,8 +18,9 @@ scoreboard players set @s gravity 5
 tp @s ~ ~ ~ ~ ~
 tag @s remove summon
 execute at @s run function mypacks:move/blood_wings/_sys/cast_motion
-execute as @a[tag=playing,tag=!untargetable] unless score @s tid = #player tid run tag @s add wings_target
+execute as @a[tag=playing,tag=!untargetable,distance=..8] unless score @s tid = #player tid run tag @s add wings_target
 execute at @p[tag=wings_target] run summon marker ~ ~1.5 ~ {Tags:[true_wings_target]}
 execute facing entity @e[tag=true_wings_target,limit=1,sort=nearest] feet run tp @s ~ ~ ~ facing entity @e[tag=true_wings_target,limit=1,sort=nearest] eyes
+execute unless entity @a[tag=wings_target] run tp @s[tag=blood_wings] ~ ~ ~ ~ -45
 kill @e[type=marker,tag=true_wings_target]
 tag @a remove wings_target

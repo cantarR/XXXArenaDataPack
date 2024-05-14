@@ -4,6 +4,6 @@ scoreboard players operation #player pid = @s pid
 scoreboard players operation #player tid = @s tid
 scoreboard players operation #aid aid = @s aid
 scoreboard players operation @e[tag=summon,limit=1] lifetime = @s lifetime
-scoreboard players remove @e[tag=summon,limit=1] lifetime 5
+scoreboard players remove @e[tag=summon,limit=1] lifetime 10
 tag @s add summoned
 execute as @e[tag=summon,limit=1] positioned as @s anchored feet run function mypacks:move/blood_wings/_sys/cast
