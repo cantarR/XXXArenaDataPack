@@ -2,6 +2,8 @@
 
 function ut:move/gas_harpoon/particles/loop
 
+execute if entity @s[tag=attack_buffed] run function ut:move/gas_harpoon/overheat
+
 playsound minecraft:item.trident.riptide_1 player @a ~ ~ ~ 2 1
 
 scoreboard players set -new mlmax 40

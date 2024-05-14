@@ -5,7 +5,6 @@ summon marker ~ ~ ~ {Tags:[summon,low_search],CustomName:'"LowPos Finder"'}
 
 #ray tag add
 tag @s add ray_find
-
 #avoiding lowest problem
 ##get the lowest place's score
 execute store result score t y_pos run data get entity @e[tag=low_search,limit=1] Pos[1] 100

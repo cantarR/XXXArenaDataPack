@@ -13,4 +13,6 @@ execute if entity @s[tag=green_flame] at @s run function ut:move/green_flame/loo
 #fda
 function fda:move/prj_sp
 
+function mypacks:move/prj_sp
+
 function ut:move/lifetime

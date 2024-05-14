@@ -16,5 +16,5 @@ data modify storage ut:temp OFFITEM set from entity @s Inventory[{Slot:-106b}]
 data modify storage ut:temp OFFITEM.Slot set value 0b
 data modify block 255 0 255 Items append from storage ut:temp OFFITEM
 
-function ut:player/nooffhand/return
+#function ut:player/nooffhand/return
 item replace entity @s weapon.offhand with air

@@ -1,5 +1,6 @@
 clear @s carrot_on_a_stick{ahab_ego:1b}
 tag @s remove effloresced_ego_gasharpoon
+tag @s remove attack_buffed
 function ut:move/passive/setup
 function ut:move/player_loop/fullstop
 particle dust 0.776 0.776 0.776 4 ~ ~ ~ 1 2 1 4 1024

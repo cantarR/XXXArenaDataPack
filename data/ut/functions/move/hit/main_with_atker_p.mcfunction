@@ -20,7 +20,7 @@ scoreboard players operation #true_damage damage *= @s def
 scoreboard players operation #true_damage damage /= #rate def
 execute if score @s def matches ..0 run scoreboard players set #true_damage damage 0
 
-execute if entity @s[tag=cannot_attack] run scoreboard players set #true_damage damage 0
+execute if entity @a[tag=atker_p,tag=cannot_attack] run scoreboard players set #true_damage damage 0
 
 ###Attacker Passive
 execute as @a[tag=atker_p,tag=effect_soul_gluttony] run function ut:move/effect/soul/gluttony/main

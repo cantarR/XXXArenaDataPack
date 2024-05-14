@@ -2,7 +2,6 @@
 
 #ray init
 scoreboard players set -distance ray_distance 8
-
 #ray down
 function ut:move/delete/ray_floor_loop
 

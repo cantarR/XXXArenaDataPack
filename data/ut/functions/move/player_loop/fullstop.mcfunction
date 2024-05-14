@@ -44,7 +44,7 @@ execute if entity @s[tag=effect_novoid] run function ut:move/effect/novoid/clear
 execute if entity @s[tag=effect_untarget] run function ut:move/effect/untargetable/clear
 execute if entity @s[tag=effect_untarget_lite] run function ut:move/effect/untargetable_lite/clear
 
-execute if entity @s[tag=effect_kite_heal] run function ut:move/effect/kite_heal/clear
+execute if entity @s[tag=effect_soul_heal] run function ut:move/effect/soul_heal/clear
 
 execute if entity @s[tag=passive_flowey_ready] run function ut:move/passive/flowey/clear
 execute if entity @s[tag=passive_alphys_ready] run function ut:move/passive/alphys/clear

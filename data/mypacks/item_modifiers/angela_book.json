@@ -1,0 +1,6 @@
+{
+    "function":"minecraft:set_lore",
+    "lore":[{"translate":"chr.angela.sp1","italic":false,"color":"white"},{"translate":"chr.angela.sp2","italic":false,"color":"white"},{"translate":"chr.angela.sp3","italic":false,"color":"white"},{"translate":"chr.angela.sp4","italic":false,"color":"white"},{"translate":"chr.angela.spcount","italic":false,"color":"yellow"},{"extra":[{"score":{"objective":"angela_page_count","name":"page"}},{"text":" / 3"}],"text": "","italic":false,"color":"yellow"},{"translate":"chr.angela.splist","italic":false,"color":"red","bold":true}],
+    "replace": true,
+    "entity": "this"
+}

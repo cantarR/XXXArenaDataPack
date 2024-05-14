@@ -1,10 +1,10 @@
-execute anchored eyes rotated ~ ~ run particle dust 1 1 1 0.8 ^ ^ ^3 0 0 0 0.5 4
-execute anchored eyes rotated ~ ~3 run particle dust 1 1 1 0.8 ^ ^ ^3 0 0 0 0.5 4
-execute anchored eyes rotated ~ ~6 run particle dust 1 1 1 0.8 ^ ^ ^3 0 0 0 0.5 4
-execute anchored eyes rotated ~ ~ run particle dust 1 1 1 0.7 ^ ^ ^2.6 0 0 0 0.8 4
-execute anchored eyes rotated ~ ~3 run particle dust 1 1 1 0.7 ^ ^ ^2.6 0 0 0 0.8 4
-execute anchored eyes rotated ~ ~ run particle dust 1 1 1 0.6 ^ ^ ^2.2 0 0 0 0.8 4
-execute anchored eyes rotated ~ ~3 run particle dust 1 1 1 0.6 ^ ^ ^2.2 0 0 0 0.8 4
+execute anchored eyes rotated ~ ~ run particle dust 1 0.8 0 0.8 ^ ^ ^3 0 0 0 0.5 4
+execute anchored eyes rotated ~ ~3 run particle dust 0.804 0.792 0 0.8 ^ ^ ^3 0 0 0 0.5 4
+execute anchored eyes rotated ~ ~6 run particle dust 0.533 0.694 0 0.8 ^ ^ ^3 0 0 0 0.5 4
+execute anchored eyes rotated ~ ~ run particle dust 0.173 0.173 0.173 0.7 ^ ^ ^2.6 0 0 0 0.8 4
+execute anchored eyes rotated ~ ~3 run particle dust 0.196 0.196 0.196 0.7 ^ ^ ^2.6 0 0 0 0.8 4
+execute anchored eyes rotated ~ ~ run particle dust 0.196 0.196 0.196 0.6 ^ ^ ^2.2 0 0 0 0.8 4
+execute anchored eyes rotated ~ ~3 run particle dust 0.212 0.212 0.212 0.6 ^ ^ ^2.2 0 0 0 0.8 4
 execute anchored eyes rotated ~ ~ run particle dust 1 1 1 0.5 ^ ^ ^1.8 0 0 0 0.8 4
 execute anchored eyes rotated ~ ~3 run particle dust 1 1 1 0.5 ^ ^ ^1.8 0 0 0 0.8 4
 execute anchored eyes rotated ~ ~ run particle dust 1 1 1 0.4 ^ ^ ^1.4 0 0 0 0.8 4
