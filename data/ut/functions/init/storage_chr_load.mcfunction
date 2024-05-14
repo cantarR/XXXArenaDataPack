@@ -4,8 +4,10 @@
 scoreboard players operation -Index tech = -chr chr
 data modify storage ut:tech TargetList set from storage ut:chrs Data
 
-#fda
-function fda:init/storage_chr_load
+
+#cua
+execute if score -Index tech matches 67100..67199 run data modify storage ut:tech TargetList set from storage cua:chrs Data
+#
 
 function ut:technical/index/r/1_64
 data modify storage ut:chrs Temp set from storage ut:tech LoadedEntry

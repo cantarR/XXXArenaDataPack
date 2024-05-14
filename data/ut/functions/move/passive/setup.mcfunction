@@ -43,6 +43,9 @@ tag @s remove passive_end_dec
 #fda
 function fda:move/passive/setup/prepare
 
+#cua
+function cua:move/passive/setup/prepare
+
 function mypacks:move/passive/remove
 
 ###
@@ -77,6 +80,9 @@ function mypacks:move/passive/setup
 #fda
 function fda:move/passive/setup/main
 
+#cua
+function cua:move/passive/setup/main
+
 ###
 scoreboard players set @s passive_timer 0
 ###
@@ -88,3 +94,6 @@ execute if data entity @s Inventory[{tag:{sp_show:1b}}] unless data entity @s In
 
 #fda
 function fda:move/passive/setup/extra
+
+#cua
+function cua:move/passive/setup/extra

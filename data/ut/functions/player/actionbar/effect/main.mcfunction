@@ -58,3 +58,6 @@ execute if entity @s[tag=passive_dongbaek] if score @s count_a matches 1.. run f
 
 #fda
 function fda:player/actionbar/effect/main
+
+#cua
+function cua:player/actionbar/effect/main

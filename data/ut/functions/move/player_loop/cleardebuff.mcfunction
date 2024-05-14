@@ -24,3 +24,6 @@ execute if entity @s[tag=effect_fullblooming] run function ut:move/effect/fullbl
 
 #fda
 function fda:move/player_loop/cleardebuff
+
+#cua
+function cua:move/player_loop/cleardebuff

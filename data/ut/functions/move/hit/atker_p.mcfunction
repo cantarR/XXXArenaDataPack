@@ -16,5 +16,9 @@ execute if entity @s[tag=passive_asriel,tag=playing] if score #damage damage mat
 execute if entity @s[tag=passive_undyne,tag=playing] if score #damage damage matches 1.. run function ut:move/passive/undyne/reset
 #snh slash
 execute if entity @s[tag=snh_slash_slash_user] run function ut:move/snh_slash/slash/extra
+
+#cua
+function cua:move/hit/atker_p
+
 #
 tag @s remove atker_p

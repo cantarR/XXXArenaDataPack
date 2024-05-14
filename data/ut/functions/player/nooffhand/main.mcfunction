@@ -8,6 +8,9 @@ data modify block 255 0 255 Items append from storage ut:temp OFFITEM
 #fda
 function fda:player/offhand/main
 
+#cua
+function cua:player/offhand/main
+
 function ut:player/nooffhand/return
 item replace entity @s weapon.offhand with air
 

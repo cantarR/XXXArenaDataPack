@@ -23,3 +23,12 @@ execute if data entity @s SelectedItem.tag.overheat_harpoon run function ut:move
 
 execute if data entity @s SelectedItem.tag.end_dec_sickle_pre run function ut:move/end_dec_sickle_pre/melee
 #
+
+
+#cua add
+function cua:move/melee/success
+
+
+
+###The Last
+function ut:move/skill_use/_main

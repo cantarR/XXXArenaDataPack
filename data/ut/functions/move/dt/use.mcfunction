@@ -35,4 +35,12 @@ execute if data entity @s SelectedItem.tag.end_dec_sickle run function ut:move/e
 #fda
 function fda:move/dt/use
 
+#cua
+function cua:move/dt/use
+
 function mypacks:move/dt/use
+
+
+
+###The Last
+function ut:move/skill_use/_main

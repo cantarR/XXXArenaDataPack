@@ -45,4 +45,12 @@ scoreboard players add @s unloadtime 5
 #fda
 function fda:move/cd/use
 
+#cua
+function cua:move/cd/use
+
+#
 function mypacks:move/cd/use
+
+
+###The Last
+function ut:move/skill_use/_main
