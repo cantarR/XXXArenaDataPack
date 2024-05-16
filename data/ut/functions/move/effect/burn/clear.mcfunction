@@ -1,6 +1,7 @@
 scoreboard players set #burn count_a 100
 scoreboard players operation #burn count_a *= @s burn_level
 scoreboard players operation #burn count_a /= 3 const
+scoreboard players operation #burn count_a *= @s black_flame_level
 scoreboard players operation #true_damage damage = #burn count_a
 scoreboard players operation #true_damage damage *= @s def
 scoreboard players operation #true_damage damage /= #rate def

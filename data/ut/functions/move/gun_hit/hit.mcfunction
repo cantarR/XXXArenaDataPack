@@ -4,6 +4,7 @@ function ut:move/hit/main_with_atker_p
 #
 execute if score @p[tag=gun_hiter] gun_hit_count matches 3 run function ut:move/effect/black_flame/give
 execute as @p[tag=gun_hiter] if score @s gun_hit_count matches 3.. run scoreboard players set @s gun_hit_count 0
-execute if score @p[tag=gun_hiter] magic_bullet_count matches 4.. run execute as @a[tag=hitcheck_target,sort=nearest] run function ut:move/effect/black_flame/give
+execute if score @s black_flame_level matches 1.. run function ut:move/effect/burn/give
+scoreboard players operation @s burn_level += @s black_flame_level
 execute as @a[tag=atker_melee] run function ut:move/gun_hit/hit_buffed
 execute as @p[tag=gun_hiter] run tag @s remove gun_hiter

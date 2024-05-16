@@ -85,6 +85,8 @@ function fda:move/player_loop/fullstop
 #cua
 function cua:move/player_loop/fullstop
 
+function mypacks:move/player_loop/fullstop
+
 function ut:move/player_loop/fullstoplite
 
 tag @s remove someone_empty

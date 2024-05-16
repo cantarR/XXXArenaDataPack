@@ -1,4 +1,4 @@
-scoreboard players add @s hp 100
+scoreboard players add @s hp 50
 function ut:player/hp/gain
 scoreboard players add @s will 5
 function ut:player/will/gain

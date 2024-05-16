@@ -39,6 +39,7 @@ function ut:player/restore
 function ut:player/attribute/speed
 #
 function ut:move/passive/setup
+scoreboard players operation @s will_store = @s willmax
 #
 function ut:player/effect
 #
