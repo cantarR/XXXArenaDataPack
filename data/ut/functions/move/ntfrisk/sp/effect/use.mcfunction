@@ -9,7 +9,6 @@ function ut:move/ntfrisk/sp/effect/par/cast
 
 playsound minecraft:block.suspicious_sand.break player @a ~ ~ ~ 1 1
 execute as @e[tag=ntfrisk_sp_om] run scoreboard players add @s life 99999
-scoreboard players add @s will 20
 attribute @s generic.movement_speed modifier add 11000-0-0-0-1 "ntfrisk_sp" 0.15 multiply
 scoreboard players set @s ntfrisk_sp_timer 200
 
