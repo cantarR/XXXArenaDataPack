@@ -19,8 +19,8 @@ function cua:move/_buffed/remove_status/1
 #execute if entity @s[tag=!injected,tag=!effect_soul_bravery] run tag @s remove attack_buffed
 #↓↓↓
 tag @s remove attack_buffed
-execute if entity @s[tag=injected] run tag @s add attack_buffed
-execute if entity @s[tag=effect_soul_bravery] run tag @s add attack_buffed
+execute if entity @s[tag=injected,tag=!attack_buffed] run tag @s add attack_buffed
+execute if entity @s[tag=effect_soul_bravery,tag=!attack_buffed] run tag @s add attack_buffed
 ##
 
 #cua
