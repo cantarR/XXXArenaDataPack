@@ -23,6 +23,7 @@ execute if data entity @s SelectedItem.tag.overheat_harpoon run function ut:move
 
 execute if data entity @s SelectedItem.tag.end_dec_sickle_pre run function ut:move/end_dec_sickle_pre/melee
 #
+execute if data entity @s SelectedItem.tag.ntfrisk_mp run function ut:move/ntfrisk/mp/use
 
 
 #cua add

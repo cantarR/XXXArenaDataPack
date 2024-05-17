@@ -39,6 +39,10 @@ execute if entity @s[tag=effect_fullblooming] run function ut:move/effect/fullbl
 
 execute if entity @s[tag=effect_burn] run function ut:move/effect/burn/loop
 
+execute if entity @s[tag=effect_defend] run function ut:move/effect/defend/loop
+execute if score @s effect_defend matches 1 run function ut:move/effect/defend/loop2
+
+
 execute if entity @s[tag=dig] run function ut:move/dig/loop
 execute if entity @s[tag=real_knife_user] run function ut:move/real_knife/loop
 execute if entity @s[tag=trident_user] run function ut:move/trident/user_loop
@@ -84,6 +88,10 @@ execute if entity @s[tag=overheat] run function ut:move/gas_harpoon/loop
 
 execute if entity @s[tag=harpoon_attacking] run function ut:move/stubborn_harpoon/loop
 
+execute if entity @s[tag=ntfrisk_cd] run function ut:move/ntfrisk/cd/loop
+execute if entity @s[tag=effect_ntfrisk_cd] run function ut:move/ntfrisk/cd/effect/loop
+execute if entity @s[tag=ntfrisk_dt_user] run function ut:move/ntfrisk/dt/use/loop
+execute if entity @s[tag=effect_ntfrisk_sp] run function ut:move/ntfrisk/sp/effect/loop
 #fda
 function fda:move/player_loop/main
 

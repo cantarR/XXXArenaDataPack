@@ -1,0 +1,1 @@
+execute unless data entity @s Inventory[{tag:{defend:1b}}] run function ut:move/defend/give

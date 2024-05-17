@@ -1,6 +1,6 @@
 summon minecraft:marker ~ ~ ~ {Tags:[atker,end_dec_sickle_pre,killonhit,blockable],CustomName:'{"translate":"chr.end_dec.dtn"}'}
-
-scoreboard players set #damage damage 300
+scoreboard players set -new mlmax 20
+scoreboard players set #damage damage 200
 scoreboard players operation #damage damage *= @s atk
 scoreboard players operation #damage damage /= #rate atk
 scoreboard players add @s plt3b 1

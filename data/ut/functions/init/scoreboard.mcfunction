@@ -530,8 +530,14 @@ scoreboard objectives add fullblooming_timer dummy
 scoreboard objectives add fullblooming_pid dummy
 
 scoreboard objectives add end_dec_trail_time dummy
+scoreboard objectives add effect_defend_timer dummy
+scoreboard objectives add effect_defend dummy
+scoreboard objectives add effect_defend_load_time dummy
 
 scoreboard objectives add burn_timer dummy
 scoreboard objectives add burn_level dummy
 
 scoreboard objectives add will_store dummy
+
+scoreboard objectives add ntfrisk_sp_timer dummy
+scoreboard objectives add ntfrisk_sp_score dummy

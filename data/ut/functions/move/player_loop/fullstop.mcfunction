@@ -43,6 +43,8 @@ execute if entity @s[tag=effect_nofall] run function ut:move/effect/nofall/clear
 execute if entity @s[tag=effect_novoid] run function ut:move/effect/novoid/clear
 execute if entity @s[tag=effect_untarget] run function ut:move/effect/untargetable/clear
 execute if entity @s[tag=effect_untarget_lite] run function ut:move/effect/untargetable_lite/clear
+execute if entity @s[tag=effect_defend] run function ut:move/effect/defend/clear
+execute if score @s effect_defend matches 1 run function ut:move/effect/defend/clear2
 
 execute if entity @s[tag=effect_soul_heal] run function ut:move/effect/soul_heal/clear
 
@@ -50,6 +52,10 @@ execute if entity @s[tag=passive_flowey_ready] run function ut:move/passive/flow
 execute if entity @s[tag=passive_alphys_ready] run function ut:move/passive/alphys/clear
 execute if entity @s[tag=passive_sans] run function ut:move/passive/sans/clear
 execute if entity @s[tag=passive_muffet] run function ut:move/passive/muffet/clear
+execute if entity @s[tag=passive_end_dec] run function ut:move/passive/end_dec/clear
+
+
+
 
 execute if entity @s[tag=attack_buffed] run function ut:move/_buffed/remove_status_full
 
@@ -79,6 +85,9 @@ execute if entity @s[tag=effloresced_ego_gasharpoon] run function ut:move/noble_
 
 execute if entity @s[tag=ahab_ego_pre] run function ut:move/noble_price/stop
 
+execute if entity @s[tag=ntfrisk_cd] run function ut:move/ntfrisk/cd/stop
+execute if entity @s[tag=effect_ntfrisk_cd] run function ut:move/ntfrisk/cd/effect/stop
+execute if entity @s[tag=effect_ntfrisk_sp] run function ut:move/ntfrisk/sp/effect/stop
 #fda
 function fda:move/player_loop/fullstop
 
