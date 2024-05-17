@@ -538,3 +538,6 @@ scoreboard objectives add burn_timer dummy
 scoreboard objectives add burn_level dummy
 
 scoreboard objectives add will_store dummy
+
+scoreboard objectives add ntfrisk_sp_timer dummy
+scoreboard objectives add ntfrisk_sp_score dummy

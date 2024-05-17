@@ -88,6 +88,10 @@ execute if entity @s[tag=overheat] run function ut:move/gas_harpoon/loop
 
 execute if entity @s[tag=harpoon_attacking] run function ut:move/stubborn_harpoon/loop
 
+execute if entity @s[tag=ntfrisk_cd] run function ut:move/ntfrisk/cd/loop
+execute if entity @s[tag=effect_ntfrisk_cd] run function ut:move/ntfrisk/cd/effect/loop
+execute if entity @s[tag=ntfrisk_dt_user] run function ut:move/ntfrisk/dt/use/loop
+execute if entity @s[tag=effect_ntfrisk_sp] run function ut:move/ntfrisk/sp/effect/loop
 #fda
 function fda:move/player_loop/main
 

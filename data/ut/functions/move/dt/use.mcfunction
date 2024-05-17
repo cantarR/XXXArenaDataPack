@@ -32,6 +32,8 @@ execute if data entity @s SelectedItem.tag.noble_price run function ut:move/nobl
 
 execute if data entity @s SelectedItem.tag.end_dec_sickle run function ut:move/end_dec_sickle/use
 
+execute if data entity @s SelectedItem.tag.ntfrisk_dt run function ut:move/ntfrisk/dt/use
+
 #fda
 function fda:move/dt/use
 

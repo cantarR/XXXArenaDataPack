@@ -40,6 +40,8 @@ tag @s remove passive_ahab
 
 tag @s remove passive_end_dec
 
+tag @s remove passive_ntfrisk
+
 #fda
 function fda:move/passive/setup/prepare
 
@@ -75,6 +77,7 @@ execute if data storage ut:soul Temp{passive:"kite"} run tag @s add passive_kite
 execute if data storage ut:soul Temp{passive:"dongbaek"} run tag @s add passive_dongbaek
 execute if data storage ut:soul Temp{passive:"ahab"} run tag @s add passive_ahab
 execute if data storage ut:soul Temp{passive:"end_dec"} run tag @s add passive_end_dec
+execute if data storage ut:soul Temp{passive:"ntfrisk"} run tag @s add passive_ntfrisk
 
 function mypacks:move/passive/setup
 #fda
@@ -95,6 +98,7 @@ execute if entity @s[tag=passive_mettaton] run function ut:move/passive/mettaton
 
 execute if data entity @s Inventory[{tag:{sp_show:1b}}] unless data entity @s Inventory[{tag:{sp_switch:1b}}] run function ut:move/sp_show/switch/give
 
+execute if entity @s[tag=passive_ntfrisk] run function ut:move/ntfrisk/sp/setup
 #fda
 function fda:move/passive/setup/extra
 

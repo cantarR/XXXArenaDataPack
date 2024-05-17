@@ -10,6 +10,9 @@ execute if entity @s[tag=floor_bone] run function ut:move/floor_bone/loop_bones
 execute if entity @s[tag=king_shockwave] at @s run function ut:move/king/loop
 execute if entity @s[tag=green_flame] at @s run function ut:move/green_flame/loop
 
+execute if entity @s[tag=ntfrisk_sp] at @s run function ut:move/ntfrisk/sp/loop
+execute if entity @s[tag=ntfrisk_sp_par] at @s run function ut:move/ntfrisk/sp/effect/par/loop
+
 #fda
 function fda:move/prj_sp
 

@@ -40,6 +40,8 @@ execute if data entity @s SelectedItem.tag.snh_slash run function ut:move/snh_sl
 
 execute if data entity @s SelectedItem.tag.endless_trace run function ut:move/endless_trace/use
 
+execute if data entity @s SelectedItem.tag.ntfrisk_cd run function ut:move/ntfrisk/cd/use
+
 scoreboard players add @s unloadtime 5
 
 #fda
