@@ -103,3 +103,6 @@ tag @s remove rancon_killer
 tag @s remove star_atker
 #say Move Loop -> 0!
 scoreboard players set @s move_loop 0
+
+##cua add
+scoreboard players set @s counter 0

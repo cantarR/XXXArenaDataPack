@@ -11,7 +11,10 @@ effect clear @s jump_boost
 
 scoreboard players set @s plt2 60
 
-tag @s add counter
+##cua change
+# tag @s add counter
+scoreboard players add @s[tag=!counter_dodge] counter 1
+#
 scoreboard players add @s[tag=!counter_dodge] move_loop 1
 tag @s add counter_dodge
 

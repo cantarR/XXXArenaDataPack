@@ -29,6 +29,9 @@ execute if entity @s[tag=buster_bullet] run function ut:move/_break/prj/buster_b
 execute if entity @s[tag=bluebone] run function ut:move/_break/prj/bluebone
 execute if entity @s[tag=bone_small] run function ut:move/_break/prj/bone_small
 execute if entity @s[tag=bone] run function ut:move/_break/prj/bone
+
+
+#add
 execute if entity @s[tag=magic_bullet] run function ut:move/_break/prj/magic_bullet
 
 function ut:void
