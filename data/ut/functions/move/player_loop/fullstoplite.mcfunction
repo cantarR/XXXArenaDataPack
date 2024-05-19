@@ -32,6 +32,7 @@ execute if entity @s[tag=paper_plane_user] run function ut:move/paper_plane_kite
 execute if entity @s[tag=snh_slash_user] run function ut:move/snh_slash/stop
 execute if entity @s[tag=snh_slash_slash_user] run function ut:move/snh_slash/slash/stop
 
+execute if entity @s[tag=ntfrisk_dt_user] run function ut:move/ntfrisk/dt/use/stop
 #cua
 function cua:move/player_loop/fullstoplite
 

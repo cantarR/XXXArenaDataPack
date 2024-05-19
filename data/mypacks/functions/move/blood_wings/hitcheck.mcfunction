@@ -7,6 +7,7 @@ execute as @a[tag=playing,tag=!untargetable] unless score @s tid = #atker tid ru
 ###DETERMINE TARGET
 scoreboard players set #hits hitcheck 1
 execute as @a[tag=hitcheck_target,sort=nearest] run function mypacks:move/blood_wings/_sys/hitcheck2
+execute if entity @a[tag=hitcheck_target,sort=nearest] run scoreboard players set @s damage 0
 tag @a remove hitcheck_target
 ###FINISH
 tag @s remove atker

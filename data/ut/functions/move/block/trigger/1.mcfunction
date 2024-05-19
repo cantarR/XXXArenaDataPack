@@ -20,7 +20,9 @@ execute if score rxd store matches 100..260 run tag @s remove block_fail
 
 execute if entity @e[tag=atker,tag=!blockable] run tag @s add block_fail
 
-execute if entity @s[tag=block_fail] run function ut:move/counter/fail
+
+##cua change
+#execute if entity @s[tag=block_fail] run function ut:move/counter/fail
 execute unless entity @s[tag=block_fail] run function ut:move/block/trigger/2
 
 tag @s remove block_fail

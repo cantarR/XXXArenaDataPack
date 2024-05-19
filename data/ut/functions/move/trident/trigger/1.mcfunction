@@ -18,12 +18,21 @@ execute if entity @e[tag=atker,tag=!cutable] run tag @s add cut_fail
 
 scoreboard players set #broken damage 0
 
-execute if entity @s[tag=cut_fail] run function ut:move/counter/fail
+
+##cua change
+#execute if entity @s[tag=cut_fail] run function ut:move/counter/fail
 execute unless entity @s[tag=cut_fail] as @e[tag=atker,tag=cutable,limit=1] at @s run function ut:move/trident/break/main
 
 scoreboard players operation #broken damage /= 5 const
 scoreboard players operation @s cd += #broken damage
 function ut:player/cd/change
+
+
+##cua add
+tag @s[tag=!cut_fail] add counter_success
+
+#
+
 
 tag @s remove cut_fail
 ###

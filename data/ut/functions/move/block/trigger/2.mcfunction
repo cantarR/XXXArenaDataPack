@@ -18,3 +18,9 @@ execute anchored eyes positioned ^ ^-.2 ^.25 as @e[tag=atker,limit=1,tag=blockab
 ####player
 execute as @a[tag=atker_melee,limit=1] at @s run function ut:move/block/trigger/player
 #
+
+
+##cua add
+tag @s add counter_success
+
+#

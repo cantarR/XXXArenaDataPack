@@ -16,7 +16,12 @@ attribute @s generic.movement_speed modifier remove 6-0-0-2-0
 
 scoreboard players reset @s plt1
 scoreboard players remove @s[tag=trident_user] move_loop 1
+
+##cua add
+scoreboard players remove @s[tag=trident_user] counter 1
+#
+
 tag @s remove trident_user
-function ut:move/counter/stop
+#function ut:move/counter/stop
 
 function ut:player/infight/use

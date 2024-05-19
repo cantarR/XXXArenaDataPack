@@ -85,6 +85,9 @@ execute if entity @s[tag=effloresced_ego_gasharpoon] run function ut:move/noble_
 
 execute if entity @s[tag=ahab_ego_pre] run function ut:move/noble_price/stop
 
+execute if entity @s[tag=ntfrisk_cd] run function ut:move/ntfrisk/cd/stop
+execute if entity @s[tag=effect_ntfrisk_cd] run function ut:move/ntfrisk/cd/effect/stop
+execute if entity @s[tag=effect_ntfrisk_sp] run function ut:move/ntfrisk/sp/effect/stop
 #fda
 function fda:move/player_loop/fullstop
 
@@ -103,3 +106,6 @@ tag @s remove rancon_killer
 tag @s remove star_atker
 #say Move Loop -> 0!
 scoreboard players set @s move_loop 0
+
+##cua add
+scoreboard players set @s counter 0

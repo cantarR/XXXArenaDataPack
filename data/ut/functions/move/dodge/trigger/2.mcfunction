@@ -22,3 +22,10 @@ function ut:player/mp/change
 #
 scoreboard players reset @s plt2b
 tag @s remove dodge_player
+
+
+
+##cua add
+tag @s add counter_success
+
+#
