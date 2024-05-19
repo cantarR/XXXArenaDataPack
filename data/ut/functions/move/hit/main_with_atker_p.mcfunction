@@ -7,11 +7,15 @@ scoreboard players remove #hits hitcheck 1
 ###Register k(Killer)id
 execute unless score @s kid = @a[tag=atker_p,limit=1] pid run scoreboard players operation @s kid = @a[tag=atker_p,limit=1] pid
 ###Damage Passive
+function wda:move/hit/main_with_atker_p
+
 execute if entity @a[tag=atker_p,tag=passive_loris] run function ut:move/passive/loris/main
 execute if entity @s[tag=passive_rancon] run function ut:move/passive/rancon/give
 execute if entity @s[tag=passive_kite] run function ut:move/passive/kite/main
 execute if entity @s[tag=effect_silence_fear] run function ut:move/tear_wound/effect_hit
 execute if entity @s[tag=effect_noise_despair] run function ut:move/sprinkle_inside/effect_hit
+
+
 
 execute as @s[tag=effect_noise_despair] run function ut:move/effect/noise_despair/clear
 ###Damage Calculation
@@ -22,7 +26,7 @@ execute if score @s def matches ..0 run scoreboard players set #true_damage dama
 
 
 execute if entity @a[tag=atker_p,tag=cannot_attack] run scoreboard players set #true_damage damage 0
-function wda:/move/hit/main_with_atker_p
+
 
 #cua
 function cua:move/hit/main_with_atker_p/damage_calculation
