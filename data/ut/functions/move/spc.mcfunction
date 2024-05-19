@@ -22,3 +22,5 @@ execute if entity @s[tag=pellet_tut] run function ut:move/pellets_tutorial/loop
 
 #fda
 function fda:move/spc
+#wda
+function wda:move/spc

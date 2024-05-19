@@ -7,3 +7,5 @@ execute if data entity @s SelectedItem.tag.sp_switch run function ut:move/sp_sho
 execute if data entity @s SelectedItem.tag.hand run function ut:move/hand/toggle
 
 function mypacks:move/sp
+#wda
+function wda:move/sp

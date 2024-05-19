@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.sharif1 run function wda:move/sharif1/use

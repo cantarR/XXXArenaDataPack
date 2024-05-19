@@ -39,9 +39,10 @@ tag @s remove passive_dongbaek
 tag @s remove passive_ahab
 
 tag @s remove passive_end_dec
-
+function wda:move/passive/clear
 #fda
 function fda:move/passive/setup/prepare
+
 
 #cua
 function cua:move/passive/setup/prepare
@@ -88,12 +89,7 @@ scoreboard players set @s passive_timer 0
 ###
 execute if entity @s[tag=dt_ready] run function ut:move/passive/dt_fill
 execute if entity @s[tag=passive_asgore] run function ut:move/nomercy/passive
-<<<<<<< Updated upstream
-
-execute if entity @s[tag=passive_end_dec] run function ut:move/passive/end_dec/give
-=======
 execute if entity @s[tag=passive_end_dec] run function ut:move/defend/passive
->>>>>>> Stashed changes
 execute if entity @s[tag=passive_mettaton] run function ut:move/passive/mettaton/give
 
 execute if data entity @s Inventory[{tag:{sp_show:1b}}] unless data entity @s Inventory[{tag:{sp_switch:1b}}] run function ut:move/sp_show/switch/give
@@ -103,3 +99,6 @@ function fda:move/passive/setup/extra
 
 #cua
 function cua:move/passive/setup/extra
+
+#wda
+function wda:move/passive/setup

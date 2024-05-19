@@ -20,7 +20,9 @@ scoreboard players operation #true_damage damage *= @s def
 scoreboard players operation #true_damage damage /= #rate def
 execute if score @s def matches ..0 run scoreboard players set #true_damage damage 0
 
+
 execute if entity @a[tag=atker_p,tag=cannot_attack] run scoreboard players set #true_damage damage 0
+function wda:/move/hit/main_with_atker_p
 
 #cua
 function cua:move/hit/main_with_atker_p/damage_calculation

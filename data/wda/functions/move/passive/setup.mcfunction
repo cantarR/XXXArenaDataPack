@@ -1,0 +1,1 @@
+execute if data storage ut:soul Temp{passive:"sharif"} run tag @s add passive_sharif

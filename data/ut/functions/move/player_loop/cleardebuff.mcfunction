@@ -27,3 +27,6 @@ function fda:move/player_loop/cleardebuff
 
 #cua
 function cua:move/player_loop/cleardebuff
+
+#wda
+function wda:move/player_loop/cleardebuff

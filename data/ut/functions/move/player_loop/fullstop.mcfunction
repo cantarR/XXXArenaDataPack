@@ -93,6 +93,9 @@ function cua:move/player_loop/fullstop
 
 function mypacks:move/player_loop/fullstop
 
+#wda
+function wda:move/player_loop/fullstop
+
 function ut:move/player_loop/fullstoplite
 
 tag @s remove someone_empty

@@ -95,3 +95,6 @@ function fda:move/player_loop/main
 function cua:move/player_loop/main
 
 function mypacks:move/player_loop/main
+
+#wda
+function wda:move/player_loop/main

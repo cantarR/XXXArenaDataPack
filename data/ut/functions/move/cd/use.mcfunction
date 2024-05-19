@@ -48,8 +48,10 @@ function fda:move/cd/use
 #cua
 function cua:move/cd/use
 
-#
+
 function mypacks:move/cd/use
+#wda
+function wda:move/cd/use
 
 
 ###The Last
