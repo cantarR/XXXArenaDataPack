@@ -10,3 +10,9 @@ execute if data entity @s SelectedItem.tag.ntfrisk_sp run function ut:move/ntfri
 function mypacks:move/sp
 #wda
 function wda:move/sp
+
+#cua
+function cua:move/sp
+
+
+function mypacks:move/sp

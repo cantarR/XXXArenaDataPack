@@ -9,6 +9,11 @@ execute if entity @s[tag=real_knife_user] run function ut:move/real_knife/stop
 execute if entity @s[tag=loris_dt_pred] run function ut:move/loris_knife/stop
 execute if entity @s[tag=filled_bullet] run function ut:move/fill_bullet/stop
 execute if entity @s[tag=in_cupcake] at @s run function ut:move/cupcake/stop_player
+
+
+##cua add
+execute if entity @s[tag=counter_invulnerable] run function ut:move/invulnerable/stop
+
 execute if entity @e[tag=st_center] run function ut:move/star_loris/stop
 execute if entity @s[tag=bisicle_used_once] run function ut:move/bisicle/stop
 execute if entity @s[tag=heat] run function ut:move/gas_harpoon/heat_harpoon/stop
@@ -59,32 +64,22 @@ execute if entity @s[tag=passive_end_dec] run function ut:move/passive/end_dec/c
 
 execute if entity @s[tag=attack_buffed] run function ut:move/_buffed/remove_status_full
 
+
+#
 execute if entity @s[tag=effect_black_flame] run function ut:move/effect/black_flame/clear
-
 execute if entity @s[tag=passive_magic_bullet] run function ut:move/passive/magic_bullet/clear
-
 execute if entity @s[tag=effect_rancon_wound] run function ut:move/effect/rancon_wound/all_clear
-
 execute if entity @s[tag=effect_blooming] run function ut:move/effect/blooming/all_clear
-
 execute if entity @s[tag=effect_fullblooming] run function ut:move/effect/fullblooming/clear
-
 execute if entity @s[tag=effect_burn] run function ut:move/effect/burn/all_clear
-
 execute if entity @s[tag=passive_rancon] run function ut:move/passive/rancon/stop
-
 execute if entity @s[tag=passive_kite] run function ut:move/passive/kite/stop
-
 execute if entity @s[tag=passive_dongbaek] run scoreboard players set @s count_a 0
-
 execute if entity @s[tag=effect_aid_attack] run tag @s remove effect_aid_attack
-
 execute if entity @s[tag=harpoon_attacking] run function ut:move/stubborn_harpoon/stop
-
 execute if entity @s[tag=effloresced_ego_gasharpoon] run function ut:move/noble_price/ego_effloresce_stop
-
 execute if entity @s[tag=ahab_ego_pre] run function ut:move/noble_price/stop
-
+#
 execute if entity @s[tag=ntfrisk_cd] run function ut:move/ntfrisk/cd/stop
 execute if entity @s[tag=effect_ntfrisk_cd] run function ut:move/ntfrisk/cd/effect/stop
 execute if entity @s[tag=effect_ntfrisk_sp] run function ut:move/ntfrisk/sp/effect/stop

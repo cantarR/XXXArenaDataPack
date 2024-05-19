@@ -6,6 +6,8 @@ execute if entity @s[tag=passive_mettaton] run function ut:move/passive/mettaton
 
 ##cua add
 execute if entity @s[tag=passive_sans] run function ut:move/passive/sans/clear
+
+
 ###
 tag @s remove passive_sans_cd
 tag @s remove passive_muffet_cd
@@ -98,6 +100,11 @@ execute if entity @s[tag=passive_asgore] run function ut:move/nomercy/passive
 
 execute if entity @s[tag=passive_end_dec] run function ut:move/defend/passive
 execute if entity @s[tag=passive_mettaton] run function ut:move/passive/mettaton/give
+
+##cua add
+execute if entity @s[tag=passive_sans] run function ut:move/passive/sans/give
+
+
 
 execute if data entity @s Inventory[{tag:{sp_show:1b}}] unless data entity @s Inventory[{tag:{sp_switch:1b}}] run function ut:move/sp_show/switch/give
 

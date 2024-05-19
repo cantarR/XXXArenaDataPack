@@ -279,6 +279,11 @@ scoreboard objectives add encourage_timer dummy "ENCOURAGE TIMER"
 scoreboard objectives add launch_timer dummy "LAUNCH TIMER"
 scoreboard objectives add nofall_timer dummy "NOFALL TIMER"
 scoreboard objectives add novoid_timer dummy "NOVOID TIMER"
+
+
+##cua add
+scoreboard objectives add invulnerable_timer dummy "Invulnerable Timer"
+
 #prj
 scoreboard objectives add lifetime dummy
 scoreboard objectives add life dummy

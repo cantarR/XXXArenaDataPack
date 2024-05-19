@@ -1,6 +1,6 @@
 
 
-scoreboard players operation timerC02 hud = @s wtk_invulnerable_timer
+scoreboard players operation timerC02 hud = @s invulnerable_timer
 scoreboard players operation timerC02_ms hud = timerC02 hud
 scoreboard players operation timerC02 hud /= 20 const
 scoreboard players operation timerC02_ms hud %= 20 const
