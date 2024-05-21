@@ -3,6 +3,6 @@
 
 ###EXTRA
 ###MAIN
-data merge entity @e[tag=atker,limit=1] {CustomName:'{"translate":"chr.sharif.dtn"}'}
+data merge entity @e[tag=atker,limit=1] {CustomName:'{"translate":"chr.sharif.dtxn"}'}
 
 function ut:move/hit/main
