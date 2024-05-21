@@ -20,6 +20,7 @@ summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.kite"}',data:
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.dongbaek"}',data:{n:42}}
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.ahab"}',data:{n:44}}
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.dell"}',data:{n:45}}
+summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.ntfrisk"}',data:{n:47}}
 
 #METTATON
 execute unless score -tobying store matches 1 unless score -truerandom store >= -exchance store run summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.mettaton"}',data:{n:6}}
