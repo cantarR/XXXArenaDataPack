@@ -71,6 +71,7 @@ execute if entity @s[tag=shock_bullet_user] run function ut:move/shock_bullet/us
 
 ##cua add
 execute if entity @s[tag=counter_invulnerable] run function ut:move/invulnerable/loop
+execute if entity @s[tag=effect_break_def] run function ut:move/effect/break_def/loop
 
 
 #execute if entity @s[tag=rancon_pierce_user] run function ut:move/rancon_pierce/loop

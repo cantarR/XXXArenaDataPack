@@ -283,6 +283,10 @@ scoreboard objectives add novoid_timer dummy "NOVOID TIMER"
 
 ##cua add
 scoreboard objectives add invulnerable_timer dummy "Invulnerable Timer"
+scoreboard objectives add break_def_timer dummy "Break Defence Timer"
+scoreboard objectives add break_def_level dummy "Break Defence Level"
+
+
 
 #prj
 scoreboard objectives add lifetime dummy

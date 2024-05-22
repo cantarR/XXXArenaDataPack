@@ -1,0 +1,9 @@
+{
+  "asset_name": "dragon_soul",
+  "description": {
+    "color": "#FAEB80",
+    "translate": "trim_material.cua.God_ZhaoYun"
+  },
+  "ingredient": "minecraft:dragon_breath",
+  "item_model_index": 0.61
+}

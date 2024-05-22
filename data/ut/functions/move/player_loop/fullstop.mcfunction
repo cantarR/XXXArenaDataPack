@@ -11,9 +11,6 @@ execute if entity @s[tag=filled_bullet] run function ut:move/fill_bullet/stop
 execute if entity @s[tag=in_cupcake] at @s run function ut:move/cupcake/stop_player
 
 
-##cua add
-execute if entity @s[tag=counter_invulnerable] run function ut:move/invulnerable/stop
-
 execute if entity @e[tag=st_center] run function ut:move/star_loris/stop
 execute if entity @s[tag=bisicle_used_once] run function ut:move/bisicle/stop
 execute if entity @s[tag=heat] run function ut:move/gas_harpoon/heat_harpoon/stop
@@ -83,6 +80,14 @@ execute if entity @s[tag=ahab_ego_pre] run function ut:move/noble_price/stop
 execute if entity @s[tag=ntfrisk_cd] run function ut:move/ntfrisk/cd/stop
 execute if entity @s[tag=effect_ntfrisk_cd] run function ut:move/ntfrisk/cd/effect/stop
 execute if entity @s[tag=effect_ntfrisk_sp] run function ut:move/ntfrisk/sp/effect/stop
+
+
+##cua add
+execute if entity @s[tag=counter_invulnerable] run function ut:move/invulnerable/stop
+execute if entity @s[tag=effect_break_def] run function ut:move/effect/break_def/clear
+
+
+
 #fda
 function fda:move/player_loop/fullstop
 
