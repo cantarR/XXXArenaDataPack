@@ -67,9 +67,9 @@ execute as @e[tag=pda_sentry,limit=1] if score @s pid = #player pid run function
 
 execute as @e[tag=pda_sentry,limit=1] if score @s pid = #player pid run function ut:game/effect_display/0189
 
-execute as @e[tag=ntfrisk_cd] run function ut:game/effect_display/0190
+execute if entity @s[tag=ntfrisk_cd] run function ut:game/effect_display/0190
 
-execute as @e[tag=effect_ntfrisk_sp] run function ut:game/effect_display/0191
+execute if entity @s[tag=effect_ntfrisk_sp] run function ut:game/effect_display/0191
 
 execute if entity @s[tag=passive_ntfrisk] if score @s passive_timer matches 1..19 run function ut:game/effect_display/0192
 
