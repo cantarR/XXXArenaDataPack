@@ -44,7 +44,7 @@ execute if entity @s[tag=passive_dongbaek] if entity @a[tag=atker_p,tag=effect_b
 
 execute as @a[tag=atker_p,tag=passive_ahab] run function ut:move/passive/ahab/main
 
-execute if entity @a[tag=atker_p,tag=effect_soul_gloom] run function ut:move/effect/sadness/max
+execute if entity @a[tag=atker_p,tag=effect_soul_gloom] run function ut:move/effect/sadness/give_to_max
 
 execute if entity @a[tag=atker_p,tag=passive_ntfrisk] if score #ntfrisk_will will matches -2147483648..2147483647 if score #ntfrisk_will pid = @s pid unless score #ntfrisk_will will = @s will run function ut:move/ntfrisk/passive/hit_check_k
 execute if entity @a[tag=atker_p,tag=passive_ntfrisk] if score @s will matches ..40 run function ut:move/ntfrisk/passive/hit_check_w

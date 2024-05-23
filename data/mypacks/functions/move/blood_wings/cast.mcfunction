@@ -6,4 +6,5 @@ scoreboard players operation #player damage = @s atk
 scoreboard players operation #player pid = @s pid
 scoreboard players operation #player tid = @s tid
 scoreboard players add #aid aid 1
+scoreboard players operation #naid aid = #aid aid
 execute as @e[tag=summon,limit=1] positioned as @s anchored feet run function mypacks:move/blood_wings/_sys/cast

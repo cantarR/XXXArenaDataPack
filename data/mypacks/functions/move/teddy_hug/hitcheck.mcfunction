@@ -13,5 +13,6 @@ execute as @a[tag=playing,tag=!untargetable] unless score @s tid = #player tid r
 
 execute as @a[tag=hitcheck_target] run function mypacks:move/teddy_hug/hitcheck2
 execute if entity @a[tag=hitcheck_target] run function mypacks:move/teddy_hug/stop
+tag @a[tag=hitcheck_target] add hug_target
 tag @a remove hitcheck_target
 kill @e[tag=atker]

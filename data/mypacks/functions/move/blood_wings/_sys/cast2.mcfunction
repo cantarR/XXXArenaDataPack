@@ -12,7 +12,7 @@ scoreboard players operation @s damage /= 100 const
 ###IDENTITY
 scoreboard players operation @s pid = #player pid
 scoreboard players operation @s tid = #player tid
-scoreboard players operation @s aid = #aid aid
+scoreboard players operation @s aid = #naid aid
 
 scoreboard players set @s gravity 5
 tp @s ~ ~ ~ ~ ~

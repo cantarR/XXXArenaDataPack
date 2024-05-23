@@ -3,3 +3,4 @@ tag @s remove teddy_hugging
 scoreboard players reset @s plt2b
 effect clear @s slowness
 effect clear @s jump_boost
+tag @a remove hug_target

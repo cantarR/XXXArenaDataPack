@@ -4,6 +4,7 @@ tag @s remove cdmax_lock
 
 scoreboard players set @s cd 0
 scoreboard players set @s cddis 0
+scoreboard players set @s unloadtime 5
 
 execute if data entity @s SelectedItem.tag.bluebone run function ut:move/bluebone/use
 execute if data entity @s SelectedItem.tag.dodge run function ut:move/dodge/use
@@ -41,8 +42,6 @@ execute if data entity @s SelectedItem.tag.snh_slash run function ut:move/snh_sl
 execute if data entity @s SelectedItem.tag.endless_trace run function ut:move/endless_trace/use
 
 execute if data entity @s SelectedItem.tag.ntfrisk_cd run function ut:move/ntfrisk/cd/use
-
-scoreboard players add @s unloadtime 5
 
 #fda
 function fda:move/cd/use

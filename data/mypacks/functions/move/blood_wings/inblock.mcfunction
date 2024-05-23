@@ -11,4 +11,4 @@ scoreboard players set @s life2 0
 scoreboard players add @s lifetime 40
 
 playsound entity.warden.sonic_charge player @a ~ ~ ~ 0.2 1
-execute positioned ^ ^ ^ run function mypacks:move/blood_wings/cast_wings
+execute at @s run function mypacks:move/blood_wings/cast_wings
