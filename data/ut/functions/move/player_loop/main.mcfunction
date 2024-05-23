@@ -68,6 +68,14 @@ execute if entity @s[tag=injected] run function ut:move/injection/self_loop
 execute if entity @s[tag=lazer_user] run function ut:move/lazer/loop
 execute if entity @s[tag=shock_bullet_user] run function ut:move/shock_bullet/user_loop
 
+
+##cua add
+execute if entity @s[tag=counter_invulnerable] run function ut:move/invulnerable/loop
+execute if entity @s[tag=effect_break_def] run function ut:move/effect/break_def/loop
+
+
+#execute if entity @s[tag=rancon_pierce_user] run function ut:move/rancon_pierce/loop
+
 execute if entity @s[tag=loris_dt_pred] run function ut:move/loris_knife_pre/loop
 
 execute if entity @s[tag=end_dec_dt_pred] run function ut:move/end_dec_sickle_pre/loop
@@ -99,3 +107,6 @@ function fda:move/player_loop/main
 function cua:move/player_loop/main
 
 function mypacks:move/player_loop/main
+
+#wda
+function wda:move/player_loop/main

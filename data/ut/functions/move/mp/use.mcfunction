@@ -49,7 +49,8 @@ function cua:move/mp/use
 
 function mypacks:move/mp/use
 
-
+#wda
+function wda:move/mp/use
 
 ###The Last
 function ut:move/skill_use/_main

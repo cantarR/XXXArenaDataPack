@@ -1,0 +1,1 @@
+function wda:move/effect/sharif/give

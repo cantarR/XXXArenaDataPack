@@ -1,5 +1,10 @@
 #By Nebulirion
 
+
+##cua add
+tag @s remove rcing_player
+
+
 execute if entity @s[tag=can_change_chr] if score swapCharacter gamerule matches 1 if score -GameMode game matches 4..7 run function ut:system/chrswitch/inventory_clear
 
 execute if entity @s[tag=effect_untarget] run function ut:move/effect/untargetable/clear

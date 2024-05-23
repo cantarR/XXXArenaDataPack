@@ -66,5 +66,8 @@ execute if entity @s[tag=effect_ntfrisk_sp] run function ut:move/ntfrisk/sp/effe
 #fda
 function fda:player/actionbar/effect/main
 
+#wda
+function wda:player/actionbar/effect/main
+
 #cua
 function cua:player/actionbar/effect/main

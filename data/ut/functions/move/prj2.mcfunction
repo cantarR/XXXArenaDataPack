@@ -61,3 +61,5 @@ execute if entity @s[tag=stubborn_harpoon] run function ut:move/stubborn_harpoon
 
 #fda
 function fda:move/prj2
+#wda
+function wda:move/prj2

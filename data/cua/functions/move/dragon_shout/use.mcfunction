@@ -8,7 +8,7 @@ function ut:player/infight/use
 
 
 scoreboard players operation @s plt3 = @s dtmax
-scoreboard players set -dragon_shouttick plt3 240
+scoreboard players set -dragon_shouttick plt3 140
 scoreboard players operation @s plt3 /= -dragon_shouttick plt3
 
 

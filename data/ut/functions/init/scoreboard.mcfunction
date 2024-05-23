@@ -84,6 +84,10 @@ scoreboard objectives add gamesfinished dummy "Games Finished"
 scoreboard objectives add stat dummy "Statistics"
 scoreboard objectives add maplock dummy "Map Lock"
 scoreboard objectives add tobylock dummy "Toby Lock"
+##cua add
+scoreboard objectives add counter dummy
+
+
 ###
 scoreboard objectives add menu dummy "LOBBY MENU"
 scoreboard objectives add st_gold dummy "GOLD"
@@ -275,6 +279,15 @@ scoreboard objectives add encourage_timer dummy "ENCOURAGE TIMER"
 scoreboard objectives add launch_timer dummy "LAUNCH TIMER"
 scoreboard objectives add nofall_timer dummy "NOFALL TIMER"
 scoreboard objectives add novoid_timer dummy "NOVOID TIMER"
+
+
+##cua add
+scoreboard objectives add invulnerable_timer dummy "Invulnerable Timer"
+scoreboard objectives add break_def_timer dummy "Break Defence Timer"
+scoreboard objectives add break_def_level dummy "Break Defence Level"
+
+
+
 #prj
 scoreboard objectives add lifetime dummy
 scoreboard objectives add life dummy
@@ -538,6 +551,9 @@ scoreboard objectives add burn_timer dummy
 scoreboard objectives add burn_level dummy
 
 scoreboard objectives add will_store dummy
+
+scoreboard objectives add wda_sharif_timer dummy
+scoreboard objectives add wda_sharif_level dummy
 
 scoreboard objectives add ntfrisk_sp_timer dummy
 scoreboard objectives add ntfrisk_sp_score dummy

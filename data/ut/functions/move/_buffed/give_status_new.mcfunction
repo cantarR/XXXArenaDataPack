@@ -7,4 +7,7 @@ execute if data entity @s Inventory[{tag:{real_knife_knife:1b}}] if entity @s[ta
 execute if data entity @s Inventory[{tag:{stick:1b}}] run function ut:move/stick/buff
 execute if data entity @s Inventory[{tag:{lazer_ex:1b}}] run function ut:move/lazer_ex/buff
 execute if data entity @s Inventory[{tag:{passive:"default"}}] run function ut:move/hand/cast/buff
+
+
+#add
 execute if data entity @s Inventory[{tag:{ntfrisk_mp:1b}}] run function ut:move/ntfrisk/mp/buff

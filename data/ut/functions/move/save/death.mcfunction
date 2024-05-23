@@ -1,5 +1,10 @@
 #By NEb it's currently 12:43AM
 
+
+##cua change
+execute unless score @s hp matches 0.. run scoreboard players set @s hp 0
+#
+
 #
 tag @s add save_user
 scoreboard players operation #user pid = @s pid

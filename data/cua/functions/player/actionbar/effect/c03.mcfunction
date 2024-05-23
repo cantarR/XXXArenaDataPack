@@ -1,4 +1,4 @@
-#By TSbread, Nebulirion and Flesy_Z
+
 
 scoreboard players operation timerC03 hud = @s break_def_timer
 scoreboard players operation timerC03_ms hud = timerC03 hud

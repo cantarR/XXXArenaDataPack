@@ -59,6 +59,7 @@ scoreboard players reset * maplock
 #players
 kill @a[tag=gaster]
 execute as @a[tag=!sy] at @s run function ut:game/lobby_player
+execute as @a run function ut:move/effect/sadness/clear
 function ut:player/bossbar/adjust
 
 function ut:lobby/reload

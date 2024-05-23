@@ -3,14 +3,13 @@
 tag @s add wtk_fire_attack_using
 
 playsound minecraft:item.firecharge.use player @a ~ ~ ~ 0.8 0.8
-particle minecraft:lava ~ ~1 ~ .2 .2 .2 0 8
 
-summon minecraft:marker ~ ~ ~ {Tags:[atker,wtk_fire_attack],CustomName:'{"translate":"prj.attack.fire"}'}
+summon minecraft:marker ~ ~ ~ {Tags:[atker,wtk_fire_attack,fire_damage],CustomName:'{"translate":"prj.attack.fire"}'}
 
 
 scoreboard players operation #atker pid = @s pid
 scoreboard players operation #atker tid = @s tid
-scoreboard players set #damage damage 150
+scoreboard players set #damage damage 200
 scoreboard players operation #damage damage *= @s atk
 scoreboard players operation #damage damage /= #rate atk
 

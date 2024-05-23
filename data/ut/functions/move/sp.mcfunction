@@ -8,3 +8,11 @@ execute if data entity @s SelectedItem.tag.hand run function ut:move/hand/toggle
 execute if data entity @s SelectedItem.tag.ntfrisk_sp run function ut:move/ntfrisk/sp/use
 
 function mypacks:move/sp
+#wda
+function wda:move/sp
+
+#cua
+function cua:move/sp
+
+
+function mypacks:move/sp
