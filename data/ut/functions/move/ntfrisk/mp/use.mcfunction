@@ -1,6 +1,6 @@
 #from fda
 
-scoreboard players set -new mlmax 35
+scoreboard players set -new mlmax 40
 effect give @s[tag=!attack_buffed] minecraft:slowness 1 0 true
 
 summon minecraft:marker ~ ~ ~ {Tags:[atker,ntfrisk_mp,killonhit,blockable],CustomName:'{"translate":"chr.ntfrisk.mpn"}'}
