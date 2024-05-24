@@ -8,4 +8,4 @@ scoreboard players set @s cddis 0
 
 
 #cua
-function cua:move/cd/use_nounloadtime
+function cua:move/cd/use_unloading

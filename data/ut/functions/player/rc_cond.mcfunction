@@ -8,7 +8,7 @@
 ##
 
 tag @s add rcing_player
-execute if score @s[tag=rcing_player] unloadtime matches 1.. run function ut:player/rc_unloading
+execute if score @s[tag=rcing_player] unloadtime matches 1.. if data entity @s SelectedItem.tag.move_unloading run function ut:player/rc_unloading
 execute unless score @s[tag=rcing_player] unloadtime matches 1.. run function ut:player/rc
 tag @s remove rcing_player
 scoreboard players reset @s rc
