@@ -4,7 +4,6 @@ tag @s remove cdmax_lock
 
 scoreboard players set @s cd 0
 scoreboard players set @s cddis 0
-scoreboard players set @s unloadtime 5
 
 execute if data entity @s SelectedItem.tag.bluebone run function ut:move/bluebone/use
 execute if data entity @s SelectedItem.tag.dodge run function ut:move/dodge/use
