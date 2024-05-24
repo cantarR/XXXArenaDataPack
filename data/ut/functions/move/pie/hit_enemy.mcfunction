@@ -10,4 +10,5 @@ execute at @s run particle minecraft:angry_villager ~ ~1.5 ~ 0.2 0.2 0.2 0 4 nor
 scoreboard players remove @s will 20
 function ut:player/will/lose
 ###MAIN
+data merge entity @e[tag=atker,limit=1] {CustomName:'{"translate":"chr.toriel.ch"}'}
 function ut:move/hit/main
