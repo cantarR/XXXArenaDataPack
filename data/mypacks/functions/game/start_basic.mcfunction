@@ -1,0 +1,1 @@
+execute if entity @s[tag=effect_emotion_stimulate] run tag @s remove effect_emotion_stimulate

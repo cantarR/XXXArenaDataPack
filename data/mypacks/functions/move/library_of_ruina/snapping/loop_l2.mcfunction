@@ -1,0 +1,2 @@
+execute if block ~ ~-1 ~ #ut:trans positioned ~ ~-0.1 ~ run function mypacks:move/library_of_ruina/snapping/loop_l2
+execute unless entity @e[tag=lor_target_pos] if block ~ ~-0.1 ~ #ut:trans positioned ~ ~ ~ run summon marker ~ ~0.5 ~ {Tags:[lor_target_pos]}

@@ -10,6 +10,7 @@ execute if entity @s[tag=dead] run function ut:move/save/death
 execute if entity @s[tag=dead,tag=!void,tag=!melted,tag=!dogkilled] run function ut:move/undying/death
 execute if entity @s[tag=dead,tag=amalgamate] run function ut:move/injection/target_death
 
+execute if entity @s[tag=dead] run function mypacks:player/hp/zero
 #cua
 function cua:player/hp/zero/last
 #

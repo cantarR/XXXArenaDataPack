@@ -56,4 +56,6 @@ tellraw @a [{"translate":"cht.line","color":"gold"}]
 tellraw @a ["",{"translate":"pfx.game"},{"translate":"cht.gm0"}]
 tellraw @a " "
 
-execute as @a if score #effectdisplay flag matches 1.. run function ut:game/effect_display/create
+execute as @a[tag=play_game] if score #effectdisplay flag matches 1.. run function ut:game/effect_display/create
+
+execute as @a[tag=play_game] run function mypacks:game/start_basic

@@ -1,0 +1,1 @@
+kill @e[tag=effect_display,type=text_display]

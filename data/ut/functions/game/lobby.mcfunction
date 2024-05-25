@@ -67,3 +67,5 @@ function ut:lobby/reload
 execute if score allow_roomM info matches 1 if entity @a run function ut:lobby/minis/maze/generate
 
 function ut:system/clear_forceload
+
+function mypacks:game/lobby

@@ -22,7 +22,7 @@ execute as @s run particle dust 1 1 1 0.7 ^-1.4 ^ ^1.2 0.05 0.05 0.05 0 8
 
 execute as @s run particle dust 1 1 1 0.7 ^1.5 ^ ^0.8 0.05 0.05 0.05 5 8
 execute as @s run particle dust 1 1 1 0.7 ^1.5 ^ ^0.8 0.05 0.05 0.05 5 8
-execute as @s run particle dust 1 1 1 0.7 ^-1.5 ^ ^0.8 0.05 0.05 0.05 0 8
-execute as @s run particle dust 1 1 1 0.7 ^-1.5 ^ ^0.8 0.05 0.05 0.05 0 8
+execute as @s run particle dust 1 1 1 0.7 ^-1.5 ^ ^0.8 0.05 0.05 0.05 5 8
+execute as @s run particle dust 1 1 1 0.7 ^-1.5 ^ ^0.8 0.05 0.05 0.05 5 8
 
 playsound minecraft:entity.player.attack.sweep player @a ~ ~ ~ 0.8 1.6

@@ -1,0 +1,2 @@
+execute if entity @e[tag=lor_center,distance=..30] run function mypacks:move/library_of_ruina/fail
+execute unless entity @e[tag=lor_center,distance=..30] run function mypacks:move/library_of_ruina/sucess

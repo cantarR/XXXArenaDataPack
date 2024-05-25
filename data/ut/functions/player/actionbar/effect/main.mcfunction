@@ -71,3 +71,5 @@ function wda:player/actionbar/effect/main
 
 #cua
 function cua:player/actionbar/effect/main
+
+function mypacks:player/actionbar/effect/main
