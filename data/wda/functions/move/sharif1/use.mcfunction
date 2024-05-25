@@ -1,8 +1,20 @@
 scoreboard players add @s plt1 1
-execute unless score @s plt1 matches 3 positioned ^ ^ ^ anchored eyes run function wda:move/sharif1/cast
-execute if score @s plt1 matches 3 positioned ^ ^ ^ facing ^ ^ ^10 anchored eyes run function wda:move/sharif1/cast
-execute if score @s plt1 matches 3 positioned ^-.2 ^ ^ facing ^-.4 ^ ^10 anchored eyes run function wda:move/sharif1/cast
-execute if score @s plt1 matches 3 positioned ^.2 ^ ^ facing ^.4 ^ ^10 anchored eyes run function wda:move/sharif1/cast
+execute as @s[tag=!attack_buffed, tag=!sharif3_user] positioned ^ ^ ^ anchored eyes run function wda:move/sharif1/cast
+
+execute as @s[tag=!attack_buffed, tag=sharif3_user] unless score @s plt1 matches 3 positioned ^ ^ ^ anchored eyes run function wda:move/sharif1/cast
+
+execute as @s[tag=!attack_buffed, tag=sharif3_user] if score @s plt1 matches 3 positioned ^ ^ ^ facing ^ ^ ^10 anchored eyes run function wda:move/sharif1/cast
+execute as @s[tag=!attack_buffed, tag=sharif3_user] if score @s plt1 matches 3 positioned ^-.2 ^ ^ facing ^-.4 ^ ^10 anchored eyes run function wda:move/sharif1/cast
+execute as @s[tag=!attack_buffed, tag=sharif3_user] if score @s plt1 matches 3 positioned ^.2 ^ ^ facing ^.4 ^ ^10 anchored eyes run function wda:move/sharif1/cast
+
+
+
+execute as @s[tag=attack_buffed] positioned ^ ^ ^ facing ^ ^ ^10 anchored eyes run function wda:move/sharif1/cast
+execute as @s[tag=attack_buffed] positioned ^-.2 ^ ^ facing ^-.4 ^ ^10 anchored eyes run function wda:move/sharif1/cast
+execute as @s[tag=attack_buffed] positioned ^.2 ^ ^ facing ^.4 ^ ^10 anchored eyes run function wda:move/sharif1/cast
+#execute if score @s plt1 matches 3 positioned ^ ^ ^ facing ^ ^ ^10 anchored eyes run function wda:move/sharif1/cast
+#execute if score @s plt1 matches 3 positioned ^-.2 ^ ^ facing ^-.4 ^ ^10 anchored eyes run function wda:move/sharif1/cast
+#execute if score @s plt1 matches 3 positioned ^.2 ^ ^ facing ^.4 ^ ^10 anchored eyes run function wda:move/sharif1/cast
 
 scoreboard players set @s[tag=!attack_buffed] unloadtime 4
 scoreboard players set @s[tag=attack_buffed] unloadtime 3
