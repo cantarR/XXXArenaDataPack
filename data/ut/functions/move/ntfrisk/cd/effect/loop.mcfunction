@@ -1,7 +1,7 @@
 #from fda
 
 particle minecraft:happy_villager ~ ~1 ~ 0.4 0.8 0.4 .1 2 normal @a[scores={Q=2..}]
-scoreboard players set #gain hp 50
+scoreboard players set #gain hp 2000
 scoreboard players operation @s[tag=!hp_lock] hp += #gain hp
 function ut:player/hp/gain
 
