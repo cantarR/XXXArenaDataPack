@@ -16,3 +16,4 @@ scoreboard players remove @s[tag=counter_block] counter 1
 
 tag @s remove counter_block
 #function ut:move/counter/stop
+function ut:move/full_use

@@ -6,3 +6,4 @@ execute anchored eyes run function ut:move/bluebone/random
 
 scoreboard players set @s unloadtime 16
 function ut:player/infight/use
+function ut:move/full_use

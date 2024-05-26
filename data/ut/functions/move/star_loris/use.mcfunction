@@ -11,3 +11,4 @@ execute as @e[tag=st_center,tag=summon_st] run scoreboard players operation @s p
 tag @e remove summon_st
 function ut:player/infight/use
 effect give @s speed 2 2 true
+function ut:move/full_use

@@ -10,3 +10,4 @@ attribute @s generic.movement_speed modifier remove 3-0-0-2-0
 
 scoreboard players remove @s[tag=lazer_user] move_loop 1
 tag @s remove lazer_user
+function ut:move/full_use

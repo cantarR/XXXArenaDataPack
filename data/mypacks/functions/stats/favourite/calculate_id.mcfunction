@@ -1,0 +1,1 @@
+execute if score -Top favourite = -Angela favourite run scoreboard players set @s st_favchr 46

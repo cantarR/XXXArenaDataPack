@@ -10,3 +10,4 @@ execute as @e[tag=dummy_friend] if score @s sid = #this pid run scoreboard playe
 
 scoreboard players set @s unloadtime 20
 function ut:player/infight/use
+function ut:move/full_use

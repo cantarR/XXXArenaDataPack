@@ -14,3 +14,4 @@ kill @e[tag=atker]
 
 scoreboard players set @s unloadtime 5
 function ut:player/infight/use
+function ut:move/full_use

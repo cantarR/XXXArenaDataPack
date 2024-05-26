@@ -1,0 +1,1 @@
+scoreboard players operation -Top favourite > -Angela favourite

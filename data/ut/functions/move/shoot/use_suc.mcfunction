@@ -14,3 +14,4 @@ function ut:player/infight/use
 scoreboard players add @s plt1 16
 #execute at @e[tag=hand_seek] run particle witch ~ ~ ~ .2 .2 .2 1 5 normal @a[scores={Q=2..}]
 tag @e remove hand_seek
+function ut:move/full_use
