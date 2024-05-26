@@ -5,6 +5,7 @@ tag @s add atker_p
 scoreboard players operation #atker pid = @s pid
 scoreboard players operation #atker tid = @s tid
 execute as @a[tag=!atker,tag=playing,tag=!untargetable,distance=..6] unless score @s tid = #atker tid run scoreboard players add @p[tag=atker_p] cd 30
+function player/cd/change
 execute as @a[tag=!atker,tag=playing,tag=!untargetable,distance=..6] unless score @s tid = #atker tid run effect give @s minecraft:slowness 3 3
 
 tag @s remove atker_p
