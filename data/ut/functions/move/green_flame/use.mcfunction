@@ -18,3 +18,4 @@ scoreboard players operation @e[tag=summon_gf] aid = #aid aid
 tag @e[tag=summon_gf] remove summon_gf
 
 #function ut:move/effect/kindness/give
+function ut:move/full_use

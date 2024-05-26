@@ -12,6 +12,7 @@ scoreboard players remove @a[tag=curator,limit=1] dt 4
 execute as @a[tag=curator,limit=1] run function ut:player/dt/lose
 execute as @a[tag=curator,limit=1] if score @s dt matches ..0 run function mypacks:move/library_of_ruina/stop
 execute if entity @a[tag=lor_power] run scoreboard players remove @a[tag=curator,limit=1] dt 240
+execute as @a[tag=new_book] run function mypacks:move/library_of_ruina/store_page
 execute as @a[tag=curator,limit=1] run function ut:player/dt/lose
 execute positioned ~ ~ ~ run function mypacks:move/library_of_ruina/particle
 execute as @a[tag=curator,limit=1] positioned as @s rotated as @s anchored eyes if data entity @s SelectedItem.tag.library_of_ruina_extra run function mypacks:move/library_of_ruina/snapping/loop

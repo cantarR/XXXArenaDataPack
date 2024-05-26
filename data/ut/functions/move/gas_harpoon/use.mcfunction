@@ -5,3 +5,4 @@ execute if entity @s[tag=attack_buffed] run scoreboard players set -new mlmax 30
 execute anchored eyes positioned ^ ^0.3 ^ rotated ~ ~ run function ut:move/gas_harpoon/harpoon_bullet/cast
 function ut:move/melee/cooldown
 function ut:player/infight/use
+function ut:move/full_use

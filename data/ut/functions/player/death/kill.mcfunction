@@ -12,3 +12,5 @@ execute if entity @a[tag=atker_p] run title @s subtitle {"translate":"ttl.dth1.s
 title @s times 5 30 5
 
 execute if score showDeathMessage gamerule matches 1 run function ut:player/death/kill_msg
+
+function mypacks:player/death/kill

@@ -11,3 +11,4 @@ give @s minecraft:carrot_on_a_stick{mp_move:1b,magic_shoot:1b,cost:0,CustomModel
 execute if score @s magic_bullet_count matches 0..6 run scoreboard players add @s magic_bullet_count 1
 
 function ut:player/infight/use
+function ut:move/full_use
