@@ -5,7 +5,7 @@ particle portal ~ ~1 ~ 0.7 0.7 0.7 0 2 force @a[scores={Q=2..}]
 
 execute if entity @s[scores={plt4=1..}] run scoreboard players remove @s plt4 1
 
-execute if entity @s[tag=!snh_endcycle,scores={dt=7..}] run scoreboard players remove @s dt 7
+execute if entity @s[tag=!snh_endcycle,scores={dt=7..}] run scoreboard players remove @s dt 5
 function ut:player/dt/lose
 
 scoreboard players remove @s hp 2
