@@ -59,6 +59,9 @@ execute if entity @s[tag=gas_harpoon] run function ut:move/gas_harpoon/harpoon_b
 
 execute if entity @s[tag=stubborn_harpoon] run function ut:move/stubborn_harpoon/harpoon_bullet/loop
 
+#snh
+execute if entity @s[tag=pechcurse] run function ut:move/snh_wand/pechcurse/loop
+
 #fda
 function fda:move/prj2
 #wda

@@ -9,11 +9,13 @@ function ut:player/infight/use
 function ut:move/snh_slash/cast
 
 #def
-scoreboard players remove @s def 50
+scoreboard players remove @s def 65
 #hp
+tag @s remove snh_blood_karma
 scoreboard players set #true_damage damage 200
 function ut:player/hp/damage
 playsound entity.wither.hurt player @a ~ ~ ~ 0.5 0.75
+tag @s remove snh_blood_karma
 #immune
 function ut:move/effect/immunity/give
 scoreboard players set @s immune_timer 20
