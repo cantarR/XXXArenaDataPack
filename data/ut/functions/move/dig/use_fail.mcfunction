@@ -2,7 +2,7 @@
 
 scoreboard players set @s unloadtime 4
 scoreboard players operation @s cd = @s cdmax
-scoreboard players set @s cddis 100
+function ut:player/cd/change
 
 playsound minecraft:entity.villager.no player @s ~ ~ ~ 1 1.2
 title @s title ["",{"text":""}]

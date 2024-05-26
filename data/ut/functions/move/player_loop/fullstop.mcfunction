@@ -18,7 +18,10 @@ execute if entity @s[tag=overheat] run function ut:move/gas_harpoon/overheat_har
 execute if entity @s[tag=bisicle_used_once] run function ut:move/bisicle/stop
 execute if entity @s[tag=trail_user] run function ut:move/end_dec_trail/stop
 execute if entity @s[tag=end_dec_dt_pred] run function ut:move/end_dec_sickle/stop
-tag @s remove cdmax_lock
+
+##cua change
+# tag @s remove cdmax_lock
+##
 
 scoreboard players reset @s plt3
 scoreboard players reset @s plt3b

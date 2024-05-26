@@ -1,11 +1,13 @@
 #By Nebulirion
+#edit by lqy
 
 ###ITEM
 execute if data entity @s Inventory[{tag:{dummy_charge:1b,is_knife:0b}}] run function ut:move/dummy_charge/display_f
 ###
 
 scoreboard players set @s cd 0
-scoreboard players set @s cddis 0
+#scoreboard players set @s cddis 0
+function ut:player/cd/change
 
 #scoreboard players add @s[tag=dummy_user_knife] cdmax 60
 #tag @s remove dummy_user_knife

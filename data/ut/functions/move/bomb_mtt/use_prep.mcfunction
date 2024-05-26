@@ -1,4 +1,5 @@
 #By Nebulirion
+#edit by lqy
 
 scoreboard players set @s unloadtime 6
 scoreboard players add @s cdcooldown 2
@@ -6,6 +7,8 @@ scoreboard players add @s cdcooldown 2
 effect give @s levitation 2 3 true
 
 scoreboard players set @s cd 0
+function ut:player/cd/change
+
 
 scoreboard players set @s plt2 40
 scoreboard players set @s plt2b 10

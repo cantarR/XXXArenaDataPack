@@ -48,5 +48,8 @@ function ut:player/will/gain
 #AB
 scoreboard players operation @s mp = @s mpmax
 scoreboard players operation @s cd = @s cdmax
+##cua add
+function ut:player/cd/change
+##
 scoreboard players set @s melee_cd 0
 function ut:player/actionbar/refresh_stats

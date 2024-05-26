@@ -13,8 +13,14 @@ execute unless data entity @s SelectedItem.tag.bomb_mtt run function ut:move/bom
 effect give @s levitation 2 3 true
 scoreboard players add @s[tag=!effect_shocked] cdcooldown 1
 
-execute if score @s cddis matches ..99 run scoreboard players add @s cddis 10
-execute if score @s cddis matches 100.. run scoreboard players operation @s cd = @s cdmax
+##cua change
+# execute if score @s cddis matches ..99 run scoreboard players add @s cddis 10
+# execute if score @s cddis matches 100.. run scoreboard players operation @s cd = @s cdmax
+scoreboard players operation #temp cd = @s cdmax
+scoreboard players operation #temp cd /= 10 const
+scoreboard players operation @s cd += #temp cd
+function ut:player/cd/change
+##
 
 scoreboard players remove @s plt2 1
 

@@ -23,7 +23,8 @@ execute unless score @s mpcooldown matches 1.. if score @s mp < @s mpmax run fun
 execute unless score @s[tag=!effect_stun,tag=!effect_flirt] mpcooldown matches 1.. if score @s ml < @s mlmax run function ut:player/melee/regenerate
 #cd
 scoreboard players remove @s[scores={cdcooldown=1..}] cdcooldown 1
-execute unless score @s cdcooldown matches 1.. if score @s cd < @s cdmax run function ut:player/cd/regenerate
+#execute unless score @s cdcooldown matches 1.. if score @s cd < @s cdmax run function ut:player/cd/regenerate
+execute unless score @s cdcooldown matches 1.. unless entity @s[tag=cd_ready] run function ut:player/cd/regenerate
 #dt
 execute unless score dtRule gamerule matches 0 unless score dtRule gamerule matches 2 if entity @s[tag=!dt_ready,tag=!dt_shield] if score @s will > #dtLim will run function ut:player/dt/regenerate
 
