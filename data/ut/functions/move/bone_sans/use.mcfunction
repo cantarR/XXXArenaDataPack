@@ -15,3 +15,4 @@ kill @e[type=marker,tag=random_as]
 scoreboard players set @s unloadtime 3
 scoreboard players add @s mpcooldown 1
 function ut:player/infight/use
+function ut:move/full_use

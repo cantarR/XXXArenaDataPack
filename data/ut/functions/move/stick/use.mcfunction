@@ -6,3 +6,4 @@ function ut:player/infight/use
 execute as @a[tag=victim,limit=1,tag=!untargetable] at @s run function ut:move/stick/hitcheck
 
 scoreboard players reset #gain dt
+function ut:move/full_use

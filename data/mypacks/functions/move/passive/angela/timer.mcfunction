@@ -1,0 +1,1 @@
+scoreboard players remove @s passive_timer 1

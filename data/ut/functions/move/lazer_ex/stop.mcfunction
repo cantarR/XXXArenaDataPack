@@ -16,3 +16,4 @@ scoreboard players remove @s[tag=lazer_ex_user] move_loop 1
 tag @s remove lazer_ex_user
 
 function ut:move/head/change
+function ut:move/full_use

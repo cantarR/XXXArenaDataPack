@@ -30,4 +30,5 @@ execute as @e[tag=ghost_model,type=armor_stand] if score @s sid = #this pid run 
 
 execute if data entity @s Inventory[{Slot:103b,tag:{ArmorItems:[{},{},{}]}}] run function ut:move/ghost/reset_armor
 function ut:move/head/change
+function ut:move/full_use
 
