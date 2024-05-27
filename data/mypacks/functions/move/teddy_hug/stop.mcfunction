@@ -9,3 +9,4 @@ tag @s add teddy_hugging
 effect give @s slowness 1 255
 effect give @s jump_boost 1 128
 scoreboard players add @s cdcooldown 10
+scoreboard players reset @s plt2

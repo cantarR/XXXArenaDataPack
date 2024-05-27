@@ -1,1 +1,1 @@
-item replace entity @s weapon.mainhand with air
+clear @s carrot_on_a_stick{page_used:1b}
