@@ -17,5 +17,5 @@ attribute @s generic.movement_speed modifier remove 671-1-1-1-1
 #score remove
 scoreboard players reset @s plt2
 scoreboard players remove @s[tag=snh_slash_user] move_loop 1
-scoreboard players add @s[tag=snh_slash_user] def 50
+scoreboard players add @s[tag=snh_slash_user] def 65
 tag @s remove snh_slash_user

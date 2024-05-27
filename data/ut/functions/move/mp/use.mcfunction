@@ -31,8 +31,6 @@ execute if data entity @s SelectedItem.tag.unisicle_left run function ut:move/un
 
 execute if data entity @s SelectedItem.tag.smell_spread run function ut:move/smell_spread/use
 
-execute if data entity @s SelectedItem.tag.blade run function ut:move/snh_shadowblade/right/use
-
 execute if data entity @s SelectedItem.tag.end_dec_mind run function ut:move/end_dec_mind/use
 
 execute if data entity @s SelectedItem.tag.gas_harpoon if score @s mldis matches 100.. run function ut:move/gas_harpoon/use
@@ -40,6 +38,10 @@ execute if data entity @s SelectedItem.tag.gas_harpoon if score @s mldis matches
 execute if data entity @s SelectedItem.tag.heat_harpoon if score @s mldis matches 100.. run function ut:move/gas_harpoon/use
 
 execute if data entity @s SelectedItem.tag.overheat_harpoon if score @s mldis matches 100.. run function ut:move/gas_harpoon/use
+
+#snh
+execute if data entity @s SelectedItem.tag.blade run function ut:move/snh_shadowblade/right/use
+execute if data entity @s SelectedItem.tag.thaumium_wand run function ut:move/snh_wand/use
 
 #fda
 function fda:move/mp/use

@@ -9,7 +9,7 @@ scoreboard players set #damage damage 100
 scoreboard players operation #damage damage *= @s atk
 scoreboard players operation #damage damage /= #rate atk
 
-summon minecraft:marker ~ ~ ~ {Tags:[atker,snh_slash],CustomName:'{"translate":"chr.snh.ch"}'}
+summon minecraft:marker ~ ~ ~ {Tags:[atker,snh_slash],CustomName:'{"translate":"chr.SNH.ch"}'}
 tag @s add snh_slash_slash_user_temp
 execute at @s as @a[tag=playing,tag=!untargetable,distance=..2.5] unless score @s tid = #atker tid run function ut:move/snh_slash/slash/hitcheck
 

@@ -1,6 +1,6 @@
 #from fda
 
-scoreboard players operation #temp const = #true_damage damage
+scoreboard players operation #temp const = #damage damage
 scoreboard players operation #temp const /= 100 const
 scoreboard players operation @s plt2b += #temp const
 

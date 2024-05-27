@@ -34,6 +34,10 @@ execute if data entity @s SelectedItem.tag.end_dec_sickle run function ut:move/e
 
 execute if data entity @s SelectedItem.tag.ntfrisk_dt run function ut:move/ntfrisk/dt/use
 
+#snh
+execute if data entity @s SelectedItem.tag.endcycle run function ut:move/snh_endcycle/use
+execute if data entity @s SelectedItem.tag.godfox run function ut:move/snh_godfox/use
+
 #fda
 function fda:move/dt/use
 
