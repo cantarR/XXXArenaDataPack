@@ -3,7 +3,7 @@ scoreboard players operation #attack pid = @s pid
 scoreboard players operation #attack aid = @s aid
 scoreboard players operation #attack life = @s life
 scoreboard players operation #attack life %= 5 const
-execute if score #attack life matches 0 if score @s life matches ..30 as @e[tag=blood_wings,tag=!summoned,tag=!attacked,tag=!small_wings] if score @s aid = #attack aid run execute at @s positioned ^ ^ ^0.75 if block ^ ^ ^ #ut:ray_trans run function mypacks:move/blood_wings/cast_wings
+execute if score #attack life matches 0 if score @s life matches ..40 as @e[tag=blood_wings,tag=!summoned,tag=!attacked,tag=!small_wings] if score @s aid = #attack aid run execute at @s positioned ^ ^ ^0.75 if block ^ ^ ^ #ut:ray_trans run function mypacks:move/blood_wings/cast_wings
 execute as @e[tag=blood_wings,tag=!summoned,tag=!attacked,tag=!small_wings] if score @s aid = #attack aid run tag @s add last_wings
 execute at @e[tag=blood_wings,tag=!summoned,tag=last_wings,tag=!attacked,tag=!small_wings] positioned ^ ^ ^0.3 run function mypacks:move/blood_wings/hitcheck
 tag @e remove last_wings

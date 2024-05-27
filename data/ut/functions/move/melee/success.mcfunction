@@ -33,4 +33,6 @@ function cua:move/melee/success
 ###The Last
 function ut:move/skill_use/_main
 
+function mypacks:move/melee/success
+
 tag @s add move_used

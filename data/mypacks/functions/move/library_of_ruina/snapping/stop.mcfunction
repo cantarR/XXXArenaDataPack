@@ -4,3 +4,5 @@ tag @s remove lor_snapping_user
 tag @a remove lor_teleport_target_pre
 tag @a remove lor_teleport_target_ready
 kill @e[tag=lor_target_pos_use]
+scoreboard players reset @s plt3b
+scoreboard players reset @s plt3
