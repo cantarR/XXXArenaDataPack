@@ -8,4 +8,3 @@ execute anchored eyes run function ut:move/vine_seed/cast
 
 function ut:player/infight/use
 
-function ut:move/full_use

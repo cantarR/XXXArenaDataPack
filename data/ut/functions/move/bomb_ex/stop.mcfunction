@@ -7,4 +7,3 @@ tag @s remove bomb_ex_user
 
 function ut:player/infight/use
 
-function ut:move/full_use

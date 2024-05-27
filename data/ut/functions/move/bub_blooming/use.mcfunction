@@ -13,4 +13,3 @@ tag @e remove flower2
 tag @e remove flower3
 function ut:player/infight/use
 tag @a remove bub_user
-function ut:move/full_use

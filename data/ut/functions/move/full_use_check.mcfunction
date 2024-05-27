@@ -1,0 +1,1 @@
+execute unless score @s plt1 matches 1.. unless score @s plt1b matches 1.. unless score @s plt1c matches 1.. unless score @s plt2 matches 1.. unless score @s plt2b matches 1.. unless score @s plt3 matches 1.. unless score @s plt3b matches 1.. unless score @s plt4 matches 1.. unless score @s plt4b matches 1.. run function ut:move/full_use

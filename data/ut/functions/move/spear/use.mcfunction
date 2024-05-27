@@ -12,4 +12,3 @@ execute if entity @s[tag=passive_undyne] if score @s passive_timer matches 1..7 
 execute if entity @s[tag=passive_undyne] if score @s passive_timer matches 8.. run scoreboard players remove @s mpcooldown 8
 
 function ut:player/infight/use
-function ut:move/full_use

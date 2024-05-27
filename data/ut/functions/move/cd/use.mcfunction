@@ -50,3 +50,5 @@ function wda:move/cd/use
 
 ###The Last
 function ut:move/skill_use/_main
+
+tag @s add move_used

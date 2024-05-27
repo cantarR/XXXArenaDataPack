@@ -35,6 +35,6 @@ playsound minecraft:block.amethyst_cluster.step player @a ~ ~ ~ 1 2
 playsound minecraft:block.amethyst_cluster.step player @a ~ ~ ~ 1 2
 execute if score @s hp matches 1.. run function ut:move/end_dec_trail/cast
 
-function ut:move/full_use
+
 
 #effect clear @s speed

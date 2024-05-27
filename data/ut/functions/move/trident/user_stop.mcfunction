@@ -25,4 +25,3 @@ tag @s remove trident_user
 #function ut:move/counter/stop
 
 function ut:player/infight/use
-function ut:move/full_use

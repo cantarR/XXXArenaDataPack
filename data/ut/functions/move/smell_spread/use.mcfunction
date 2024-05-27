@@ -5,4 +5,3 @@ execute at @s anchored eyes positioned ^1.5 ^ ^0.5 rotated ~-5 ~ run function ut
 execute at @s anchored eyes positioned ^-1.5 ^ ^0.5 rotated ~5 ~ run function ut:move/petal/cast
 execute if entity @s[tag=attack_buffed] at @s anchored eyes positioned ^3 ^ ^0.5 rotated ~-10 ~ run function ut:move/petal/cast
 execute if entity @s[tag=attack_buffed] at @s anchored eyes positioned ^-3 ^ ^0.5 rotated ~10 ~ run function ut:move/petal/cast
-function ut:move/full_use

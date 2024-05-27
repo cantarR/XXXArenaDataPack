@@ -12,4 +12,3 @@ scoreboard players set @s plt1b 1
 scoreboard players operation #user pid = @s pid
 
 tag @s add pellets_user2
-function ut:move/full_use
