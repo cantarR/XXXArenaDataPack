@@ -11,4 +11,3 @@ scoreboard players operation #damage damage *= @s atk
 scoreboard players operation #damage damage /= #rate atk
 
 execute as @a[tag=victim,limit=1,tag=!untargetable] at @s run function ut:move/fist/hitcheck
-function ut:move/full_use

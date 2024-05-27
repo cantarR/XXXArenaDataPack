@@ -20,4 +20,3 @@ tag @s remove counter_dodge
 #function ut:move/counter/stop
 
 function ut:move/head/change
-function ut:move/full_use

@@ -5,4 +5,3 @@ function ut:player/infight/use
 
 execute anchored eyes rotated ~ ~ run function ut:move/flirt/cast
 
-function ut:move/full_use

@@ -1,1 +1,1 @@
-scoreboard players remove @s passive_timer 1
+execute if score @s passive_timer matches 1.. run scoreboard players remove @s passive_timer 1

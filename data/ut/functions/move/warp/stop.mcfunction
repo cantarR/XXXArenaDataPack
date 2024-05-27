@@ -40,4 +40,3 @@ tag @s[tag=!boss] remove no_mc_dmg
 #no fall
 #effect give @s minecraft:slow_falling 1 0 true
 function ut:move/effect/nofall/give
-function ut:move/full_use

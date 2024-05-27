@@ -8,4 +8,3 @@ execute unless entity @s[tag=attack_buffed] run function ut:move/spider/use_norm
 scoreboard players set @s unloadtime 12
 scoreboard players add @s mpcooldown 10
 function ut:player/infight/use
-function ut:move/full_use

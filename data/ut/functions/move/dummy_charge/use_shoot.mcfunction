@@ -20,4 +20,3 @@ scoreboard players set @s unloadtime 8
 function ut:player/infight/use
 
 function ut:move/dummy_charge/stop
-function ut:move/full_use

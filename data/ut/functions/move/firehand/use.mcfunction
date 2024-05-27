@@ -9,4 +9,3 @@ scoreboard players remove @s[tag=attack_buffed] unloadtime_2nd 10
 scoreboard players set @s unloadtime 4
 scoreboard players add @s mpcooldown 10
 function ut:player/infight/use
-function ut:move/full_use

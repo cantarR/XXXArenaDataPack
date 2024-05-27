@@ -10,4 +10,3 @@ execute at @s unless entity @a[tag=effect_noise_despair] run execute as @a[tag=p
 execute as @a[tag=!tearer] if score @s pid = #target pid run function ut:move/effect/silence_fear/give
 tag @s remove tearer
 function ut:player/infight/use
-function ut:move/full_use

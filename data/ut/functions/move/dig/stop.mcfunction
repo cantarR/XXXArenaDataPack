@@ -25,4 +25,4 @@ tag @s remove dig_oa
 tag @s remove void_immune
 tag @s[tag=!boss] remove no_mc_dmg
 tag @s remove no_particles
-function ut:move/full_use
+

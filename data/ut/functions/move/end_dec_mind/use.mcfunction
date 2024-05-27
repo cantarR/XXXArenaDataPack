@@ -9,7 +9,7 @@ execute rotated ~-8 ~ positioned ^ ^1.8 ^ run function ut:move/end_dec_mind/cast
 
 scoreboard players set @s unloadtime 16
 function ut:player/infight/use
-function ut:move/full_use
+
 
 
 

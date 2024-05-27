@@ -19,4 +19,3 @@ kill @e[type=marker,tag=atker,limit=1]
 
 #function ut:move/effect/untargetable/give
 #scoreboard players set @s untarget_timer 1
-function ut:move/full_use

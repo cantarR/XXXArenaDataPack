@@ -1,4 +1,5 @@
 scoreboard players set @s plt3b 30
+scoreboard players set -store plt3b 160
 scoreboard players set @s unloadtime 10
 execute if entity @e[tag=lor_center,distance=..15] run execute positioned as @s rotated as @s anchored eyes run function mypacks:move/library_of_ruina/snapping/loop_l_use
 execute if entity @e[tag=lor_target_pos_use] run function mypacks:move/library_of_ruina/snapping/lose_dt

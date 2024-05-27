@@ -23,4 +23,3 @@ execute positioned ^-0.25 ^0.9 ^-0.5 run summon firework_rocket ~ ~ ~ {LifeTime:
 
 scoreboard players set @s unloadtime 12
 function ut:player/infight/use
-function ut:move/full_use
