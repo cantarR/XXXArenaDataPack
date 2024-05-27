@@ -1,7 +1,7 @@
 #By Nebulirion
 
 ###DAMAGE
-scoreboard players set @s damage 200
+scoreboard players set @s damage 300
 scoreboard players operation @s damage *= #player damage
 scoreboard players operation @s damage /= 100 const
 
@@ -32,8 +32,8 @@ scoreboard players operation #atker pid = @s pid
 scoreboard players operation #atker tid = @s tid
 scoreboard players operation #damage damage = @s damage
 
-execute as @e[distance=..3,tag=prj,tag=reflectable] unless score @s tid = #atker tid run function ut:move/snh_wand/pechcurse/explode_prj
-execute positioned ~ ~-1 ~ as @a[distance=..3,tag=playing,tag=!untargetable] unless score @s tid = #atker tid run function ut:move/snh_wand/pechcurse/explode_hitcheck
+execute as @e[distance=..2.5,tag=prj,tag=reflectable] unless score @s tid = #atker tid run function ut:move/snh_wand/pechcurse/explode_prj
+execute positioned ~ ~-1 ~ as @a[distance=..2.5,tag=playing,tag=!untargetable] unless score @s tid = #atker tid run function ut:move/snh_wand/pechcurse/explode_hitcheck
 
 tag @s remove atker
 
