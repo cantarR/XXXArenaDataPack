@@ -1,7 +1,7 @@
 #By Nebulirion
 
 ###DAMAGE
-scoreboard players set @s damage 300
+scoreboard players set @s damage 200
 scoreboard players operation @s damage *= #player damage
 scoreboard players operation @s damage /= 100 const
 
