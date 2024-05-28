@@ -1,6 +1,7 @@
 #By Nebulirion
 
 scoreboard players reset @s plt2
+scoreboard players reset @s plt2b
 
 function ut:player/infight/use
 

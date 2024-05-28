@@ -1,1 +1,1 @@
-execute store result score -Angela favourite run data get storage utstats:main LoadedPlayer.Favourites[44]
+execute store result score -Angela favourite run data get storage utstats:main LoadedPlayer.Favourites[45]

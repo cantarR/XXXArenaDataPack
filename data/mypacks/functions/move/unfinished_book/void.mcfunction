@@ -1,1 +1,1 @@
-clear @s carrot_on_a_stick{page_used:1b}
+clear @s carrot_on_a_stick{move_used:1b}
