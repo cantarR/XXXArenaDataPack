@@ -81,6 +81,8 @@ execute if entity @s[tag=ntfrisk_cd] run function ut:move/ntfrisk/cd/stop
 execute if entity @s[tag=effect_ntfrisk_cd] run function ut:move/ntfrisk/cd/effect/stop
 execute if entity @s[tag=effect_ntfrisk_sp] run function ut:move/ntfrisk/sp/effect/stop
 
+#snh
+execute if entity @s[tag=dt_snh] run function ut:move/snh_godfox/stop
 
 ##cua add
 execute if entity @s[tag=counter_invulnerable] run function ut:move/invulnerable/stop
