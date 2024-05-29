@@ -26,7 +26,7 @@ scoreboard players remove @s[scores={mpcooldown=1..}] mpcooldown 1
 execute if score flowey tutorial matches 7.. unless score @s mpcooldown matches 1.. if score @s mp < @s mpmax run function ut:player/mp/regenerate
 #cd
 scoreboard players remove @s[scores={cdcooldown=1..}] cdcooldown 1
-execute if score flowey tutorial matches 9.. unless score @s cdcooldown matches 1.. if score @s cd < @s cdmax run function ut:player/cd/regenerate
+execute if score flowey tutorial matches 9.. unless score @s cdcooldown matches 1.. unless entity @s[tag=cd_ready] run function ut:player/cd/regenerate
 #dt
 execute if score flowey tutorial matches 15.. if entity @s[tag=!dt_ready] if score @s will > #dtLim will run function ut:player/dt/regenerate
 

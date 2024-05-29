@@ -4,9 +4,14 @@ execute unless data entity @s SelectedItem.tag.dummy_charge run function ut:move
 
 scoreboard players add @s[tag=!effect_shocked] cdcooldown 1
 
-execute if score @s cddis matches ..99 run scoreboard players add @s cddis 5
-execute if score @s cddis matches 100.. unless score @s cd = @s cdmax run playsound minecraft:item.crossbow.loading_end player @s ~ ~ ~ 1.2 0.8
-execute if score @s cddis matches 100.. run scoreboard players operation @s cd = @s cdmax
+# execute if score @s cddis matches ..99 run scoreboard players add @s cddis 5
+# execute if score @s cddis matches 100.. unless score @s cd = @s cdmax run playsound minecraft:item.crossbow.loading_end player @s ~ ~ ~ 1.2 0.8
+# execute if score @s cddis matches 100.. run scoreboard players operation @s cd = @s cdmax
+scoreboard players operation #temp cd = @s cdmax
+scoreboard players operation #temp cd /= 20 const
+scoreboard players operation @s cd += #temp cd
+execute if score @s cd = @s cdmax unless entity @s[tag=cd_ready] run playsound minecraft:item.crossbow.loading_end player @s ~ ~ ~ 1.2 0.8
+function ut:player/cd/change
 
 scoreboard players operation #atker pid = @s pid
 execute as @e[tag=can_dummy_charge,tag=prepare] if score @s pid = #atker pid run tag @s add dummy_preparing

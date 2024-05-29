@@ -1,7 +1,8 @@
 
 
 scoreboard players set @s cd 0
-scoreboard players set @s cddis 0
+# scoreboard players set @s cddis 0
+function ut:player/cd/change
 
 playsound minecraft:entity.generic.eat player @a ~ ~ ~ 2 1
 
