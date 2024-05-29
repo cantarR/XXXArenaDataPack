@@ -2,8 +2,4 @@ execute if entity @s[tag=effect_emotion_stimulate] run function mypacks:move/pas
 execute if entity @s[tag=teddy_hug_user] run function mypacks:move/teddy_hug/stop
 execute if entity @s[tag=teddy_hugging] run function mypacks:move/teddy_hug/stop2
 execute if entity @s[tag=lor_owner] run function mypacks:move/library_of_ruina/stop
-execute if entity @s[tag=effect_forth_match] run function mypacks:move/effect/abnormality_page/forth_match/clear
-execute if entity @s[tag=effect_goodbye] run function mypacks:move/effect/abnormality_page/goodbye/clear
-execute if entity @s[tag=effect_intensive_care] run function mypacks:move/effect/abnormality_page/intensive_care/clear
-execute if entity @s[tag=effect_repeat] run function mypacks:move/effect/abnormality_page/repeat/clear
-execute if entity @s[tag=effect_yearn] run function mypacks:move/effect/abnormality_page/yearn/clear
+function mypacks:move/abnormality_page/full_stop

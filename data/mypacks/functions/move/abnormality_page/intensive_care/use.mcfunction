@@ -1,0 +1,1 @@
+function mypacks:move/effect/abnormality_page/intensive_care/give

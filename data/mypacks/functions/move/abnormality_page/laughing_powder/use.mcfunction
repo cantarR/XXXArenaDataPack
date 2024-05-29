@@ -1,0 +1,1 @@
+function mypacks:move/effect/abnormality_page/laughing_powder/give

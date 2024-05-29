@@ -1,5 +1,7 @@
 scoreboard objectives add emotion_change_count dummy
 
+scoreboard objectives add emotion_level dummy
+
 scoreboard objectives add effect_repeat_count dummy
 
 scoreboard objectives add effect_repeat_count2 dummy

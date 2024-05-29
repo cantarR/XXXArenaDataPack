@@ -1,0 +1,3 @@
+execute if score @s emotion_change_count matches 20.. if score @s emotion_level matches 0 run function mypacks:move/passive/angela/level_up
+execute if score @s emotion_change_count matches 50.. if score @s emotion_level matches 1 run function mypacks:move/passive/angela/level_up
+execute if score @s emotion_change_count matches 80.. if score @s emotion_level matches 2 run function mypacks:move/passive/angela/level_up

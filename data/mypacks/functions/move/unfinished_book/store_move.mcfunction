@@ -27,15 +27,15 @@ data modify block 255 0 255 Items[0].tag.cards[6].tag.cost set value 0
 data modify block 255 0 255 Items[0].tag.cards[7].tag.cost set value 0
 data modify block 255 0 255 Items[0].tag.cards[8].tag.cost set value 0
 
-data modify block 255 0 255 Items[0].tag.cards[0].tag.cd set value 0
-data modify block 255 0 255 Items[0].tag.cards[1].tag.cd set value 0
-data modify block 255 0 255 Items[0].tag.cards[2].tag.cd set value 0
-data modify block 255 0 255 Items[0].tag.cards[3].tag.cd set value 0
-data modify block 255 0 255 Items[0].tag.cards[4].tag.cd set value 0
-data modify block 255 0 255 Items[0].tag.cards[5].tag.cd set value 0
-data modify block 255 0 255 Items[0].tag.cards[6].tag.cd set value 0
-data modify block 255 0 255 Items[0].tag.cards[7].tag.cd set value 0
-data modify block 255 0 255 Items[0].tag.cards[8].tag.cd set value 0
+data modify block 255 0 255 Items[0].tag.cards[0].tag.cd set value 1
+data modify block 255 0 255 Items[0].tag.cards[1].tag.cd set value 1
+data modify block 255 0 255 Items[0].tag.cards[2].tag.cd set value 1
+data modify block 255 0 255 Items[0].tag.cards[3].tag.cd set value 1
+data modify block 255 0 255 Items[0].tag.cards[4].tag.cd set value 1
+data modify block 255 0 255 Items[0].tag.cards[5].tag.cd set value 1
+data modify block 255 0 255 Items[0].tag.cards[6].tag.cd set value 1
+data modify block 255 0 255 Items[0].tag.cards[7].tag.cd set value 1
+data modify block 255 0 255 Items[0].tag.cards[8].tag.cd set value 1
 clear @p[tag=book_owner] carrot_on_a_stick{unfinished_book:1b}
 execute as @p[tag=book_owner] run execute if entity @s[tag=!cev] unless data entity @s Inventory[{Slot:7b}] run loot replace entity @s container.7 1 mine 255 0 255 minecraft:diamond_pickaxe{isShulkerMarker:1b}
 execute as @p[tag=book_owner] run execute unless data entity @s Inventory[{tag:{unfinished_book:1b}}] run loot give @s mine 255 0 255 minecraft:diamond_pickaxe{isShulkerMarker:1b}

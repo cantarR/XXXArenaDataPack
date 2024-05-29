@@ -15,6 +15,17 @@ execute if data entity @s Inventory[{tag:{forth_match:1b}}] run scoreboard playe
 execute if data entity @s Inventory[{tag:{repeat:1b}}] run scoreboard players remove #a_page store 1
 execute if data entity @s Inventory[{tag:{goodbye:1b}}] run scoreboard players remove #a_page store 1
 
+execute if entity @s[tag=effect_emo_today] run scoreboard players remove #a_page store 1
+execute if entity @s[tag=effect_die_for] run scoreboard players remove #a_page store 1
+execute if entity @s[tag=effect_birds_judge] run scoreboard players remove #a_page store 1
+execute if entity @s[tag=effect_pull_out] run scoreboard players remove #a_page store 1
+execute if entity @s[tag=effect_laughing_powder] run scoreboard players remove #a_page store 1
+execute if entity @s[tag=effect_yearn] run scoreboard players remove #a_page store 1
+execute if entity @s[tag=effect_intensive_care] run scoreboard players remove #a_page store 1
+execute if entity @s[tag=effect_forth_match] run scoreboard players remove #a_page store 1
+execute if entity @s[tag=effect_repeat] run scoreboard players remove #a_page store 1
+execute if entity @s[tag=effect_goodbye] run scoreboard players remove #a_page store 1
+
 execute if data entity @s Inventory[{tag:{emo_today:1b}}] run data remove storage mypacks:pages AbnormalityPage[{tag:{emo_today:1b}}]
 execute if data entity @s Inventory[{tag:{die_for:1b}}] run data remove storage mypacks:pages AbnormalityPage[{tag:{die_for:1b}}]
 execute if data entity @s Inventory[{tag:{birds_judge:1b}}] run data remove storage mypacks:pages AbnormalityPage[{tag:{birds_judge:1b}}]
@@ -25,6 +36,17 @@ execute if data entity @s Inventory[{tag:{intensive_care:1b}}] run data remove s
 execute if data entity @s Inventory[{tag:{forth_match:1b}}] run data remove storage mypacks:pages AbnormalityPage[{tag:{forth_match:1b}}]
 execute if data entity @s Inventory[{tag:{repeat:1b}}] run data remove storage mypacks:pages AbnormalityPage[{tag:{repeat:1b}}]
 execute if data entity @s Inventory[{tag:{goodbye:1b}}] run data remove storage mypacks:pages AbnormalityPage[{tag:{goodbye:1b}}]
+
+execute if entity @s[tag=effect_emo_today] run data remove storage mypacks:pages AbnormalityPage[{tag:{emo_today:1b}}]
+execute if entity @s[tag=effect_die_for] run data remove storage mypacks:pages AbnormalityPage[{tag:{die_for:1b}}]
+execute if entity @s[tag=effect_birds_judge] run data remove storage mypacks:pages AbnormalityPage[{tag:{birds_judge:1b}}]
+execute if entity @s[tag=effect_pull_out] run data remove storage mypacks:pages AbnormalityPage[{tag:{pull_out:1b}}]
+execute if entity @s[tag=effect_laughing_powder] run data remove storage mypacks:pages AbnormalityPage[{tag:{laughing_powder:1b}}]
+execute if entity @s[tag=effect_yearn] run data remove storage mypacks:pages AbnormalityPage[{tag:{yearn:1b}}]
+execute if entity @s[tag=effect_intensive_care] run data remove storage mypacks:pages AbnormalityPage[{tag:{intensive_care:1b}}]
+execute if entity @s[tag=effect_forth_match] run data remove storage mypacks:pages AbnormalityPage[{tag:{forth_match:1b}}]
+execute if entity @s[tag=effect_repeat] run data remove storage mypacks:pages AbnormalityPage[{tag:{repeat:1b}}]
+execute if entity @s[tag=effect_goodbye] run data remove storage mypacks:pages AbnormalityPage[{tag:{goodbye:1b}}]
 
 execute if score #a_page store matches 0 run execute store result score #random store run random value 0..0
 execute if score #a_page store matches 1 run execute store result score #random store run random value 0..1
