@@ -32,7 +32,7 @@ execute if score @s eaid matches 1.. run function ut:move/melee/attacker
 execute if score @s damage_resisted matches 0.. run function ut:player/damage_resisted
 
 #move
-execute if data entity @s SelectedItem.tag.dig if score @s cd >= @s cdmax positioned ~ ~1.5 ~ run function ut:move/dig/ray
+execute if data entity @s SelectedItem.tag.dig if entity @s[tag=cd_ready] positioned ~ ~1.5 ~ run function ut:move/dig/ray
 execute if data entity @s[tag=dt_ready] SelectedItem.tag.injection run function ut:move/injection/hint
 execute if entity @s[tag=passive_default] run function ut:move/hand/player_loop
 
