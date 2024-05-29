@@ -4,7 +4,8 @@ scoreboard players operation @s hp = @s hpmax
 execute unless score dtRule gamerule matches 2..3 run scoreboard players set @s dt 0
 scoreboard players operation @s mp = @s mpmax
 scoreboard players operation @s cd = @s cdmax
-scoreboard players set @s cddis 100
+# scoreboard players set @s cddis 100
+function ut:player/cd/change
 scoreboard players set @s mlmax 20
 scoreboard players operation @s ml = @s mlmax 
 scoreboard players set @s mldis 100

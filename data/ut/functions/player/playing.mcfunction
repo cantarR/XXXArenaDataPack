@@ -23,7 +23,7 @@ execute unless score @s mpcooldown matches 1.. if score @s mp < @s mpmax run fun
 execute unless score @s[tag=!effect_stun,tag=!effect_flirt] mpcooldown matches 1.. if score @s ml < @s mlmax run function ut:player/melee/regenerate
 #cd
 scoreboard players remove @s[scores={cdcooldown=1..}] cdcooldown 1
-execute unless score @s cdcooldown matches 1.. if score @s cd < @s cdmax run function ut:player/cd/regenerate
+execute unless score @s cdcooldown matches 1.. unless entity @s[tag=cd_ready] run function ut:player/cd/regenerate
 #dt
 execute unless score dtRule gamerule matches 0 unless score dtRule gamerule matches 2 if entity @s[tag=!dt_ready,tag=!dt_shield] if score @s will > #dtLim will run function ut:player/dt/regenerate
 
@@ -32,7 +32,7 @@ execute if score @s eaid matches 1.. run function ut:move/melee/attacker
 execute if score @s damage_resisted matches 0.. run function ut:player/damage_resisted
 
 #move
-execute if data entity @s SelectedItem.tag.dig if score @s cd >= @s cdmax positioned ~ ~1.5 ~ run function ut:move/dig/ray
+execute if data entity @s SelectedItem.tag.dig if entity @s[tag=cd_ready] positioned ~ ~1.5 ~ run function ut:move/dig/ray
 execute if data entity @s[tag=dt_ready] SelectedItem.tag.injection run function ut:move/injection/hint
 execute if entity @s[tag=passive_default] run function ut:move/hand/player_loop
 

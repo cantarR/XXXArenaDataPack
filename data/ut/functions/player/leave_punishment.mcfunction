@@ -4,7 +4,8 @@ function ut:player/bossbar/adjust
 
 scoreboard players set @s mp 0
 scoreboard players set @s cd 0
-scoreboard players set @s cddis 0
+# scoreboard players set @s cddis 0
+function ut:player/cd/change
 scoreboard players set @s unloadtime 60
 
 effect give @s slowness 3 2 true

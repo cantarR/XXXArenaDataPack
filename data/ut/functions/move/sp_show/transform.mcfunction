@@ -12,7 +12,8 @@ execute if score -TeamMode game matches 1 if score teamUniform gamerule matches 
 
 scoreboard players operation @s mp = @s mpmax
 scoreboard players operation @s cd = @s cdmax
-scoreboard players set @s cddis 100
+# scoreboard players set @s cddis 100
+function ut:player/cd/change
 
 execute store result score @s mpcost run data get entity @s Inventory[{tag:{mp_move:1b}}].tag.cost
 execute store result score @s cdmax run data get entity @s Inventory[{tag:{cd_move:1b}}].tag.cd
