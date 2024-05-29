@@ -24,8 +24,11 @@ execute if entity @s[tag=delete_user] run function ut:move/delete/stop
 execute if entity @s[tag=trident_user] run function ut:move/trident/user_stop
 execute if entity @s[tag=warp_user] run function ut:move/warp/stop
 execute if entity @s[tag=shock_bullet_user] run function ut:move/shock_bullet/stop
-
-
+execute if entity @s[tag=effect_rancon_wound] run function ut:move/effect/rancon_wound/all_clear
+execute if entity @s[tag=effect_blooming] run function ut:move/effect/blooming/all_clear
+execute if entity @s[tag=effect_fullblooming] run function ut:move/effect/fullblooming/clear
+execute if entity @s[tag=effect_burn] run function ut:move/effect/burn/all_clear
+execute if entity @s[tag=effect_black_flame] run function ut:move/effect/black_flame/clear
 execute if entity @s[tag=rancon_pierce_user] run function ut:move/rancon_pierce/stop
 execute if entity @s[tag=paper_plane_user] run function ut:move/paper_plane_kite/stop
 #snh slash

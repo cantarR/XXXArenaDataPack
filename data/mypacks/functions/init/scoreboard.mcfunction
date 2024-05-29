@@ -9,3 +9,11 @@ scoreboard objectives add effect_goodbye_count dummy
 scoreboard objectives add effect_goodbye_count2 dummy
 
 scoreboard objectives add effect_yearn_timer dummy
+
+scoreboard objectives add effect_o_judge_count dummy
+
+scoreboard objectives add effect_emo_today_count dummy
+
+scoreboard objectives add effect_emo_today_timer dummy
+
+scoreboard objectives add effect_birds_judge_timer dummy
