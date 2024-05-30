@@ -13,3 +13,4 @@ execute if score @s plt2 matches 1.. if entity @s[tag=dash_up] positioned ~ ~1 ~
 execute if score @s plt2 matches 1.. unless entity @s[tag=dash_up] positioned ^ ^ ^.25 run function aua:move/flash_dodge/step
 
 #
+particle minecraft:dust_color_transition .6 0 .6 .2 1 0 1 ~ ~1 ~ 0.2 0.4 0.2 0 16 force @a
