@@ -3,7 +3,7 @@
 
 
 ##cua add
-execute if entity @s[tag=counter_invulnerable,tag=!counter_success] at @s run function ut:move/invulnerable/trigger
+execute if entity @s[tag=counter_invulnerable,tag=!counter_success] at @s run function cua:move/invulnerable/trigger
 
 #cua
 function cua:move/counter/main/first

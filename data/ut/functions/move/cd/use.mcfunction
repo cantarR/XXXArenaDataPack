@@ -44,9 +44,10 @@ execute if data entity @s SelectedItem.tag.snh_slash run function ut:move/snh_sl
 #fda
 function fda:move/cd/use
 
+#aua
+function aua:move/cd/use
 #cua
 function cua:move/cd/use
-
 
 function mypacks:move/cd/use
 #wda

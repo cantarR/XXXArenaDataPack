@@ -78,17 +78,13 @@ execute if entity @s[tag=effect_ntfrisk_sp] run function ut:move/ntfrisk/sp/effe
 #snh
 execute if entity @s[tag=dt_snh] run function ut:move/snh_godfox/stop
 
-##cua add
-execute if entity @s[tag=counter_invulnerable] run function ut:move/invulnerable/stop
-execute if entity @s[tag=effect_break_def] run function ut:move/effect/break_def/clear
-
-
 
 #fda
 function fda:move/player_loop/fullstop
 
 #cua
 function cua:move/player_loop/fullstop
+#
 
 function mypacks:move/player_loop/fullstop
 

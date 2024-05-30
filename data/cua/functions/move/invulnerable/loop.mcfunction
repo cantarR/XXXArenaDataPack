@@ -1,7 +1,7 @@
 
 
 scoreboard players remove @s invulnerable_timer 1
-execute if score @s invulnerable_timer matches ..0 run function ut:move/invulnerable/stop
+execute if score @s invulnerable_timer matches ..0 run function cua:move/invulnerable/stop
 
 scoreboard players operation #user invulnerable_timer = @s invulnerable_timer
 scoreboard players operation #user invulnerable_timer %= 2 const
