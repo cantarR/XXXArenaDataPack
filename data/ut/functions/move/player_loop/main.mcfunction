@@ -69,10 +69,6 @@ execute if entity @s[tag=lazer_user] run function ut:move/lazer/loop
 execute if entity @s[tag=shock_bullet_user] run function ut:move/shock_bullet/user_loop
 
 
-##cua add
-execute if entity @s[tag=counter_invulnerable] run function ut:move/invulnerable/loop
-execute if entity @s[tag=effect_break_def] run function ut:move/effect/break_def/loop
-
 
 #execute if entity @s[tag=rancon_pierce_user] run function ut:move/rancon_pierce/loop
 
@@ -107,6 +103,7 @@ function fda:move/player_loop/main
 
 #cua
 function cua:move/player_loop/main
+#
 
 function mypacks:move/player_loop/main
 

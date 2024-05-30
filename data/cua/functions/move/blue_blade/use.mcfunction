@@ -1,7 +1,6 @@
 
 
 scoreboard players set -new mlmax 25
-execute if entity @s[tag=attack_buffed] run scoreboard players set -new mlmax 10
 
 
 summon minecraft:marker ~ ~ ~ {Tags:[atker,blue_blade,killonhit],CustomName:'{"translate":"chr.God_ZhaoYun.mw"}'}

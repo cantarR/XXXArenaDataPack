@@ -12,4 +12,4 @@ execute unless score #player def matches ..0 run scoreboard players operation @s
 scoreboard players reset #player def
 
 scoreboard players remove @s break_def_timer 1
-execute if score @s break_def_timer matches ..0 run function ut:move/effect/break_def/clear
+execute if score @s break_def_timer matches ..0 run function cua:move/effect/break_def/clear
