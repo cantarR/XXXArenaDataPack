@@ -6,3 +6,4 @@ execute if score @s mp >= #lose mp run scoreboard players operation @s mp -= #lo
 execute if score @s mp >= #lose mp run scoreboard players operation @s dt += #gain dt
 function ut:player/mp/change
 function ut:player/dt/gain
+function ut:move/melee/cooldown

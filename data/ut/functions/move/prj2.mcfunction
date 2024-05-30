@@ -62,3 +62,5 @@ function aua:move/prj2
 function cua:move/prj2
 #wda
 function wda:move/prj2
+
+function mypacks:move/prj2
