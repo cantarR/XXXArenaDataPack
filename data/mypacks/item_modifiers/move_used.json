@@ -1,0 +1,6 @@
+{
+    "function":"minecraft:set_nbt",
+    "tag":"{move_used:1b}",
+    "replace": true,
+    "entity": "this"
+}

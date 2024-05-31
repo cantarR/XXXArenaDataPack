@@ -1,0 +1,2 @@
+execute at @s positioned ^ ^1 ^1.5 as @a[tag=playing,tag=!untargetable,distance=..2.5] unless score @s tid = #atker tid run function ut:move/snh_endcycle/dash/hitcheck
+function ut:move/snh_endcycle/dash/particle

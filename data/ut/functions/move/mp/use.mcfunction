@@ -20,32 +20,30 @@ execute if data entity @s SelectedItem.tag.tear run function ut:move/tear_napsta
 execute if data entity @s SelectedItem.tag.dummy_friend run function ut:move/dummy_friend/use
 execute if data entity @s SelectedItem.tag.shoot run function ut:move/shoot/use
 
+
 execute if data entity @s SelectedItem.tag.magic_shoot run function ut:move/magic_shoot/use
 execute if data entity @s SelectedItem.tag.fireball_loris run function ut:move/fireball_loris/use
-
 execute if data entity @s SelectedItem.tag.rancon_pierce run function ut:move/rancon_pierce/use
-
 execute if data entity @s SelectedItem.tag.paper_plane_kite run function ut:move/paper_plane_kite/use
-
 execute if data entity @s SelectedItem.tag.unisicle_left run function ut:move/unisicle_left/use
-
 execute if data entity @s SelectedItem.tag.smell_spread run function ut:move/smell_spread/use
-
-execute if data entity @s SelectedItem.tag.blade run function ut:move/snh_shadowblade/right/use
-
 execute if data entity @s SelectedItem.tag.end_dec_mind run function ut:move/end_dec_mind/use
-
 execute if data entity @s SelectedItem.tag.gas_harpoon if score @s mldis matches 100.. run function ut:move/gas_harpoon/use
-
 execute if data entity @s SelectedItem.tag.heat_harpoon if score @s mldis matches 100.. run function ut:move/gas_harpoon/use
-
 execute if data entity @s SelectedItem.tag.overheat_harpoon if score @s mldis matches 100.. run function ut:move/gas_harpoon/use
+
+#snh
+execute if data entity @s SelectedItem.tag.blade run function ut:move/snh_shadowblade/right/use
+execute if data entity @s SelectedItem.tag.thaumium_wand run function ut:move/snh_wand/use
 
 #fda
 function fda:move/mp/use
 
+#aua
+function aua:move/mp/use
 #cua
 function cua:move/mp/use
+#
 
 function mypacks:move/mp/use
 
@@ -54,3 +52,5 @@ function wda:move/mp/use
 
 ###The Last
 function ut:move/skill_use/_main
+
+tag @s add move_used

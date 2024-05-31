@@ -1,6 +1,6 @@
 #from fda
 
-scoreboard players operation #temp dt = #true_damage damage
+scoreboard players operation #temp dt = #damage damage
 execute unless entity @s[tag=dt_lock] run scoreboard players operation @s dt += #temp dt
 function ut:player/dt/update
 

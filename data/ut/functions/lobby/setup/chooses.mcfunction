@@ -140,34 +140,6 @@ tag @e[tag=summon] add surprise_select
 tag @e[tag=summon] remove default_select
 tag @e[tag=summon] remove summon
 
-execute positioned 300 231 1289 run function ut:lobby/setup/choose
-data merge entity @e[tag=summon,limit=1] {CustomName:'{"translate":"chr.magic_bullet","color":"yellow","bold":true}'}
-scoreboard players set @e[tag=summon] chr 36
-execute as @e[tag=summon] run function ut:choose/storage
-item replace entity @e[tag=summon] weapon.mainhand with air
-execute as @e[tag=summon] at @s run tp @s ~ ~ ~ ~ ~
-tag @e[tag=summon] add magic_bullet_select
-tag @e[tag=summon] remove summon
-
-execute positioned 295 231 1268 run function ut:lobby/setup/choose
-data merge entity @e[tag=summon,limit=1] {CustomName:'{"translate":"chr.loris","color":"yellow","bold":true}'}
-scoreboard players set @e[tag=summon] chr 37
-execute as @e[tag=summon] run function ut:choose/storage
-item replace entity @e[tag=summon] weapon.mainhand with air
-execute as @e[tag=summon] at @s run tp @s ~ ~ ~ ~ ~
-tag @e[tag=summon] add loris_select
-tag @e[tag=summon] remove summon
-
-execute positioned 310 231 1286 run function ut:lobby/setup/choose
-data merge entity @e[tag=summon,limit=1] {CustomName:'{"translate":"chr.rancon","color":"yellow","bold":true}'}
-scoreboard players set @e[tag=summon] chr 38
-execute as @e[tag=summon] run function ut:choose/storage
-item replace entity @e[tag=summon] weapon.mainhand with air
-execute as @e[tag=summon] at @s run tp @s ~ ~ ~ ~ ~
-tag @e[tag=summon] add rancon_select
-tag @e[tag=summon] remove summon
-
-
 #execute rotated ~50 0 positioned ^ ^ ^31.5 rotated ~180 ~ run function ut:lobby/setup/choose
 #item replace entity @e[tag=summon,limit=1] armor.head with bowl
 #data merge entity @e[tag=summon,limit=1] {CustomName:'{"translate":"chr.soon","color":"yellow","bold":true}',ShowArms:0b}

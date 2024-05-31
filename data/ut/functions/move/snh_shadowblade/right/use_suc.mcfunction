@@ -9,6 +9,6 @@ attribute @s generic.knockback_resistance modifier add 671-1-1-1-1 "snh_blade_kb
 attribute @s generic.movement_speed modifier add 671-1-1-1-1 "snh_blade_speed" 0.03 add
 scoreboard players add @s move_loop 1
 scoreboard players set @s unloadtime 5
-scoreboard players remove @s def 50
+scoreboard players remove @s def 75
 scoreboard players set @s mp 0
 function ut:player/infight/use

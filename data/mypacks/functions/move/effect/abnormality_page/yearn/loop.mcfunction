@@ -1,0 +1,2 @@
+execute if score @s last_infight matches 1.. run scoreboard players add @s effect_yearn_timer 1
+execute if score @s effect_yearn_timer matches 200.. run function mypacks:move/effect/abnormality_page/yearn/hurt

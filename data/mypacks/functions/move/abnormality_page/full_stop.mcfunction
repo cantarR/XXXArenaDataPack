@@ -1,0 +1,11 @@
+execute if entity @s[tag=effect_emo_today] run function mypacks:move/effect/abnormality_page/emo_today/clear
+execute if entity @s[tag=effect_die_for] run function mypacks:move/effect/abnormality_page/die_for/clear
+execute if entity @s[tag=effect_birds_judge] run function mypacks:move/effect/abnormality_page/birds_judge/clear
+execute if entity @s[tag=effect_o_judge] run function mypacks:move/effect/abnormality_page/birds_judge/o_judge/full_clear
+execute if entity @s[tag=effect_pull_out] run function mypacks:move/effect/abnormality_page/pull_out/clear
+execute if entity @s[tag=effect_laughing_powder] run function mypacks:move/effect/abnormality_page/laughing_powder/clear
+execute if entity @s[tag=effect_yearn] run function mypacks:move/effect/abnormality_page/yearn/clear
+execute if entity @s[tag=effect_intensive_care] run function mypacks:move/effect/abnormality_page/intensive_care/clear
+execute if entity @s[tag=effect_forth_match] run function mypacks:move/effect/abnormality_page/forth_match/clear
+execute if entity @s[tag=effect_repeat] run function mypacks:move/effect/abnormality_page/repeat/clear
+execute if entity @s[tag=effect_goodbye] run function mypacks:move/effect/abnormality_page/goodbye/clear

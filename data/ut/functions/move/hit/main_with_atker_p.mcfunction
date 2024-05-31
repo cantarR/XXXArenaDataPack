@@ -9,6 +9,8 @@ execute unless score @s kid = @a[tag=atker_p,limit=1] pid run scoreboard players
 ###Damage Passive
 function wda:move/hit/main_with_atker_p
 
+function mypacks:move/hit/main_with_atker_p
+
 execute if entity @a[tag=atker_p,tag=passive_loris] run function ut:move/passive/loris/main
 execute if entity @s[tag=passive_rancon] run function ut:move/passive/rancon/give
 execute if entity @s[tag=passive_kite] run function ut:move/passive/kite/main

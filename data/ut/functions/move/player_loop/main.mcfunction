@@ -69,10 +69,6 @@ execute if entity @s[tag=lazer_user] run function ut:move/lazer/loop
 execute if entity @s[tag=shock_bullet_user] run function ut:move/shock_bullet/user_loop
 
 
-##cua add
-execute if entity @s[tag=counter_invulnerable] run function ut:move/invulnerable/loop
-execute if entity @s[tag=effect_break_def] run function ut:move/effect/break_def/loop
-
 
 #execute if entity @s[tag=rancon_pierce_user] run function ut:move/rancon_pierce/loop
 
@@ -88,6 +84,8 @@ execute if entity @s[tag=shadowblade_right_user] run function ut:move/snh_shadow
 #snh slash
 execute if entity @s[tag=snh_slash_user] run function ut:move/snh_slash/loop
 execute if entity @s[tag=snh_slash_slash_user] run function ut:move/snh_slash/slash/loop
+#snh godfox
+execute if entity @s[tag=dt_snh] run function ut:move/snh_godfox/dt_loop
 
 execute if entity @s[tag=trail_user] run function ut:move/end_dec_trail/loop
 
@@ -105,6 +103,7 @@ function fda:move/player_loop/main
 
 #cua
 function cua:move/player_loop/main
+#
 
 function mypacks:move/player_loop/main
 

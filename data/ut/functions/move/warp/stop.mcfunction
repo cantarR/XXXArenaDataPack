@@ -22,7 +22,7 @@ gamemode survival @s[tag=warp_os]
 
 #score remove
 scoreboard players set @s cd 0
-#scoreboard players set @s cddis 0
+# scoreboard players set @s cddis 0
 function ut:player/cd/change
 scoreboard players reset @s plt2
 scoreboard players remove @s[tag=warp_user] move_loop 1

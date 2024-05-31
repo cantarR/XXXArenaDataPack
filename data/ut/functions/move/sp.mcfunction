@@ -12,3 +12,5 @@ function mypacks:move/sp
 function wda:move/sp
 #cua
 function cua:move/sp
+
+tag @s add move_used

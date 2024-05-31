@@ -1,0 +1,12 @@
+execute if entity @s[tag=effect_emotion_stimulate] run function mypacks:game/effect_display/angela_passive
+execute if entity @s[tag=effect_birds_judge] run function mypacks:game/effect_display/birds_judge
+execute if entity @s[tag=effect_o_judge] run function mypacks:game/effect_display/o_judge
+execute if entity @s[tag=effect_die_for] run function mypacks:game/effect_display/die_for
+execute if entity @s[tag=effect_emo_today] run function mypacks:game/effect_display/emo_today
+execute if entity @s[tag=effect_forth_match] run function mypacks:game/effect_display/forth_match
+execute if entity @s[tag=effect_goodbye] run function mypacks:game/effect_display/goodbye
+execute if entity @s[tag=effect_laughing_powder] run function mypacks:game/effect_display/laughing_powder
+execute if entity @s[tag=effect_intensive_care] run function mypacks:game/effect_display/intensive_care
+execute if entity @s[tag=effect_pull_out] run function mypacks:game/effect_display/pull_out
+execute if entity @s[tag=effect_repeat] run function mypacks:game/effect_display/repeat
+execute if entity @s[tag=effect_yearn] run function mypacks:game/effect_display/yearn

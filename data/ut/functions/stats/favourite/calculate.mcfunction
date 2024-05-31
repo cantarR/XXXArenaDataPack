@@ -45,6 +45,8 @@ execute store result score -Dongbaek favourite run data get storage utstats:main
 execute store result score -EndDec favourite run data get storage utstats:main LoadedPlayer.Favourites[42]
 execute store result score -Ahab favourite run data get storage utstats:main LoadedPlayer.Favourites[43]
 
+function mypacks:stats/favourite/calculate_pre
+
 scoreboard players set -Top favourite 0
 
 scoreboard players operation -Top favourite > -Sans favourite
@@ -87,6 +89,8 @@ scoreboard players operation -Top favourite > -Kite favourite
 scoreboard players operation -Top favourite > -Dongbaek favourite
 scoreboard players operation -Top favourite > -EndDec favourite
 scoreboard players operation -Top favourite > -Ahab favourite
+
+function mypacks:stats/favourite/calculate_top
 
 execute if score -Top favourite = -Sans favourite run scoreboard players set @s st_favchr 1
 execute if score -Top favourite = -Papyrus favourite run scoreboard players set @s st_favchr 2
@@ -131,5 +135,7 @@ execute if score -Top favourite = -Dongbaek favourite run scoreboard players set
 execute if score -Top favourite = -EndDec favourite run scoreboard players set @s st_favchr 43
 execute if score -Top favourite = -Ahab favourite run scoreboard players set @s st_favchr 44
 execute if score -Top favourite = -Dell favourite run scoreboard players set @s st_favchr 45
+
+function mypacks:stats/favourite/calculate_id
 
 execute if score -Top favourite matches 0 run scoreboard players set @s st_favchr 0

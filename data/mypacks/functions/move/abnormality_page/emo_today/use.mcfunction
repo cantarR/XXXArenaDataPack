@@ -1,0 +1,1 @@
+function mypacks:move/effect/abnormality_page/emo_today/give

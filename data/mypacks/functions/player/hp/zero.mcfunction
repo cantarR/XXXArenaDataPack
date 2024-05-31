@@ -1,1 +1,1 @@
-execute if entity @s[tag=inlor,tag=librarian] run function mypacks:move/library_of_ruina/death
+execute if entity @s[tag=inlor] run function mypacks:move/library_of_ruina/death

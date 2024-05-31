@@ -35,17 +35,20 @@ execute if data entity @s SelectedItem.tag.end_dec_trail run function ut:move/en
 execute if data entity @s SelectedItem.tag.tear_wound run function ut:move/tear_wound/use
 execute if data entity @s SelectedItem.tag.inflator run function ut:move/inflator/use
 execute if data entity @s SelectedItem.tag.bub_blooming run function ut:move/bub_blooming/use
-execute if data entity @s SelectedItem.tag.snh_slash run function ut:move/snh_slash/use
 #
 execute if data entity @s SelectedItem.tag.endless_trace run function ut:move/endless_trace/use
 execute if data entity @s SelectedItem.tag.ntfrisk_cd run function ut:move/ntfrisk/cd/use
 
+#snh
+execute if data entity @s SelectedItem.tag.snh_slash run function ut:move/snh_slash/use
+
 #fda
 function fda:move/cd/use
 
+#aua
+function aua:move/cd/use
 #cua
 function cua:move/cd/use
-
 
 function mypacks:move/cd/use
 #wda
@@ -54,3 +57,5 @@ function wda:move/cd/use
 
 ###The Last
 function ut:move/skill_use/_main
+
+tag @s add move_used
