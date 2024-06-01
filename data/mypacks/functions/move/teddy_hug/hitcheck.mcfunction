@@ -1,5 +1,5 @@
 summon minecraft:marker ^ ^ ^2 {Tags:[atker,teddy_hug,killonhit],CustomName:'{"translate":"chr.angela.cdn"}'}
-scoreboard players set #damage damage 75
+scoreboard players set #damage damage 33
 scoreboard players operation #damage damage *= @s atk
 scoreboard players operation #damage damage /= #rate atk
 scoreboard players operation #player pid = @s pid

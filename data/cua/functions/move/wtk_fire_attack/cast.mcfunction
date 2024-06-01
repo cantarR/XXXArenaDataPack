@@ -9,9 +9,11 @@ summon minecraft:marker ~ ~ ~ {Tags:[atker,wtk_fire_attack,fire_damage],CustomNa
 
 scoreboard players operation #atker pid = @s pid
 scoreboard players operation #atker tid = @s tid
-scoreboard players set #damage damage 200
+scoreboard players set #damage damage 150
 scoreboard players operation #damage damage *= @s atk
 scoreboard players operation #damage damage /= #rate atk
+#special
+scoreboard players operation #damage damage *= @s wtk_fire_attack_level
 
 
 execute as @a[distance=..3,tag=playing,tag=!untargetable] unless score @s tid = #atker tid run function cua:move/wtk_fire_attack/hitcheck

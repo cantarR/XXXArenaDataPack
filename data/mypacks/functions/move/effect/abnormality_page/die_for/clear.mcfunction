@@ -1,0 +1,1 @@
+tag @s remove effect_die_for

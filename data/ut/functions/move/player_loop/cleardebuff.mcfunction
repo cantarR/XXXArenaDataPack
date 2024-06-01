@@ -19,9 +19,6 @@ execute if entity @s[tag=effect_blooming] run function ut:move/effect/blooming/a
 execute if entity @s[tag=effect_fullblooming] run function ut:move/effect/fullblooming/clear
 
 
-##cua add
-execute if entity @s[tag=effect_break_def] run function ut:move/effect/break_def/clear
-
 
 #fda
 function fda:move/player_loop/cleardebuff

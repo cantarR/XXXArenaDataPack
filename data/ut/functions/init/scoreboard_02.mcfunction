@@ -44,4 +44,10 @@ scoreboard objectives add wda_sharif_level dummy
 scoreboard objectives add ntfrisk_sp_timer dummy
 scoreboard objectives add ntfrisk_sp_score dummy
 
+scoreboard objectives add passive_rancon_a dummy
+scoreboard objectives add passive_rancon_b dummy
+
+scoreboard objectives add passive_dongbaek_a dummy
+scoreboard objectives add passive_dongbaek_b dummy
+
 function mypacks:init/scoreboard

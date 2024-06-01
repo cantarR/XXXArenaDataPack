@@ -1,10 +1,9 @@
 
 
-tag @s remove cdmax_lock
+scoreboard players operation @s cd -= @s cdmax
+function ut:player/cd/change
 
-scoreboard players set @s cd 0
-scoreboard players set @s cddis 0
-
+execute store result score @s cdmax run data get entity @s SelectedItem.tag.cd
 
 
 #cua

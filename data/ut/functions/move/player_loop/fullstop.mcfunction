@@ -18,7 +18,10 @@ execute if entity @s[tag=overheat] run function ut:move/gas_harpoon/overheat_har
 execute if entity @s[tag=bisicle_used_once] run function ut:move/bisicle/stop
 execute if entity @s[tag=trail_user] run function ut:move/end_dec_trail/stop
 execute if entity @s[tag=end_dec_dt_pred] run function ut:move/end_dec_sickle/stop
-tag @s remove cdmax_lock
+
+##cua change
+# tag @s remove cdmax_lock
+##
 
 scoreboard players reset @s plt3
 scoreboard players reset @s plt3b
@@ -63,12 +66,7 @@ execute if entity @s[tag=attack_buffed] run function ut:move/_buffed/remove_stat
 
 
 #
-execute if entity @s[tag=effect_black_flame] run function ut:move/effect/black_flame/clear
 execute if entity @s[tag=passive_magic_bullet] run function ut:move/passive/magic_bullet/clear
-execute if entity @s[tag=effect_rancon_wound] run function ut:move/effect/rancon_wound/all_clear
-execute if entity @s[tag=effect_blooming] run function ut:move/effect/blooming/all_clear
-execute if entity @s[tag=effect_fullblooming] run function ut:move/effect/fullblooming/clear
-execute if entity @s[tag=effect_burn] run function ut:move/effect/burn/all_clear
 execute if entity @s[tag=passive_rancon] run function ut:move/passive/rancon/stop
 execute if entity @s[tag=passive_kite] run function ut:move/passive/kite/stop
 execute if entity @s[tag=passive_dongbaek] run scoreboard players set @s count_a 0
@@ -84,17 +82,13 @@ execute if entity @s[tag=effect_ntfrisk_sp] run function ut:move/ntfrisk/sp/effe
 #snh
 execute if entity @s[tag=dt_snh] run function ut:move/snh_godfox/stop
 
-##cua add
-execute if entity @s[tag=counter_invulnerable] run function ut:move/invulnerable/stop
-execute if entity @s[tag=effect_break_def] run function ut:move/effect/break_def/clear
-
-
 
 #fda
 function fda:move/player_loop/fullstop
 
 #cua
 function cua:move/player_loop/fullstop
+#
 
 function mypacks:move/player_loop/fullstop
 

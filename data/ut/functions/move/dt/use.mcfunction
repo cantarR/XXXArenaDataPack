@@ -16,22 +16,15 @@ execute if data entity @s SelectedItem.tag.spookwave run function ut:move/spookw
 execute if data entity @s SelectedItem.tag.dummy_mech run function ut:move/gear/use
 execute if data entity @s SelectedItem.tag.delete run function ut:move/delete/use
 
+
 execute if data entity @s SelectedItem.tag.dark_flame run function ut:move/dark_flame/use
-
 execute if data entity @s SelectedItem.tag.sprinkle_inside run function ut:move/sprinkle_inside/use
-
 execute if data entity @s SelectedItem.tag.loris_knife run function ut:move/loris_knife/use
-
 execute if data entity @s SelectedItem.tag.bisicle run function ut:move/bisicle/use
-
 execute if data entity @s SelectedItem.tag.strong_aroma run function ut:move/strong_aroma/use
-
 execute if data entity @s SelectedItem.tag.stubborn_harpoon run function ut:move/stubborn_harpoon/use
-
 execute if data entity @s SelectedItem.tag.noble_price run function ut:move/noble_price/use
-
 execute if data entity @s SelectedItem.tag.end_dec_sickle run function ut:move/end_dec_sickle/use
-
 execute if data entity @s SelectedItem.tag.ntfrisk_dt run function ut:move/ntfrisk/dt/use
 
 #snh
@@ -41,8 +34,11 @@ execute if data entity @s SelectedItem.tag.godfox run function ut:move/snh_godfo
 #fda
 function fda:move/dt/use
 
+#aua
+function aua:move/dt/use
 #cua
 function cua:move/dt/use
+#
 
 function mypacks:move/dt/use
 

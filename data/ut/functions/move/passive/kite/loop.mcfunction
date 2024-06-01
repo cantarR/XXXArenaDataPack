@@ -1,2 +1,6 @@
-scoreboard players remove @s count_a 1
-execute if score @s count_a matches 0 run function ut:move/passive/kite/stop
+effect give @s minecraft:slow_falling 3 1 true
+
+execute as @s[tag=!effect_air] if block ~ ~-1 ~ air run function ut:move/effect/air/give
+execute as @s[tag=effect_air] unless block ~ ~-1 ~ air run function ut:move/effect/air/clear
+
+#execute as @s[tag=effect_air] run tell @s awa

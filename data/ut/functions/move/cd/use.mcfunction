@@ -1,9 +1,13 @@
 #By Nebulirion
+#edit by lqy
 
-tag @s remove cdmax_lock
+#tag @s remove cdmax_lock
 
-scoreboard players set @s cd 0
-scoreboard players set @s cddis 0
+#scoreboard players set @s cd 0
+#scoreboard players set @s cddis 0
+scoreboard players operation @s cd -= @s cdmax
+function ut:player/cd/change
+execute store result score @s cdmax run data get entity @s SelectedItem.tag.cd
 
 execute if data entity @s SelectedItem.tag.bluebone run function ut:move/bluebone/use
 execute if data entity @s SelectedItem.tag.dodge run function ut:move/dodge/use
@@ -41,9 +45,10 @@ execute if data entity @s SelectedItem.tag.snh_slash run function ut:move/snh_sl
 #fda
 function fda:move/cd/use
 
+#aua
+function aua:move/cd/use
 #cua
 function cua:move/cd/use
-
 
 function mypacks:move/cd/use
 #wda

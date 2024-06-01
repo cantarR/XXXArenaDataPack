@@ -1,7 +1,7 @@
 {
   "asset_id": "cua:god_zhaoyun",
   "description": {
-    "translate": "trim_pattern.cua.God_ZhaoYun"
+    "translate": "chr.God_ZhaoYun.trim_pattern"
   },
   "template_item": "minecraft:dragon_head"
 }

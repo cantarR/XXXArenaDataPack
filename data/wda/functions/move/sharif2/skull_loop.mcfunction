@@ -9,6 +9,6 @@ execute if score @s plt3b matches 5.. run scoreboard players set @s plt3b 0
 
 #end
 scoreboard players add @s life 1
-execute if score @s life matches 6 run function wda:move/sharif2/skull_open
-execute if score @s life matches 6.. at @s anchored eyes positioned ^ ^-.4 ^ run function wda:move/sharif2/blast
-execute if score @s life matches 20.. run function wda:move/sharif2/skull_end
+execute if score @s life matches 15 run function wda:move/sharif2/skull_open
+execute if score @s life matches 15.. at @s anchored eyes positioned ^ ^-.4 ^ run function wda:move/sharif2/blast
+execute if score @s life matches 25.. run function wda:move/sharif2/skull_end

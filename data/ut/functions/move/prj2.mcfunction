@@ -37,32 +37,31 @@ execute if entity @s[tag=dummy_mech] run function ut:move/dummy_mech/loop
 execute if entity @s[tag=dummy_bullet_mech] run function ut:move/dummy_bullet_mech/loop
 execute if entity @s[tag=shoot] run function ut:move/shoot/loop
 
+
 execute if entity @s[tag=magic_bullet] run function ut:move/magic_bullet/loop
 execute if entity @s[tag=target_line] run function ut:move/target_line/loop
 execute if entity @s[tag=fireball_loris] run function ut:move/fireball_loris/loop
-
 execute if entity @s[tag=end_dec_mind] run function ut:move/end_dec_mind/loop
-
 execute if entity @s[tag=star_loris] run function ut:move/star_loris/loop
-
 execute if entity @s[tag=paper_plane] run function ut:move/paper_plane/loop
-
 execute if entity @s[tag=bisicle] run function ut:move/bisicle/loop
-
 execute if entity @s[tag=petal] run function ut:move/petal/loop
-
 execute if entity @s[tag=growing_flower] run function ut:move/bub_blooming/loop
-
 execute if entity @s[tag=strong_aroma] run function ut:move/strong_aroma/loop
-
 execute if entity @s[tag=gas_harpoon] run function ut:move/gas_harpoon/harpoon_bullet/loop
-
 execute if entity @s[tag=stubborn_harpoon] run function ut:move/stubborn_harpoon/harpoon_bullet/loop
 
+execute if entity @s[tag=inflator] run function ut:move/inflator/loop
 #snh
 execute if entity @s[tag=pechcurse] run function ut:move/snh_wand/pechcurse/loop
 
 #fda
 function fda:move/prj2
+#aua
+function aua:move/prj2
+#cua
+function cua:move/prj2
 #wda
 function wda:move/prj2
+
+function mypacks:move/prj2

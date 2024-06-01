@@ -1,2 +1,2 @@
-scoreboard players remove @s count_b 1
-execute if score @s count_a matches 1.. if score @s count_b matches 0 run function ut:move/passive/dongbaek/stop
+scoreboard players remove @s passive_dongbaek_b 1
+execute if score @s passive_dongbaek_a matches 1.. if score @s passive_dongbaek_b matches 0 run function ut:move/passive/dongbaek/stop

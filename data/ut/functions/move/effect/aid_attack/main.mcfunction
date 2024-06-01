@@ -1,4 +1,4 @@
 function ut:move/cd/use
 scoreboard players operation @s cd -= @s cdmax
-scoreboard players remove @s cddis 100
+function ut:player/cd/change
 tag @s remove effect_aid_attack

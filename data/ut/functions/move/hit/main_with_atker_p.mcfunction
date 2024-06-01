@@ -13,7 +13,7 @@ function mypacks:move/hit/main_with_atker_p
 
 execute if entity @a[tag=atker_p,tag=passive_loris] run function ut:move/passive/loris/main
 execute if entity @s[tag=passive_rancon] run function ut:move/passive/rancon/give
-execute if entity @s[tag=passive_kite] run function ut:move/passive/kite/main
+
 execute if entity @s[tag=effect_silence_fear] run function ut:move/tear_wound/effect_hit
 execute if entity @s[tag=effect_noise_despair] run function ut:move/sprinkle_inside/effect_hit
 
