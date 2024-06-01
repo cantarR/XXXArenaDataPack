@@ -92,13 +92,16 @@ function cua:move/passive/setup/main
 ###
 scoreboard players set @s passive_timer 0
 ###
+execute if entity @s[tag=passive_kite] run function ut:move/passive/kite/main
 execute if entity @s[tag=dt_ready] run function ut:move/passive/dt_fill
 execute if entity @s[tag=passive_asgore] run function ut:move/nomercy/passive
+
 
 
 #execute if entity @s[tag=passive_end_dec] run function ut:move/passive/end_dec/give
 
 execute if entity @s[tag=passive_end_dec] run function ut:move/defend/passive
+
 execute if entity @s[tag=passive_mettaton] run function ut:move/passive/mettaton/give
 
 ##cua add

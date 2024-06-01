@@ -51,6 +51,7 @@ execute if entity @s[tag=strong_aroma] run function ut:move/strong_aroma/loop
 execute if entity @s[tag=gas_harpoon] run function ut:move/gas_harpoon/harpoon_bullet/loop
 execute if entity @s[tag=stubborn_harpoon] run function ut:move/stubborn_harpoon/harpoon_bullet/loop
 
+execute if entity @s[tag=inflator] run function ut:move/inflator/loop
 #snh
 execute if entity @s[tag=pechcurse] run function ut:move/snh_wand/pechcurse/loop
 

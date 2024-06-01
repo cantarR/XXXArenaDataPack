@@ -1,8 +1,7 @@
-scoreboard players add @s cdcooldown 5
-execute facing entity @s feet rotated ~ 0 positioned as @s anchored eyes positioned ^ ^-5 ^0.5 run function ut:move/_knockback/10
-scoreboard players set -level launch_timer 30
-function ut:move/effect/launch/give
-particle dust 1 1 1 0.8 ~ ~ ~ 2 1 2 1 512
-playsound block.beehive.exit player @a ~ ~ ~ 1 1
-execute as @a[tag=!untargetable,tag=playing,distance=..5] at @s run function ut:move/inflator/hit
-execute as @e[tag=prj2,tag=cutable,distance=..5] at @s run function ut:move/inflator/hit_prj
+#scoreboard players add @s cdcooldown 5
+#execute anchored eyes positioned ^ ^ ^2 run particle cloud ~ ~ ~ 0.5 0.5 0.5 0.05 18 force @a
+#execute anchored eyes positioned ^ ^ ^4 run particle cloud ~ ~ ~ 0.8 0.8 0.8 0.06 18 force @a
+#execute anchored eyes positioned ^ ^ ^6 run particle cloud ~ ~ ~ 1 1 1 0.08 18 force @a
+execute anchored eyes positioned ^ ^ ^ run function ut:move/inflator/cast
+
+
