@@ -5,7 +5,7 @@ execute if entity @a[tag=lor_teleport_target_pre,tag=!lor_teleport_target_ready]
 execute if entity @a[tag=lor_teleport_target_pre,tag=!lor_teleport_target_ready] run playsound entity.player.levelup player @a ~ ~ ~ 1 2
 tag @a[tag=lor_teleport_target_pre] add lor_teleport_target_ready
 execute unless entity @e[tag=lor_center,distance=..15] run scoreboard players set @s plt3b 0
-execute unless block ^ ^ ^1 #ut:trans run scoreboard players set @s plt3b 0
-execute if score @s plt3b matches 0 if block ~ ~-1 ~ #ut:trans unless entity @a[tag=lor_teleport_target_ready] unless entity @a[tag=lor_teleport_target_ready2] unless entity @a[tag=lor_teleport_target_pre] run function mypacks:move/library_of_ruina/snapping/loop_l_use2
+execute unless block ^ ^ ^1 #ut:ray_trans run scoreboard players set @s plt3b 0
+execute if score @s plt3b matches 0 if block ~ ~-1 ~ #ut:ray_trans unless entity @a[tag=lor_teleport_target_ready] unless entity @a[tag=lor_teleport_target_ready2] unless entity @a[tag=lor_teleport_target_pre] run function mypacks:move/library_of_ruina/snapping/loop_l_use2
 execute if score @s plt3b matches 1.. positioned ^ ^ ^0.25 run function mypacks:move/library_of_ruina/snapping/loop_l_use
-execute if score @s plt3b matches 0 if block ~ ~-1 ~ #ut:trans if entity @a[tag=lor_teleport_target_ready2] run function mypacks:move/library_of_ruina/snapping/loop_l_use3
+execute if score @s plt3b matches 0 if block ~ ~-1 ~ #ut:ray_trans if entity @a[tag=lor_teleport_target_ready2] run function mypacks:move/library_of_ruina/snapping/loop_l_use3

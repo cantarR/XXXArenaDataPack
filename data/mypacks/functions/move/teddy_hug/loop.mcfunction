@@ -1,3 +1,4 @@
+scoreboard players operation #this speed = @s plt2b
 execute anchored feet positioned ^ ^ ^ run function mypacks:move/teddy_hug/movement
 execute anchored eyes positioned ^ ^ ^ run function mypacks:move/teddy_hug/hitcheck
 scoreboard players remove @s plt2 1

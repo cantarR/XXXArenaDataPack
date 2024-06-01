@@ -6,7 +6,7 @@ function ut:move/fire_bullet
 ###EXTRA
 playsound minecraft:entity.skeleton.shoot player @a ~ ~ ~ 2 1
 ###SUMMON ENTITY
-summon minecraft:armor_stand ^0.0 ^-0.2 ^0.5 {Tags:[fragile_bone,killonhit,blockable,reflectable,cutable,prj2,move,summon],NoGravity:1b,Invisible:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:bone",Count:1b}],CustomName:'{"translate":"chr.htsans.mpn"}'}
+summon minecraft:armor_stand ^0.0 ^-0.2 ^0.5 {Tags:[fragile_bone,killonhit,blockable,reflectable,cutable,prj2,move,summon],NoGravity:1b,Invisible:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:14005}}],CustomName:'{"translate":"chr.htsans.mpn"}'}
 ###SETUP ENTITY
 scoreboard players operation #player prj_speed = @s prj_speed
 scoreboard players operation #player damage = @s atk

@@ -18,13 +18,13 @@ scoreboard players operation @s tid = #player tid
 scoreboard players operation @s aid = #aid aid
 ###FINISH
 execute store result score #random store run random value 0..8
-execute if score #random store matches 0 run tp @s ~0.2 ~ ~-0.4 ~ ~3
-execute if score #random store matches 1 run tp @s ~ ~0.4 ~0.1 ~ ~-3
-execute if score #random store matches 2 run tp @s ~-0.6 ~ ~0.2 ~ ~
-execute if score #random store matches 3 run tp @s ~0.6 ~-0.2 ~-0.4 ~ ~5
-execute if score #random store matches 4 run tp @s ~0.2 ~0.6 ~0.4 ~ ~-5
-execute if score #random store matches 5 run tp @s ~0.6 ~ ~-0.6 ~5 ~
-execute if score #random store matches 6 run tp @s ~0 ~0 ~0 ~-5 ~
-execute if score #random store matches 7 run tp @s ~0.3 ~ ~-0.6 ~3 ~
-execute if score #random store matches 8 run tp @s ~0.2 ~0.6 ~-0.4 ~-3 ~
+execute if score #random store matches 0 run tp @s ~0.02 ~ ~-0.04 ~ ~1
+execute if score #random store matches 1 run tp @s ~ ~0.04 ~0.01 ~ ~-1
+execute if score #random store matches 2 run tp @s ~-0.06 ~ ~0.02 ~ ~
+execute if score #random store matches 3 run tp @s ~0.06 ~-0.02 ~-0.04 ~ ~3
+execute if score #random store matches 4 run tp @s ~0.02 ~0.06 ~0.04 ~ ~-3
+execute if score #random store matches 5 run tp @s ~0.06 ~ ~-0.06 ~3 ~
+execute if score #random store matches 6 run tp @s ~0 ~0 ~0 ~-3 ~
+execute if score #random store matches 7 run tp @s ~0.03 ~ ~-0.06 ~1 ~
+execute if score #random store matches 8 run tp @s ~0.02 ~0.06 ~-0.04 ~-1 ~
 tag @s remove summon

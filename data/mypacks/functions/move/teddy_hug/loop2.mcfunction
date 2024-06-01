@@ -8,4 +8,3 @@ execute as @a[tag=hug_target] at @s run tp @s ~ ~ ~
 execute as @a[tag=hug_target] at @s run tp @s ~ ~ ~
 tp @s ~ ~ ~ facing entity @p[tag=hug_target] feet
 execute unless data entity @s SelectedItem.tag.teddy_hug run function mypacks:move/teddy_hug/stop2
-execute unless block ~ ~ ~ #ut:trans run tp @s ~ ~0.1 ~

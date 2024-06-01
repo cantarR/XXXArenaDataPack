@@ -8,3 +8,4 @@ execute if data entity @s SelectedItem.tag.smell_spread run function ut:move/sme
 #execute as @a[tag=ahab_ego_pre] if data entity @s[tag=!effloresced_ego_gasharpoon] Inventory[{tag:{stubborn_harpoon:1b}}] at @s unless entity @e[tag=dust_pile,distance=..2] run function ut:move/noble_price/stop
 #execute as @a[tag=effloresced_ego_gasharpoon] run function ut:move/noble_price/loop
 execute if entity @s[tag=move_used] run function ut:move/full_use_check
+function mypacks:move/const_loop

@@ -1,3 +1,2 @@
-scoreboard players set @s plt2b 30
-scoreboard players set -store plt2 40
-execute anchored eyes positioned ^ ^ ^ rotated as @s run function mypacks:move/eating_time/teleport_loop
+scoreboard players set @s plt2b 100
+execute positioned ^ ^1 ^ run function mypacks:move/eating_time/teleport_loop
