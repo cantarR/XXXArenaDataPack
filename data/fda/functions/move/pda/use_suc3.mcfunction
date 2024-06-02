@@ -1,6 +1,6 @@
 
 
-execute unless data entity @s SelectedItem.tag.pda_teleporter_exit run function ut:player/dt/reset
+execute unless data entity @s SelectedItem.tag.pda_teleporter_exit run scoreboard players set #reset dt 1
 
 execute at @e[tag=pda_summon_as] run function fda:move/pda/cast
 

@@ -22,5 +22,9 @@ execute if entity @s[tag=pellet_tut] run function ut:move/pellets_tutorial/loop
 
 #fda
 function fda:move/spc
+#aua
+function aua:move/spc
+#cua
+function cua:move/spc
 #wda
 function wda:move/spc

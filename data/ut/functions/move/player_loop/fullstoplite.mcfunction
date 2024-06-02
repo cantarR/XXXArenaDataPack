@@ -36,6 +36,9 @@ execute if entity @s[tag=snh_slash_user] run function ut:move/snh_slash/stop
 execute if entity @s[tag=snh_slash_slash_user] run function ut:move/snh_slash/slash/stop
 
 execute if entity @s[tag=ntfrisk_dt_user] run function ut:move/ntfrisk/dt/use/stop
+
+#aua
+function aua:move/player_loop/fullstoplite
 #cua
 function cua:move/player_loop/fullstoplite
 

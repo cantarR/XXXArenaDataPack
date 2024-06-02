@@ -71,29 +71,18 @@ execute if entity @s[tag=passive_kite] run function ut:move/passive/kite/loop
 
 
 #execute if entity @s[tag=rancon_pierce_user] run function ut:move/rancon_pierce/loop
-
 execute if entity @s[tag=loris_dt_pred] run function ut:move/loris_knife_pre/loop
-
 execute if entity @s[tag=end_dec_dt_pred] run function ut:move/end_dec_sickle_pre/loop
-
 execute if entity @s[tag=paper_plane_user] run function ut:move/paper_plane_kite/loop
-
 execute if entity @s[tag=bisicle_used_once] run function ut:move/bisicle/loop2
-#snh viod
 execute if entity @s[tag=shadowblade_right_user] run function ut:move/snh_shadowblade/right/loop
-#snh slash
 execute if entity @s[tag=snh_slash_user] run function ut:move/snh_slash/loop
 execute if entity @s[tag=snh_slash_slash_user] run function ut:move/snh_slash/slash/loop
-#snh godfox
 execute if entity @s[tag=dt_snh] run function ut:move/snh_godfox/dt_loop
-
 execute if entity @s[tag=trail_user] run function ut:move/end_dec_trail/loop
-
 execute if entity @s[tag=heat] run function ut:move/gas_harpoon/loop
 execute if entity @s[tag=overheat] run function ut:move/gas_harpoon/loop
-
 execute if entity @s[tag=harpoon_attacking] run function ut:move/stubborn_harpoon/loop
-
 execute if entity @s[tag=ntfrisk_cd] run function ut:move/ntfrisk/cd/loop
 execute if entity @s[tag=effect_ntfrisk_cd] run function ut:move/ntfrisk/cd/effect/loop
 execute if entity @s[tag=ntfrisk_dt_user] run function ut:move/ntfrisk/dt/use/loop
@@ -101,6 +90,8 @@ execute if entity @s[tag=effect_ntfrisk_sp] run function ut:move/ntfrisk/sp/effe
 #fda
 function fda:move/player_loop/main
 
+#aua
+function aua:move/player_loop/main
 #cua
 function cua:move/player_loop/main
 #
