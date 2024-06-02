@@ -1,4 +1,3 @@
-execute as @e[tag=inited] run scoreboard players add @s life 1
-execute as @e[tag=!seven_bullet,tag=inited] at @s positioned ^ ^1.5 ^ if score @s life matches 20 run execute as @a if score @s pid = @e[tag=!seven_bullet,tag=inited,limit=1,sort=nearest] pid run function ut:move/magic_bullet/cast
-execute as @e[tag=inited,tag=seven_bullet] at @s positioned ^ ^1.5 ^ if score @s life matches 20 run execute as @a if score @s pid = @e[tag=seven_bullet,tag=inited,limit=1,sort=nearest] pid run function ut:move/magic_bullet/cast2
-execute as @e[tag=inited] if score @s life matches 20 run function ut:move/magic_shoot/stop
+scoreboard players operation #atker pid = @s pid
+execute if entity @s[tag=!seven_bullet,tag=inited] at @s positioned ^ ^1.5 ^ if score @s life matches 10 run execute as @a if score @s pid = #atker pid run function ut:move/magic_bullet/cast
+execute if entity @s[tag=inited,tag=seven_bullet] at @s positioned ^ ^1.5 ^ if score @s life matches 10 run execute as @a if score @s pid = #atker pid run function ut:move/magic_bullet/cast2
