@@ -1,14 +1,15 @@
-###Generated from Nebulagen made by Nebulirion
-#03/13/2021, 14:43:41
+###Generated from Nebulagen made By Nebulirion
+#09/09/2023, 21:19:36
 
 ###MOVEMENT
-scoreboard players set @s range 480
-scoreboard players set @s speed 16
+scoreboard players set @s range 180
+scoreboard players set @s maxrange 180
+scoreboard players set @s speed 6
 scoreboard players operation @s speed *= #player prj_speed
 scoreboard players operation @s speed /= 100 const
 execute if score @s speed matches 64.. run scoreboard players set @s speed 63
 ###DAMAGE
-scoreboard players set @s damage 200
+scoreboard players set @s damage 0
 scoreboard players operation @s damage *= #player damage
 scoreboard players operation @s damage /= 100 const
 ###IDENTITY

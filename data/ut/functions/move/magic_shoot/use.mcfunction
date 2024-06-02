@@ -7,11 +7,11 @@ function ut:player/will/lose
 execute positioned ^ ^ ^5 if score @s magic_bullet_count matches 4..6 run execute as @a[sort=nearest,limit=1,tag=!filled_bullet,tag=!respawning,tag=!untargetable,tag=playing] run tag @s add extra_bullet_target
 execute if score @s magic_bullet_count matches 7 run tag @a[sort=random,limit=1,tag=!respawning,tag=!untargetable,tag=playing] add extra_bullet_target
 
-execute if score @s magic_bullet_count matches 1..6 run execute positioned ^ ^1.5 ^ run summon minecraft:marker ^0.0 ^-0.2 ^0.5 {Tags:[magic_bullet_pre]}
+execute if score @s magic_bullet_count matches 1..6 run execute positioned ^ ^1.5 ^ run summon minecraft:marker ^0.0 ^-0.2 ^0.5 {Tags:[magic_bullet_pre,prj_sp,move]}
 
-execute if score @s magic_bullet_count matches 4..6 run summon minecraft:marker ^0 ^0 ^0.5 {Tags:[magic_bullet_extra,mb1]}
+execute if score @s magic_bullet_count matches 4..6 run summon minecraft:marker ^0 ^0 ^0.5 {Tags:[magic_bullet_extra,mb1,prj_sp,move]}
 
-execute if score @s magic_bullet_count matches 7 run summon minecraft:marker ^0 ^0 ^0.5 {Tags:[magic_bullet_extra2]}
+execute if score @s magic_bullet_count matches 7 run summon minecraft:marker ^0 ^0 ^0.5 {Tags:[magic_bullet_extra2,prj_sp,move]}
 
 tp @e[tag=magic_bullet_pre] ~ ~ ~ ~ ~
 tag @e[tag=magic_bullet_pre] add inited
@@ -25,14 +25,17 @@ execute as @e[type=marker,tag=random_as] at @s unless block ~ ~ ~ #ut:trans run 
 execute as @e[type=marker,tag=random_as,sort=random,limit=1] at @s run tp @e[tag=magic_bullet_extra2,limit=1] ~ ~ ~ facing entity @p[tag=extra_bullet_target] feet
 kill @e[type=marker,tag=random_as]
 execute as @s[tag=someone_empty] at @s run tp @e[tag=magic_bullet_extra2,limit=1] ^ ^ ^1 ~ ~
-execute at @e[tag=magic_bullet_extra2] run summon minecraft:marker ^ ^ ^ {Tags:[magic_bullet_extra,mb1]}
+execute at @e[tag=magic_bullet_extra2] run summon minecraft:marker ^ ^ ^ {Tags:[magic_bullet_extra,mb1,prj_sp,move]}
 execute as @e[tag=magic_bullet_extra2] anchored eyes at @e[tag=magic_bullet_extra2] run tp @e[tag=mb1] ^2 ^ ^ ~ ~
-execute at @e[tag=magic_bullet_extra2] run summon minecraft:marker ^ ^ ^ {Tags:[magic_bullet_extra,mb2]}
+execute at @e[tag=magic_bullet_extra2] run summon minecraft:marker ^ ^ ^ {Tags:[magic_bullet_extra,mb2,prj_sp,move]}
 execute as @e[tag=magic_bullet_extra2] anchored eyes at @e[tag=magic_bullet_extra2] run tp @e[tag=mb2] ^-2 ^ ^ ~ ~
-execute at @e[tag=magic_bullet_extra2] run summon minecraft:marker ^ ^ ^ {Tags:[magic_bullet_extra,mb3]}
+execute at @e[tag=magic_bullet_extra2] run summon minecraft:marker ^ ^ ^ {Tags:[magic_bullet_extra,mb3,prj_sp,move]}
 execute as @e[tag=magic_bullet_extra2] anchored eyes at @e[tag=magic_bullet_extra2] run tp @e[tag=mb3] ^4 ^ ^ ~ ~
-execute at @e[tag=magic_bullet_extra2] run summon minecraft:marker ^ ^ ^ {Tags:[magic_bullet_extra,mb4]}
+execute at @e[tag=magic_bullet_extra2] run summon minecraft:marker ^ ^ ^ {Tags:[magic_bullet_extra,mb4,prj_sp,move]}
 execute as @e[tag=magic_bullet_extra2] anchored eyes at @e[tag=magic_bullet_extra2] run tp @e[tag=mb4] ^-4 ^ ^ ~ ~
+execute as @e[tag=magic_bullet_pre] run scoreboard players set @s lifetime 11
+execute as @e[tag=magic_bullet_extra] run scoreboard players set @s lifetime 11
+execute as @e[tag=magic_bullet_extra2] run scoreboard players set @s lifetime 11
 tag @e[tag=magic_bullet_extra] add inited
 tag @e[tag=magic_bullet_extra2] add inited
 execute if score @s magic_bullet_count matches 7 run tag @e[tag=magic_bullet_extra] add seven_bullet

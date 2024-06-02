@@ -12,7 +12,7 @@ execute if entity @s[tag=green_flame] at @s run function ut:move/green_flame/loo
 
 execute if entity @s[tag=ntfrisk_sp] at @s run function ut:move/ntfrisk/sp/loop
 execute if entity @s[tag=ntfrisk_sp_par] at @s run function ut:move/ntfrisk/sp/effect/par/loop
-
+execute if entity @s[tag=inited] run function ut:move/magic_shoot/loop
 #fda
 function fda:move/prj_sp
 
