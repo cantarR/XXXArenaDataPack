@@ -1,3 +1,4 @@
+scoreboard objectives add S dummy "DEFAULT STATS"
 scoreboard objectives add magic_bullet_count dummy "MagicBulletCount"
 scoreboard players set @a magic_bullet_count 0
 
