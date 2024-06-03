@@ -9,5 +9,6 @@ execute if entity @s[tag=lazer_ex_user] if entity @s[tag=!attack_buffed] run dat
 execute if entity @s[tag=lazer_ex_user] if entity @s[tag=attack_buffed] run data modify block 255 0 255 Items[0].id set value "minecraft:enchanted_golden_apple"
 execute if entity @s[tag=ghost_user] run data modify block 255 0 255 Items[0].id set value "minecraft:glass"
 execute if score @s[tag=undying] chr matches 3 run data modify block 255 0 255 Items[0].tag.CustomModelData set value 3
+function mypacks:move/head/change
 
 item replace entity @s armor.head from block 255 0 255 container.0

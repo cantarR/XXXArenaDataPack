@@ -10,3 +10,6 @@ execute if entity @s[tag=effect_intensive_care] run function mypacks:player/acti
 execute if entity @s[tag=effect_pull_out] run function mypacks:player/actionbar/effect/pull_out
 execute if entity @s[tag=effect_repeat] run function mypacks:player/actionbar/effect/repeat
 execute if entity @s[tag=effect_yearn] run function mypacks:player/actionbar/effect/yearn
+
+execute if entity @s[tag=effect_hungry] run function mypacks:player/actionbar/effect/hungry
+execute if entity @s[tag=effect_extreme_hungry] run function mypacks:player/actionbar/effect/extreme_hungry

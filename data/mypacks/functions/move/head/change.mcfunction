@@ -1,0 +1,2 @@
+execute if entity @s[tag=effect_extreme_hungry] run data modify block 255 0 255 Items[0].tag.CustomModelData set value 14001
+execute if score @s[tag=!effect_extreme_hungry] chr matches 49 run data modify block 255 0 255 Items[0].tag.CustomModelData set value 14000

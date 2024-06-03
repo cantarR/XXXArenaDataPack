@@ -19,3 +19,9 @@ scoreboard objectives add effect_emo_today_count dummy
 scoreboard objectives add effect_emo_today_timer dummy
 
 scoreboard objectives add effect_birds_judge_timer dummy
+
+scoreboard objectives add passive_horror_sans_count dummy
+
+scoreboard objectives add effect_hungry_level dummy
+
+scoreboard objectives add effect_extreme_hungry_timer dummy

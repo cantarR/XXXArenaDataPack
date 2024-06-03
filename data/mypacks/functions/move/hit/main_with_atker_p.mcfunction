@@ -7,3 +7,7 @@ execute if entity @a[tag=atker_p,tag=effect_o_judge] run function mypacks:move/e
 execute if entity @a[tag=atker_p,tag=effect_die_for] run function mypacks:move/effect/abnormality_page/die_for/main
 execute if entity @s[tag=effect_die_for] run function mypacks:move/effect/abnormality_page/die_for/main
 execute if entity @s[tag=effect_laughing_powder] run function mypacks:move/effect/abnormality_page/laughing_powder/main
+execute as @a[tag=passive_horror_sans,tag=atker_p] run function mypacks:move/passive/horror_sans/main
+execute as @a[tag=effect_hungry,tag=atker_p] run function mypacks:move/effect/horror_sans/hungry/main
+execute as @a[tag=effect_extreme_hungry,tag=atker_p] run function mypacks:move/effect/horror_sans/extreme_hungry/main
+execute as @a[tag=passive_horror_sans,tag=atker_p] run function mypacks:move/passive/horror_sans/main

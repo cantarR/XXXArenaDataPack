@@ -1,0 +1,1 @@
+scoreboard players reset @s passive_horror_sans_count

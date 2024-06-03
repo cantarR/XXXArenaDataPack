@@ -5,3 +5,5 @@ execute if entity @s[tag=effect_yearn] run function mypacks:move/effect/abnormal
 execute if entity @s[tag=effect_emo_today] run function mypacks:move/effect/abnormality_page/emo_today/loop
 execute if entity @s[tag=effect_birds_judge] run function mypacks:move/effect/abnormality_page/birds_judge/loop
 execute if entity @s[tag=effect_o_judge] run function mypacks:move/effect/abnormality_page/birds_judge/o_judge/loop
+execute if entity @s[tag=has_kitchen_knife] run function mypacks:move/eating_time/loop2
+execute if entity @s[tag=effect_extreme_hungry] run function mypacks:move/effect/horror_sans/extreme_hungry/loop
