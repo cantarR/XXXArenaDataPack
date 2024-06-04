@@ -4,6 +4,7 @@ say shoot again
 scoreboard players operation #atker tid = @s tid
 ###AIM
 execute as @a[tag=playing,tag=!untargetable,distance=..25] unless score @s tid = #atker tid run tag @s add temp_target
+
 execute at @s run tp @s ~ ~ ~ facing entity @a[tag=temp_target,sort=nearest,limit=1] eyes
 tag @a remove temp_target
 
