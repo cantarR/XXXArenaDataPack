@@ -2,8 +2,7 @@
 data modify storage soul ActionList set value []
 ######EFFECTS
 function ut:player/actionbar/effect/main
-execute if entity @s[scores={S=0}] run function ut:player/actionbar/default_stats
-execute if entity @s[scores={S=1}] run function ut:player/actionbar/pretty_stats
+function ut:player/actionbar/stats/main
 ######DOGINDICATOR
 execute if score -GameMode game matches 6 if score -IsDogExist dog_timer matches 1 run function ut:player/actionbar/dog
 ######FADE
