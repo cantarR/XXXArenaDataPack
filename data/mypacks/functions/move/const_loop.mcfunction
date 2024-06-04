@@ -1,1 +1,2 @@
 execute if data entity @s[tag=cd_ready] SelectedItem.tag.eating_time run function mypacks:move/eating_time/teleport_pre
+execute if data entity @s[tag=dt_ready] SelectedItem.tag.endless_fear run function mypacks:move/endless_fear/teleport_pre

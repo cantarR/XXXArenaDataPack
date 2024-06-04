@@ -21,3 +21,4 @@ scoreboard players set @s unloadtime 5
 function ut:player/infight/use
 function mypacks:move/effect/horror_sans/hungry/give
 tag @s remove kitchen_knife_hiter
+function mypacks:move/eating_time/stop
