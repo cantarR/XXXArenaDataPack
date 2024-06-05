@@ -1,4 +1,5 @@
 scoreboard players reset @s plt2b
+scoreboard players set @s cdcooldown 0
 scoreboard players remove @s[tag=has_kitchen_knife] move_loop 1
 tag @s remove has_kitchen_knife
 execute store result score -clear store run clear @s carrot_on_a_stick{kitchen_knife:1b}

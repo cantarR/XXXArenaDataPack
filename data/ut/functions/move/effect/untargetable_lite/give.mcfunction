@@ -2,7 +2,7 @@
 
 scoreboard players set @s untarget_timer 60
 
-attribute @s generic.knockback_resistance modifier add 8-0-0-5-100 "untargetkbr" 1.0 add
+attribute @s generic.knockback_resistance modifier add 8-0-0-5-101 "untargetlitekbr" 1.0 add
 
 tag @s add no_mc_dmg
 tag @s add untargetable

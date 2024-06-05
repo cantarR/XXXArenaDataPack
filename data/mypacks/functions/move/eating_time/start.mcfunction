@@ -1,4 +1,5 @@
 scoreboard players set @s plt2b 60
+scoreboard players set @s cdcooldown 60
 scoreboard players add @s[tag=!has_kitchen_knife] move_loop 1
 tag @s add has_kitchen_knife
 execute store result score -clear store run clear @s carrot_on_a_stick{eating_time:1b}

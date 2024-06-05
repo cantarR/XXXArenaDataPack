@@ -2,7 +2,7 @@
 
 scoreboard players reset @s untarget_timer
 
-attribute @s generic.knockback_resistance modifier remove 8-0-0-5-100
+attribute @s generic.knockback_resistance modifier remove 8-0-0-5-101
 
 tag @s[tag=!boss] remove no_mc_dmg
 tag @s remove untargetable
