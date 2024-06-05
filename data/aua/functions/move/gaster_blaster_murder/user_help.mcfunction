@@ -1,4 +1,4 @@
-#By Nebulirion
+
 
 title @s title ["",{"translate":"hlp.dt_murder_main","color":"dark_purple"}]
 title @s subtitle ["",{"translate":"hlp.dt_murder_sub","color":"red","bold":true}]

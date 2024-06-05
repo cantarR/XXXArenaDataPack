@@ -1,4 +1,4 @@
-#by Nebulirion
+
 
 playsound minecraft:entity.skeleton.shoot player @a ~ ~ ~ 0.4 1
 

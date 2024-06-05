@@ -1,4 +1,4 @@
-#By Nebulirion
+
 
 scoreboard players set @s plt3 0
 

@@ -13,6 +13,9 @@ scoreboard players set @s range -2700
 scoreboard players set @s life 100
 tag @s add decoration_prj
 tag @s add hit
+##cua
+tag @s add spear_inblock
+##
 tag @s remove spear
 tag @s remove reflectable
 tag @s remove blockable

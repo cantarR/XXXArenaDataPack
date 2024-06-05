@@ -1,4 +1,4 @@
-#By Nebulirion
+
 
 particle end_rod ~ ~ ~ 0.4 0.4 0.4 0 15 force @a
 particle end_rod ~ ~ ~ 0.4 0.4 0.4 0 15 normal @a[scores={Q=3..}]

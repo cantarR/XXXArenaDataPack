@@ -25,7 +25,8 @@ execute if data entity @s SelectedItem.tag.thaumium_wand run function ut:move/sn
 #fda
 function fda:move/melee/success
 
-
+#aua 
+function aua:move/melee/success
 #cua 
 function cua:move/melee/success
 

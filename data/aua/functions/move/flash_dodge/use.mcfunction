@@ -1,4 +1,4 @@
-#By Nebulirion
+
 
 tag @s add untargetable
 
@@ -19,4 +19,10 @@ function ut:move/effect/nojump/give
 
 scoreboard players set @s unloadtime 0
 function ut:player/infight/use
+
+scoreboard players operation #atker tid = @s tid
+scoreboard players set #temp store 0
+
+execute at @s as @a[tag=playing,distance=..8] unless score @s tid = #atker tid run scoreboard players add #temp store 1
+execute if score #temp store matches 1.. run function aua:move/flash_dodge/change_k
 

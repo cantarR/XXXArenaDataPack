@@ -1,4 +1,4 @@
-#By Nebulirion
+
 
 scoreboard players set @s unloadtime 10
 scoreboard players reset @s plt3

@@ -1,4 +1,4 @@
-#By Nebulirion
+
 
 scoreboard players set #reset dt 1
 execute if score -Enabled stat matches 1 run scoreboard players add @s st_cdtuse 1
