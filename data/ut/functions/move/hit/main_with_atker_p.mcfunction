@@ -35,28 +35,19 @@ function cua:move/hit/main_with_atker_p/damage_calculation
 
 ###Attacker Passive
 execute as @a[tag=atker_p,tag=effect_soul_gluttony] run function ut:move/effect/soul/gluttony/main
-
 execute if entity @a[tag=atker_p,tag=effect_soul_pride] if score @s hp >= @a[tag=atker_p,limit=1] hp run function ut:move/effect/soul/pride/main
-
 execute if entity @s[tag=effect_soul_pride] if score @s hp >= @a[tag=atker_p,limit=1] hp run function ut:move/effect/soul/pride/damage
-
+##
 execute if entity @a[tag=atker_p,tag=passive_toriel] run function ut:move/passive/toriel/main
-
 execute if entity @a[tag=atker_p,tag=passive_napstablook] run function ut:move/passive/napstablook/main
-
+##
 execute if entity @a[tag=atker_p,tag=passive_magic_bullet] run function ut:move/passive/magic_bullet/main
-
 execute if entity @a[tag=atker_p,tag=passive_rancon] run function ut:move/passive/rancon/give
-
 execute if entity @s[tag=passive_dongbaek] if entity @a[tag=atker_p,tag=effect_blooming] run function ut:move/passive/dongbaek/main
-
 execute as @a[tag=atker_p,tag=passive_ahab] run function ut:move/passive/ahab/main
-
 execute if entity @a[tag=atker_p,tag=effect_soul_gloom] run function ut:move/effect/sadness/give_to_max
-
 execute if entity @a[tag=atker_p,tag=passive_ntfrisk] if score #ntfrisk_will will matches -2147483648..2147483647 if score #ntfrisk_will pid = @s pid unless score #ntfrisk_will will = @s will run function ut:move/ntfrisk/passive/hit_check_k
 execute if entity @a[tag=atker_p,tag=passive_ntfrisk] if score @s will matches ..40 run function ut:move/ntfrisk/passive/hit_check_w
-
 execute if entity @s[tag=ntfrisk_cd] if score @s plt2 matches 14.. run scoreboard players set #true_damage damage 0
 
 ###Damage

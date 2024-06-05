@@ -1,4 +1,4 @@
-#By Nebulirion
+
 
 execute store result score #mx1 store run data get entity @s Pos[0] 10
 execute store result score #my1 store run data get entity @s Pos[1] 10

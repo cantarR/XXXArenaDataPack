@@ -1,4 +1,4 @@
-#By Nebulirion
+
 
 tag @s add atker
 scoreboard players operation #atker tid = @s tid

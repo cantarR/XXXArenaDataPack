@@ -1,4 +1,4 @@
-#By Nebulirion
+
 
 ###playsound 
 playsound minecraft:block.enchantment_table.use player @a[distance=..96] ~ ~ ~ 2 0.7 1

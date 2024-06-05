@@ -1,4 +1,4 @@
-#By Nebulirion
+
 
 scoreboard players set #check hitcheck 0
 

@@ -1,4 +1,4 @@
-#By Nebulirion
+
 
 execute positioned ~-1.25 ~-1.25 ~-1.25 run tag @a[tag=gb_murder_enemy,tag=!gb_murder_hit,dx=1.5,dy=1.5,dz=1.5] add gb_murder_hit
 
