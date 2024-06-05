@@ -24,28 +24,6 @@ execute if data entity @s SelectedItem.tag.bisicle run function ut:move/bisicle/
 execute if data entity @s SelectedItem.tag.strong_aroma run function ut:move/strong_aroma/use
 execute if data entity @s SelectedItem.tag.stubborn_harpoon run function ut:move/stubborn_harpoon/use
 execute if data entity @s SelectedItem.tag.noble_price run function ut:move/noble_price/use
-execute if data entity @s SelectedItem.tag.end_dec_sickle run function ut:move/end_dec_sickle/use
-execute if data entity @s SelectedItem.tag.ntfrisk_dt run function ut:move/ntfrisk/dt/use
-
-#snh
-execute if data entity @s SelectedItem.tag.endcycle run function ut:move/snh_endcycle/use
-execute if data entity @s SelectedItem.tag.godfox run function ut:move/snh_godfox/use
-
-#fda
-function fda:move/dt/use
-
-#aua
-function aua:move/dt/use
-#cua
-function cua:move/dt/use
-#
-
 function mypacks:move/dt/use
-
-#wda
-function wda:move/dt/use
-
-###The Last
-function ut:move/skill_use/_main
 
 tag @s add move_used

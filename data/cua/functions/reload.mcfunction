@@ -1,3 +1,0 @@
-
-
-function cua:init/scoreboard

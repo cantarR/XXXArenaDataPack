@@ -1,1 +1,0 @@
-execute if entity @s[tag=print_damage] run function fda:move/print_damage/use
