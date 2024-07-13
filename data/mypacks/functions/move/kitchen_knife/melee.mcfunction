@@ -8,13 +8,13 @@ scoreboard players set -new mlmax 60
 
 summon minecraft:marker ~ ~ ~ {Tags:[atker,gas_harpoon,killonhit,blockable],CustomName:'{"translate":"chr.htsans.chn"}'}
 
-scoreboard players set #damage damage 300
+scoreboard players set #damage damage 200
 scoreboard players operation #damage damage *= @s atk
 scoreboard players operation #damage damage /= #rate atk
 
 tag @s add kitchen_knife_hiter
 
-execute as @a[tag=victim,limit=1,tag=!untargetable] at @s run function ut:move/gas_harpoon/hitcheck
+execute as @a[tag=victim,limit=1,tag=!untargetable] at @s run function mypacks:move/kitchen_knife/hitcheck
 kill @e[tag=atker]
 
 scoreboard players set @s unloadtime 5

@@ -32,25 +32,9 @@ execute if data entity @s SelectedItem.tag.gas_harpoon if score @s mldis matches
 execute if data entity @s SelectedItem.tag.heat_harpoon if score @s mldis matches 100.. run function ut:move/gas_harpoon/use
 execute if data entity @s SelectedItem.tag.overheat_harpoon if score @s mldis matches 100.. run function ut:move/gas_harpoon/use
 
-#snh
-execute if data entity @s SelectedItem.tag.blade run function ut:move/snh_shadowblade/right/use
-execute if data entity @s SelectedItem.tag.thaumium_wand run function ut:move/snh_wand/use
-
-#fda
-function fda:move/mp/use
-
-#aua
-function aua:move/mp/use
-#cua
-function cua:move/mp/use
-#
-
 function mypacks:move/mp/use
 
 #wda
 function wda:move/mp/use
-
-###The Last
-function ut:move/skill_use/_main
 
 tag @s add move_used

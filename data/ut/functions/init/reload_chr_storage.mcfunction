@@ -4,9 +4,3 @@
 data modify storage ut:chrs Data set value []
 function ut:init/storage_chr
 execute store result score -count chr if data storage ut:chrs Data[]
-
-#aua
-function aua:init/reload_chr_storage
-#cua
-function cua:init/reload_chr_storage
-#

@@ -10,7 +10,7 @@ scoreboard players set -new mlmax 40
 
 summon minecraft:marker ~ ~ ~ {Tags:[atker,gas_harpoon,killonhit,blockable],CustomName:'{"translate":"chr.ahab.mw"}'}
 
-scoreboard players set #damage damage 300
+scoreboard players set #damage damage 250
 scoreboard players operation #damage damage *= @s atk
 scoreboard players operation #damage damage /= #rate atk
 
