@@ -1,0 +1,2 @@
+data modify storage soul ActionList prepend value '[{"text":"\\uF819\\uF817\\uFF16\\uF812"},{"text":"\\uF801"},{"font":"minecraft:back.state.small","score":{"objective":"effect_redmist_level","name":"@s"}},{"color":"white","font":"minecraft:display","score":{"objective":"effect_redmist_level","name":"@s"}},{"text":"\\uF821\\uF819\\uF815"}]'
+data modify storage soul ActionList append value '{"text":"\\uF839\\uF838"}'

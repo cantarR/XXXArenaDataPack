@@ -7,3 +7,6 @@ execute if entity @s[tag=effect_birds_judge] run function mypacks:move/effect/ab
 execute if entity @s[tag=effect_o_judge] run function mypacks:move/effect/abnormality_page/birds_judge/o_judge/loop
 execute if entity @s[tag=has_kitchen_knife] run function mypacks:move/eating_time/loop2
 execute if entity @s[tag=effect_extreme_hungry] run function mypacks:move/effect/horror_sans/extreme_hungry/loop
+execute if entity @s[tag=effect_redmist_ego] run function mypacks:move/effect/redmist_ego/loop
+execute if entity @s[tag=kali_dt_user] run function mypacks:move/kali_dt/loop
+execute if entity @s[tag=kali_dt2_user] run function mypacks:move/kali_dt2/loop

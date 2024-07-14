@@ -1,18 +1,15 @@
-playsound minecraft:entity.player.attack.sweep player @a ~ ~ ~ 1 0.8
-
+tag @s add kali_mp_user
 scoreboard players set -new mlmax 30
-
-summon minecraft:marker ~ ~ ~ {Tags:[atker,gas_harpoon,killonhit,blockable],CustomName:'{"translate":"chr.kali.mpn"}'}
-
-scoreboard players set #damage damage 300
-scoreboard players operation #damage damage *= @s atk
-scoreboard players operation #damage damage /= #rate atk
-
-tag @s add kali_mp_hiter
-
-execute as @a[tag=victim,limit=1,tag=!untargetable] at @s run function ut:move/gas_harpoon/hitcheck
-kill @e[tag=atker]
-
+scoreboard players operation #player pid = @s pid
+execute if score @s mldis < 100 const run tag @s remove kali_mp_user
+execute unless score @s mp > @s mpcost if entity @a[tag=victim] run tag @s remove kali_mp_user
+execute unless entity @s[tag=kali_mp_user] unless entity @a[tag=victim] run scoreboard players operation @s mp += @s mpcost
+function ut:player/mp/change
+execute if entity @s[tag=kali_mp_user] if entity @a[tag=victim] run scoreboard players operation @s mp -= @s mpcost
+execute unless entity @a[tag=victim] unless score @s mldis < 100 const run function ut:move/melee/cooldown
+tag @a remove victim
+execute at @s anchored eyes positioned ~ ~ ~ if entity @s[tag=kali_mp_user] if block ~ ~-0.75 ~ #ut:trans anchored eyes run function mypacks:move/kali_mp/melee_1
+execute at @s anchored eyes positioned ~ ~ ~ if entity @s[tag=kali_mp_user] if score @s run matches 1.. anchored eyes run function mypacks:move/kali_mp/melee_2
+execute at @s anchored eyes positioned ~ ~ ~ if entity @s[tag=kali_mp_user] anchored eyes run function mypacks:move/kali_mp/melee_3
 scoreboard players set @s unloadtime 5
-function ut:player/infight/use
-tag @s remove kali_mp_hiter
+kill @e[tag=atker]

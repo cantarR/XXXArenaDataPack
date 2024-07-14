@@ -15,10 +15,11 @@ summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.napstablook"}
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.maddummy"}',data:{n:15}}
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.magic_bullet"}',data:{n:36}}
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.rancon"}',data:{n:38}}
-summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.dongbaek"}',data:{n:42}}
+#summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.dongbaek"}',data:{n:42}}
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.ahab"}',data:{n:44}}
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.angela"}',data:{n:46}}
 summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.htsans"}',data:{n:49}}
+summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.kali"}',data:{n:50}}
 
 #METTATON
 execute unless score -tobying store matches 1 unless score -truerandom store >= -exchance store run summon marker ~ ~ ~ {Tags:[random_c],CustomName:'{"translate":"chr.mettaton"}',data:{n:6}}

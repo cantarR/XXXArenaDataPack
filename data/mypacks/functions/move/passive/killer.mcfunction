@@ -1,1 +1,2 @@
 execute if entity @s[tag=passive_horror_sans,tag=effect_extreme_hungry] run function mypacks:move/effect/horror_sans/extreme_hungry/killer
+execute if entity @s[tag=passive_kali] run function mypacks:move/passive/kali/killer

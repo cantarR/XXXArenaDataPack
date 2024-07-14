@@ -1,0 +1,1 @@
+execute positioned ~-2.5 ~-3 ~-2.5 if entity @s[dx=4,dy=5,dz=4] run tag @s add hitcheck_target

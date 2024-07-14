@@ -51,4 +51,6 @@ scoreboard objectives add passive_rancon_b dummy
 scoreboard objectives add passive_dongbaek_a dummy
 scoreboard objectives add passive_dongbaek_b dummy
 
+scoreboard objectives add run minecraft.custom:minecraft.sprint_one_cm
+
 function mypacks:init/scoreboard

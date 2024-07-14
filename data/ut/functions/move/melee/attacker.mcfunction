@@ -9,8 +9,8 @@ execute as @a if score @s evid = #atker eaid run tag @s add victim
 #
 execute if entity @s[tag=effect_untarget] run function ut:move/effect/untargetable/clear
 #
-execute if entity @a[tag=victim,tag=!untargetable] run function ut:move/melee/success
 execute unless entity @a[tag=victim,tag=!untargetable] run function ut:move/melee/fail
+execute if entity @a[tag=victim,tag=!untargetable] run function ut:move/melee/success
 #
 execute if entity @s[tag=!effect_aid_attack] run function ut:move/melee/cooldown
 

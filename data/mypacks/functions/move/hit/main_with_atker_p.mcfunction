@@ -11,3 +11,4 @@ execute as @a[tag=passive_horror_sans,tag=atker_p] run function mypacks:move/pas
 execute as @a[tag=effect_hungry,tag=atker_p] run function mypacks:move/effect/horror_sans/hungry/main
 execute as @a[tag=effect_extreme_hungry,tag=atker_p] run function mypacks:move/effect/horror_sans/extreme_hungry/main
 execute as @a[tag=passive_horror_sans,tag=atker_p] run function mypacks:move/passive/horror_sans/main
+execute as @a[tag=passive_kali,tag=atker_p] run function mypacks:move/passive/kali/main

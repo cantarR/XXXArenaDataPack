@@ -13,3 +13,6 @@ execute if entity @s[tag=effect_yearn] run function mypacks:player/actionbar/eff
 
 execute if entity @s[tag=effect_hungry] run function mypacks:player/actionbar/effect/hungry
 execute if entity @s[tag=effect_extreme_hungry] run function mypacks:player/actionbar/effect/extreme_hungry
+
+execute if entity @s[tag=effect_redmist] run function mypacks:player/actionbar/effect/redmist
+execute if entity @s[tag=effect_redmist_ego] run function mypacks:player/actionbar/effect/redmist_ego

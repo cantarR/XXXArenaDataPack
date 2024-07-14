@@ -1,0 +1,1 @@
+execute unless entity @a[tag=victim] positioned ~-1 ~-1.5 ~-1 if entity @s[dx=1,dy=2,dz=1] run tag @s add victim

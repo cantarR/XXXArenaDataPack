@@ -25,3 +25,11 @@ scoreboard objectives add passive_horror_sans_count dummy
 scoreboard objectives add effect_hungry_level dummy
 
 scoreboard objectives add effect_extreme_hungry_timer dummy
+
+scoreboard objectives add effect_redmist_level dummy
+
+scoreboard objectives add effect_redmist_ego_timer dummy
+
+scoreboard objectives add effect_kali_music_timer dummy
+
+scoreboard objectives add passive_kali_count dummy

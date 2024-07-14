@@ -60,6 +60,7 @@ execute if score @s pickup_candy matches 1.. run function ut:map/s_ruins/candy/p
 
 ###resetShift
 scoreboard players reset @s shift
+scoreboard players reset @s run
 
 ###Void
 execute unless entity @s[tag=void_immune] run function ut:player/void/main_check
