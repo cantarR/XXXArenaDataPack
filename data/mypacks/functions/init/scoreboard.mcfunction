@@ -33,3 +33,7 @@ scoreboard objectives add effect_redmist_ego_timer dummy
 scoreboard objectives add effect_kali_music_timer dummy
 
 scoreboard objectives add passive_kali_count dummy
+
+scoreboard objectives add effect_karma_infect_count dummy
+
+scoreboard objectives add effect_karma_infect_pid dummy

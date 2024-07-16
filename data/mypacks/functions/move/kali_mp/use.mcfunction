@@ -4,6 +4,7 @@ scoreboard players operation #player pid = @s pid
 execute if score @s mldis < 100 const run tag @s remove kali_mp_user
 execute unless score @s mp > @s mpcost if entity @a[tag=victim] run tag @s remove kali_mp_user
 execute unless entity @s[tag=kali_mp_user] unless entity @a[tag=victim] run scoreboard players operation @s mp += @s mpcost
+execute unless entity @s[tag=kali_mp_user] unless entity @a[tag=victim] run function mypacks:move/effect/redmist/usefix
 function ut:player/mp/change
 execute if entity @s[tag=kali_mp_user] if entity @a[tag=victim] run scoreboard players operation @s mp -= @s mpcost
 execute unless entity @a[tag=victim] unless score @s mldis < 100 const run function ut:move/melee/cooldown

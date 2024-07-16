@@ -7,10 +7,8 @@ scoreboard players set @s lifetime 400
 ###FINISH
 tp @s ~ ~ ~ ~ 0
 tag @s remove summon
-execute positioned ~ ~-0.59 ~ run function mypacks:move/endless_fear/cast_wall
 execute positioned ~ ~0.59 ~ run function mypacks:move/endless_fear/cast_wall
 execute positioned ~ ~1.18 ~ run function mypacks:move/endless_fear/cast_wall
 execute positioned ~ ~1.77 ~ run function mypacks:move/endless_fear/cast_wall
 execute positioned ~ ~2.36 ~ run function mypacks:move/endless_fear/cast_wall
 execute positioned ~ ~2.95 ~ run function mypacks:move/endless_fear/cast_wall
-execute positioned ~ ~3.54 ~ run function mypacks:move/endless_fear/cast_wall

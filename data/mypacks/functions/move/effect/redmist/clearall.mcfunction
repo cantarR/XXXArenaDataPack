@@ -5,6 +5,5 @@ scoreboard players operation @s[tag=effect_redmist_ego] def += #redmist store
 scoreboard players operation @s[tag=effect_redmist_ego] mpregen -= #redmist store
 scoreboard players operation @s[tag=effect_redmist_ego] cdregen -= #redmist store
 stopsound @a player mypacks:chr.kali.redmist
-function mypacks:move/effect/redmist_ego/clear
 scoreboard players reset @s effect_redmist_level
 tag @s remove effect_redmist

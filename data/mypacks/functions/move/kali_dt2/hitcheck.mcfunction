@@ -16,7 +16,7 @@ execute as @e[tag=atker,limit=1] run scoreboard players operation @s aid = #aid 
 
 execute as @a[tag=playing,tag=!untargetable] unless score @s tid = #player tid run function mypacks:move/kali_dt2/hitbox
 
-execute as @a[tag=hitcheck_target] run scoreboard players remove @s will 20
+execute as @a[tag=hitcheck_target] run scoreboard players remove @a[tag=kali_dt2_user] will 20
 
 execute as @a[tag=hitcheck_target] run function mypacks:move/kali_dt2/hitcheck2
 tag @a remove hitcheck_target

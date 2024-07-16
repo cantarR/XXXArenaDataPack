@@ -12,3 +12,5 @@ execute as @a[tag=effect_hungry,tag=atker_p] run function mypacks:move/effect/ho
 execute as @a[tag=effect_extreme_hungry,tag=atker_p] run function mypacks:move/effect/horror_sans/extreme_hungry/main
 execute as @a[tag=passive_horror_sans,tag=atker_p] run function mypacks:move/passive/horror_sans/main
 execute as @a[tag=passive_kali,tag=atker_p] run function mypacks:move/passive/kali/main
+execute if entity @s[tag=dusttrust_dt_user] run function mypacks:move/dusttrust_dt/hurt
+execute if entity @a[tag=passive_dusttrust,tag=atker_p,tag=!no_dusttrust_passive] run function mypacks:move/passive/dusttrust/main

@@ -4,6 +4,8 @@ scoreboard players operation #damage damage *= @s atk
 scoreboard players operation #damage damage /= #rate atk
 scoreboard players operation #player pid = @s pid
 scoreboard players operation #player tid = @s tid
+scoreboard players operation #atker pid = @s pid
+scoreboard players operation #atker tid = @s tid
 scoreboard players add #aid aid 1
 execute as @e[tag=atker,limit=1] run scoreboard players operation @s pid = #player pid
 execute as @e[tag=atker,limit=1] run scoreboard players operation @s tid = #player tid

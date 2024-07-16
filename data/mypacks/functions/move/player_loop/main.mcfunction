@@ -10,3 +10,6 @@ execute if entity @s[tag=effect_extreme_hungry] run function mypacks:move/effect
 execute if entity @s[tag=effect_redmist_ego] run function mypacks:move/effect/redmist_ego/loop
 execute if entity @s[tag=kali_dt_user] run function mypacks:move/kali_dt/loop
 execute if entity @s[tag=kali_dt2_user] run function mypacks:move/kali_dt2/loop
+execute if entity @s[tag=dusttrust_ch_user] run function mypacks:move/dusttrust_ch/loop
+execute if entity @s[tag=effect_karma_infect] run function mypacks:move/effect/karma_infect/loop
+execute if entity @s[tag=dusttrust_dt_user] run function mypacks:move/dusttrust_dt/loop

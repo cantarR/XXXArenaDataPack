@@ -5,10 +5,12 @@ execute if entity @s[tag=lor_owner] run function mypacks:move/library_of_ruina/s
 execute if entity @s[tag=has_kitchen_knife] run function mypacks:move/eating_time/stop
 execute if entity @s[tag=effect_extreme_hungry] run function mypacks:move/effect/horror_sans/extreme_hungry/clear
 execute if entity @s[tag=effect_hungry] run function mypacks:move/effect/horror_sans/hungry/full_clear
-execute if entity @s[tag=passive_horror_sans] run function mypacks:move/passive/horror_sans/clear
 execute if entity @s[tag=effect_redmist] run function mypacks:move/effect/redmist/clearall
 execute if entity @s[tag=effect_redmist_ego] run function mypacks:move/effect/redmist_ego/stop
 execute if entity @s[tag=kali_dt_user] run function mypacks:move/kali_dt/stop
 execute if entity @s[tag=kali_dt2_user] run function mypacks:move/kali_dt2/stop
+execute if entity @s[tag=dusttrust_ch_user] run function mypacks:move/dusttrust_ch/stop
+execute if entity @s[tag=effect_karma_infect] run function mypacks:move/effect/karma_infect/clear
+execute if entity @s[tag=dusttrust_dt_user] run function mypacks:move/dusttrust_dt/stop
 tag @s remove nocharge
 function mypacks:move/abnormality_page/full_stop
