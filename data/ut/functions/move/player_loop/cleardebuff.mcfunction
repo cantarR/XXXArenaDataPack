@@ -17,14 +17,3 @@ execute if entity @s[tag=effect_silence_fear] run function ut:move/effect/silenc
 execute if entity @s[tag=effect_noise_despair] run function ut:move/effect/noise_despair/clear
 execute if entity @s[tag=effect_blooming] run function ut:move/effect/blooming/all_clear
 execute if entity @s[tag=effect_fullblooming] run function ut:move/effect/fullblooming/clear
-
-
-
-#fda
-function fda:move/player_loop/cleardebuff
-
-#cua
-function cua:move/player_loop/cleardebuff
-
-#wda
-function wda:move/player_loop/cleardebuff

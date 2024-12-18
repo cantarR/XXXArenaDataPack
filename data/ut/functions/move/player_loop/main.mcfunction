@@ -24,21 +24,13 @@ execute if entity @s[tag=effect_untarget] run function ut:move/effect/untargetab
 execute if entity @s[tag=effect_untarget_lite] run function ut:move/effect/untargetable_lite/loop
 
 execute if entity @s[tag=effect_black_flame] run function ut:move/effect/black_flame/loop
-
 execute if entity @s[tag=effect_rancon_wound] run function ut:move/effect/rancon_wound/loop
-
 execute if entity @s[tag=effect_silence_fear] run function ut:move/effect/silence_fear/loop
-
 execute if entity @s[tag=effect_noise_despair] run function ut:move/effect/noise_despair/loop
-
 execute if entity @s[tag=effect_soul_heal] run function ut:move/effect/soul_heal/loop
-
 execute if entity @s[tag=effect_blooming] run function ut:move/effect/blooming/loop
-
 execute if entity @s[tag=effect_fullblooming] run function ut:move/effect/fullblooming/loop
-
 execute if entity @s[tag=effect_burn] run function ut:move/effect/burn/loop
-
 execute if entity @s[tag=effect_defend] run function ut:move/effect/defend/loop
 execute if score @s effect_defend matches 1 run function ut:move/effect/defend/loop2
 
@@ -67,36 +59,12 @@ execute if entity @s[tag=amalgamate] run function ut:move/injection/target_loop
 execute if entity @s[tag=injected] run function ut:move/injection/self_loop
 execute if entity @s[tag=lazer_user] run function ut:move/lazer/loop
 execute if entity @s[tag=shock_bullet_user] run function ut:move/shock_bullet/user_loop
-execute if entity @s[tag=passive_kite] run function ut:move/passive/kite/loop
 
 
 #execute if entity @s[tag=rancon_pierce_user] run function ut:move/rancon_pierce/loop
 execute if entity @s[tag=loris_dt_pred] run function ut:move/loris_knife_pre/loop
-execute if entity @s[tag=end_dec_dt_pred] run function ut:move/end_dec_sickle_pre/loop
-execute if entity @s[tag=paper_plane_user] run function ut:move/paper_plane_kite/loop
 execute if entity @s[tag=bisicle_used_once] run function ut:move/bisicle/loop2
-execute if entity @s[tag=shadowblade_right_user] run function ut:move/snh_shadowblade/right/loop
-execute if entity @s[tag=snh_slash_user] run function ut:move/snh_slash/loop
-execute if entity @s[tag=snh_slash_slash_user] run function ut:move/snh_slash/slash/loop
-execute if entity @s[tag=dt_snh] run function ut:move/snh_godfox/dt_loop
-execute if entity @s[tag=trail_user] run function ut:move/end_dec_trail/loop
 execute if entity @s[tag=heat] run function ut:move/gas_harpoon/loop
 execute if entity @s[tag=overheat] run function ut:move/gas_harpoon/loop
 execute if entity @s[tag=harpoon_attacking] run function ut:move/stubborn_harpoon/loop
-execute if entity @s[tag=ntfrisk_cd] run function ut:move/ntfrisk/cd/loop
-execute if entity @s[tag=effect_ntfrisk_cd] run function ut:move/ntfrisk/cd/effect/loop
-execute if entity @s[tag=ntfrisk_dt_user] run function ut:move/ntfrisk/dt/use/loop
-execute if entity @s[tag=effect_ntfrisk_sp] run function ut:move/ntfrisk/sp/effect/loop
-#fda
-function fda:move/player_loop/main
-
-#aua
-function aua:move/player_loop/main
-#cua
-function cua:move/player_loop/main
-#
-
 function mypacks:move/player_loop/main
-
-#wda
-function wda:move/player_loop/main

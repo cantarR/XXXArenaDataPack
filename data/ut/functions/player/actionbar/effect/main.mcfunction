@@ -59,17 +59,4 @@ execute if entity @s[tag=passive_dongbaek] if score @s count_a matches 1.. run f
 execute if entity @s[tag=effect_defend] run function ut:player/actionbar/effect/0182
 execute if score @s effect_defend matches 1 run function ut:player/actionbar/effect/0183
 
-execute if entity @s[tag=ntfrisk_cd] run function ut:move/ntfrisk/cd/effect_show
-execute if entity @s[tag=passive_ntfrisk] if score @s passive_timer matches 1..19 run function ut:move/ntfrisk/sp/effect_show
-execute if entity @s[tag=effect_ntfrisk_sp] run function ut:move/ntfrisk/sp/effect/effect_show
-
-#fda
-function fda:player/actionbar/effect/main
-
-#wda
-function wda:player/actionbar/effect/main
-
-#cua
-function cua:player/actionbar/effect/main
-
 function mypacks:player/actionbar/effect/main

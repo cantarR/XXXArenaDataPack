@@ -1,3 +1,3 @@
 scoreboard players operation #atker pid = @s pid
-execute if entity @s[tag=!seven_bullet,tag=inited] at @s positioned ^ ^1.5 ^ if score @s life matches 10 run execute as @a if score @s pid = #atker pid run function ut:move/magic_bullet/cast
-execute if entity @s[tag=inited,tag=seven_bullet] at @s positioned ^ ^1.5 ^ if score @s life matches 10 run execute as @a if score @s pid = #atker pid run function ut:move/magic_bullet/cast2
+execute if entity @s[tag=!seven_bullet,tag=inited] at @s positioned ^ ^1.5 ^ if score @s life matches 5 run execute as @a if score @s pid = #atker pid run function ut:move/magic_bullet/cast
+execute if entity @s[tag=inited,tag=seven_bullet] at @s positioned ^ ^1.5 ^ if score @s life matches 5 run execute as @a if score @s pid = #atker pid run function ut:move/magic_bullet/cast2

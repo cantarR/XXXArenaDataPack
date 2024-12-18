@@ -30,17 +30,6 @@ execute if entity @s[tag=effect_fullblooming] run function ut:move/effect/fullbl
 execute if entity @s[tag=effect_burn] run function ut:move/effect/burn/all_clear
 execute if entity @s[tag=effect_black_flame] run function ut:move/effect/black_flame/clear
 execute if entity @s[tag=rancon_pierce_user] run function ut:move/rancon_pierce/stop
-execute if entity @s[tag=paper_plane_user] run function ut:move/paper_plane_kite/stop
-#snh slash
-execute if entity @s[tag=snh_slash_user] run function ut:move/snh_slash/stop
-execute if entity @s[tag=snh_slash_slash_user] run function ut:move/snh_slash/slash/stop
-
-execute if entity @s[tag=ntfrisk_dt_user] run function ut:move/ntfrisk/dt/use/stop
-
-#aua
-function aua:move/player_loop/fullstoplite
-#cua
-function cua:move/player_loop/fullstoplite
 
 scoreboard players reset @s plt2
 scoreboard players reset @s plt2b

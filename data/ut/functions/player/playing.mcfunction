@@ -37,10 +37,6 @@ execute if data entity @s SelectedItem.tag.dig if entity @s[tag=cd_ready] positi
 execute if data entity @s[tag=dt_ready] SelectedItem.tag.injection run function ut:move/injection/hint
 execute if entity @s[tag=passive_default] run function ut:move/hand/player_loop
 
-execute if score @s ntfrisk_sp_score matches 1.. run scoreboard players remove @s ntfrisk_sp_score 1
-#fda
-function fda:move/player/playing/move
-
 execute if score @s move_loop matches 1.. run function ut:move/player_loop/main
 
 ###rightClick

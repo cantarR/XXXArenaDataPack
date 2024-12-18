@@ -16,5 +16,5 @@ execute if entity @s[tag=effect_extreme_hungry] run function mypacks:player/acti
 
 execute if entity @s[tag=effect_redmist] run function mypacks:player/actionbar/effect/redmist
 execute if entity @s[tag=effect_redmist_ego] run function mypacks:player/actionbar/effect/redmist_ego
-execute if entity @s[tag=effect_karma_imfect] run function mypacks:player/actionbar/effect/karma_imfect
+execute if entity @s[tag=effect_karma_infect] run function mypacks:player/actionbar/effect/karma_infect
 execute if entity @s[tag=dusttrust_dt_user] run function mypacks:player/actionbar/effect/dusttrust_dt

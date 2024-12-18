@@ -4,7 +4,6 @@ execute unless data entity @s Inventory[{tag:{sp_show:1b}}] run clear @s carrot_
 execute if entity @s[tag=passive_asgore] run clear @s carrot_on_a_stick{nomercy:1b}
 execute if entity @s[tag=passive_mettaton] run function ut:move/passive/mettaton/clear
 
-##cua add
 execute if entity @s[tag=passive_sans] run function ut:move/passive/sans/clear
 
 
@@ -63,12 +62,8 @@ execute if data storage ut:soul Temp{passive:"default"} run tag @s add passive_d
 #
 execute if data storage ut:soul Temp{passive:"magic_bullet"} run tag @s add passive_magic_bullet
 execute if data storage ut:soul Temp{passive:"rancon"} run tag @s add passive_rancon
-execute if data storage ut:soul Temp{passive:"loris"} run tag @s add passive_loris
-execute if data storage ut:soul Temp{passive:"kite"} run tag @s add passive_kite
 execute if data storage ut:soul Temp{passive:"dongbaek"} run tag @s add passive_dongbaek
 execute if data storage ut:soul Temp{passive:"ahab"} run tag @s add passive_ahab
-execute if data storage ut:soul Temp{passive:"end_dec"} run tag @s add passive_end_dec
-execute if data storage ut:soul Temp{passive:"ntfrisk"} run tag @s add passive_ntfrisk
 
 function mypacks:move/passive/setup
 
